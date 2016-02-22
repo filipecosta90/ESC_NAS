@@ -331,6 +331,13 @@
 \usepackage[utf8x]{inputenc} 
 
 
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage{float}
+
 
 \begin{document}
 %
@@ -425,7 +432,7 @@ I wish you the best of success.
  
 \hfill 1 Março, 2016
 
-\subsection{Contextualização das Benchmarks}
+\section{Contextualização das Benchmarks}
 %NAS Parallel Benchmarks (NPB’s) [1] were derived from CFD codes. They were designed to
 %compare the performance of parallel computers and are widely recognized as a standard indicator
 %of computer performance. 
@@ -441,15 +448,162 @@ As "NAS Parallel Benchmarks"\cite{nas} englobam 5 kernels (EP, MG, CG, FT, IS) e
 \item \textbf{FT}, que calcula a Transformada de Fourier em 3 dimensões (3 transformadas de Fourier de uma dimensão), sendo o resultado a solução de uma equação diferencial parcial. Dado que a principal propriedade a ser estudada é comunicação, este kernel será portanto excluído do caso de estudo em detrimento do \textbf{MG}.
 
 
-\item \textbf{IS}, que realizar operações de sorting em inteiros. Este kernel testa tanto a capacidade de computação de um sistema em termos de operações sobre inteiros, assim como a performance de comunicação do mesmo dada a irregularidade dos acessos à memória e, quando aplicável, comunicação entre processos. Será também incluído no caso de estudo.
-
+\item \textbf{IS}, que realiza operações de sorting em inteiros. Este kernel testa tanto a capacidade de computação de um sistema em termos de operações sobre inteiros, assim como a performance de comunicação do mesmo dada a irregularidade dos acessos à memória e, quando aplicável, comunicação entre processos. Será também incluído no caso de estudo.
 
  \end{itemize}
 
 
 
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
+\section{Caracterização do Hardware do ambiente de testes}
+Escolhidas as benchmarks, resta-me especificar os ambientes de teste nos quais pretendo realizar as benchmarks. Através da análise do hardware disponível no Search6 \footnote{Services and Advanced Research Computing with HTC/HPC clusters}, a nossa plataforma de teste, deparamo-nos com duas 
+realidades distintas presentes no mesmo cluster. Se por um lado temos uma grande porção dos nodos de computação com configurações de hardware relativamente homogéneas (28 dos 54 nodos disponíveis apresentam todos as mesmas características de comunicação, armazenamento local, memória RAM disponível e mesma família de processadores - Ivy Bridge), por outro lado temos os restantes 26 nodos com características relativamente distintas entre nodos (diferentes famílias de processadores, diferentes características de comunicação entre nodos disponíveis, memória RAM disponível em diferente número). \par 
+Considerando a abrangência do número de nodos o ponto essencial para a escolha do tipo de nodos a teste, decidi incluir no mesmo os nodos do tipo 662, 652, 641, e 431(apenas os nodos com 48GB de memória RAM disponíveis), que passarei de seguida a caracterizar. \par 
+Denote que ao realizarmos os testes de performance nos nodos acima enumerados estamos a abrangir 33 dos 54 nodos disponíveis, preservando características entre eles fundamentais para a possibilidade de comparação como por exemplo o suporte da rede Myrinet 10Gbps, e englobando como requerido mais do que uma classe de arquitectura existe no Search6.\par 
+
+
+\begin{table}[H]
+\caption{Características de Hardware do nodo 662}
+     \label{table:characterization}
+\centering
+  \begin{tabular}{ | l | r | }
+  
+    \hline
+    Sistema & compute-662 \\ \hline \hline
+        \# CPUs & 2  \\ \hline
+    CPU & Intel\textsuperscript{\textregistered} Xeon\textsuperscript{\textregistered} E5-2695 v2  \\ \hline 
+    Arquitectura de Processador & Ivy Bridge  \\ \hline 
+    \# Cores por CPU & 12   \\ \hline 
+    \# Threads por CPU & 24  \\ \hline 
+     Freq. Clock & 2.4 GHz  \\ \hline
+    Cache L1  & 384KB  (32KB por Core)  \\ \hline 
+    Cache L2  & 3072KB (256KB por Core)  \\ \hline 
+    Cache L3  & 30720KB (partilhada) \\ \hline 
+    Ext. Inst. Set  & SSE4.2, AVX  \\ \hline 
+        \#Memory Channels & 4 \\ \hline
+        Memória Ram Disponível & 64GB \\ \hline
+     Peak Memory BW Fab. CPU  & 59.7 GB/s \\ \hline
+%    Peak Memory BW Medida\cite{stream}  & 25.1GB/s \\ \hline
+            Rede Suportada  & Gigabit Ethernet, Myrinet 10Gbps \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{table}[H]
+\caption{Características de Hardware do nodo 652}
+     \label{table:characterization}
+\centering
+  \begin{tabular}{ | l | r | }
+  
+    \hline
+    Sistema & compute-652 \\ \hline \hline
+        \# CPUs & 2  \\ \hline
+    CPU & Intel\textsuperscript{\textregistered} Xeon\textsuperscript{\textregistered} E5-2670 v2 \\ \hline 
+    Arquitectura de Processador & Ivy Bridge  \\ \hline 
+    \# Cores por CPU & 10   \\ \hline 
+    \# Threads por CPU & 20  \\ \hline 
+     Freq. Clock & 2.5 GHz  \\ \hline
+    Cache L1  & 320KB  (32KB por Core)  \\ \hline 
+    Cache L2  & 2560KB (256KB por Core)  \\ \hline 
+    Cache L3  & 25600KB (partilhada) \\ \hline 
+    Ext. Inst. Set  & SSE4.2, AVX  \\ \hline 
+         \#Memory Channels & 4 \\ \hline
+        Memória Ram Disponível & 64GB \\ \hline
+     Peak Memory BW Fab. CPU  & 59.7 GB/s \\ \hline
+%    Peak Memory BW Medida\cite{stream}  & 25.1GB/s \\ \hline
+            Rede Suportada  & Gigabit Ethernet, Myrinet 10Gbps \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{table}[H]
+\caption{Características de Hardware do nodo 641}
+     \label{table:characterization}
+\centering
+  \begin{tabular}{ | l | r | }
+  
+    \hline
+    Sistema & compute-641 \\ \hline \hline
+        \# CPUs & 2  \\ \hline
+    CPU & Intel\textsuperscript{\textregistered} Xeon\textsuperscript{\textregistered}  E5-2650 v2 \\ \hline 
+    Arquitectura de Processador & Ivy Bridge  \\ \hline 
+    \# Cores por CPU & 8   \\ \hline 
+    \# Threads por CPU & 16  \\ \hline 
+     Freq. Clock & 2.6 GHz  \\ \hline
+    Cache L1  & 256KB  (32KB por Core)  \\ \hline 
+    Cache L2  & 2048KB (256KB por Core)  \\ \hline 
+    Cache L3  & 20480KB (partilhada) \\ \hline 
+  Ext. Inst. Set  & SSE4.2, AVX  \\ \hline 
+         \#Memory Channels & 4 \\ \hline
+        Memória Ram Disponível & 64GB \\ \hline
+     Peak Memory BW Fab. CPU  & 59.7 GB/s \\ \hline
+%    Peak Memory BW Medida\cite{stream}  & 25.1GB/s \\ \hline
+            Rede Suportada  & Gigabit Ethernet, Myrinet 10Gbps \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{table}[h!]
+\caption{Características de Hardware do nodo 431}
+     \label{table:characterization}
+\centering
+  \begin{tabular}{ | l | r | }
+  
+    \hline
+    Sistema & compute-431 \\ \hline \hline
+        \# CPUs & 2  \\ \hline
+    CPU & Intel\textsuperscript{\textregistered} Xeon\textsuperscript{\textregistered} X5650 \\ \hline 
+    Arquitectura de Processador & Nehalem  \\ \hline 
+    \# Cores por CPU & 6   \\ \hline 
+    \# Threads por CPU & 12  \\ \hline 
+     Freq. Clock & 2.66 GHz  \\ \hline
+    Cache L1  & 192KB  (32KB por Core)  \\ \hline 
+    Cache L2  & 1536KB (256KB por Core)  \\ \hline 
+    Cache L3  & 12288KB (partilhada) \\ \hline 
+    Ext. Inst. Set  & SSE4.2   \\ \hline 
+        \#Memory Channels & 3 \\ \hline
+        Memória Ram Disponível & 48GB \\ \hline
+     Peak Memory BW Fab. CPU  & 32 GB/s \\ \hline
+%    Peak Memory BW Medida\cite{stream}  & 25.1GB/s \\ \hline
+            Rede Suportada  & Gigabit Ethernet, Myrinet 10Gbps \\ \hline
+  \end{tabular}
+\end{table}
+
+Da caracterização de hardware acima realizada podemos retirar já as diferentes possibilidades relativamente ao número de threads a testar em ambiente de memória partilhada, assim como propriedades adequadas aos testes em ambiente de memória distribuída. Para além do anteriormente enumerado  obtive dados de extrema importância relativa à próxima decisão do nosso caso de estudo -- a escolha das classes de dados a incluir no nosso caso de estudo. Será com base nas propriedades relativas à Memória RAM disponível, tamanho e forma de distribuição dos vários níveis de cache, assim como a Peak Memory Bandwith teórica de Memória do CPU, que centrarei a minha decisão sobre quais as classes de dados relevantes.
+
+\subsection{Inclusão de diferentes dimensões (classes) de dados}
+
+Será importante para a relevância dos testes de perfomance incluir datasets de diferentes dimensões. Ora, analisando as propriedades dos processadores presentes nos nossos nodos de computação devo portante seleccionar um dataset capaz de ser compreendido na Cache L1 (menor ou igual a 32KB), um dataset capaz de ser compreendido na Cache L2 (menor ou igual a 256KB), um dataset capaz de ser compreendido na Cache L3 (menor que 12MB) e um dataset capaz de ser compreendido na Memória Ram disponível nos nodos de computação (menor que 48GB). \par 
+Analisadas as dimensões dos problemas para as diferentes Classes de dados e Benchmarks a incluir no nosso caso de estudo, verificamos que em nenhum dos casos os datasets são possíveis de ser compreendidos totalmente na cache L1. Assim, e focando o nosso processo de seleção com base nas benchmarks IS e MG podemos concluir que as classes de dados que melhor se associam ao nosso problema são portanto a classe S (totalmente contida na cache L2 ou L3 ), e as classes A, B, e C por serem consideradas classes standard das benchmarks e de fácil comparação de resultados com a comunidade do HPC. \par 
+Denote ainda que para o caso da benchmark CG a classe de dados C apresenta um tamanho de dados superior ao possível de estar contido na memória principal obrigando teoricamente a um decréscimo de perfomance derivada do aumento de IO.\par 
+No anexo X presente na página X poderá encontrar informação mais detalhada relativa à forma de cálculo do tamanho dos datasets das diferentes classes de dados. 
+
+\begin{table}[h!]
+\caption{Dimensão do dataset para as diferentes Classes e Benchmarks}
+     \label{table:dimensaoproblema}
+\centering
+  \begin{tabular}{ | l | r |  r | r | r | r |  }
+  
+    \hline
+    Benchmark & data type & S & A & B & C \\ \hline 
+    
+     EP &  double & 128	MB & 2	GB	 & 8	GB	& 32	GB \\ \hline 
+     
+  MG &  double &   256	KB & 128	MB	& 128	MB	& 1024	MB \\ \hline 
+    CG & double & 15MB & 1,46	GB& 41,91	GB	& 167,64	GB \\ \hline 
+    IS & integer & 256	KB & 32	MB	& 128	MB	& 512	MB \\ \hline 
+
+  \end{tabular}
+\end{table}
+
+\section{Caracterização do Software do ambiente de testes}
+
+
+
+
+%\subsection{Inclusão de diferentes módulos de software e ferramentas}
+O cluster Search6 é baseado no Rocks 6.1 cluster management distribution. 
+Dado que  um dos principais propósitos deste caso de estudo acenta na investigação da influência de diferentes ferramentas de compilação e diferentes configurações de ferramentas de comunicação, assim como dos diferentes paradigmas de memória, na perfomance global dos kernels, o próximo passo natural passa por identificar os módulos disponíveis no nosso ambiente de clustering que cumprem o objectivo anteriormente enumerado. \par 
+Relativamente aos compiladores de interesse para o caso de estudo temos portanto o \textbf{GCC compiler suite}	e o \textbf{ Intel compilers suite}. O último apresenta apenas a possibilidade de seleção da versão "icc version 13.0.1 (gcc version 4.4.6 compatibility)". Ora, pela própria informação presente na versão do compilador da Intel deveremos incluir no nosso leque de testes a versão do compilador da gnu 4.4.6. Irei também incluir a versão 4.9.0 do compilador da Gnu por ser considera a versão default deste mesmo compilador no nosso ambiente de clustering.\par 
+Relativamente às MPI stacks, nomeadamente à versão do OpenMPI a ser incluída, será em ambos os casos (Intel e Gnu) a versão mais recente disponível para ambos, nomeadamente a versão 1.8.2 dos módulos com via de comunicação Gigabit Ethernet e Myrinet 10Gbps.\par 
+Relativamente às flags de compilação serão testas as respectivas optimizações disponibilizadas pelas flags de compilação -O2 e -O3, e sem qualquer tipo de otimização por flags de compilação.
+
 
 
 % An example of a floating figure using the graphicx package.
