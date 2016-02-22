@@ -29,7 +29,7 @@
 #---------------------------------------------------------------------------
 # This is the fortran compiler used for Fortran programs
 #---------------------------------------------------------------------------
-F77 = gfortran
+F77 = ifort
 
 #---------------------------------------------------------------------------
 # This links fortran programs; usually the same as ${F77}
@@ -49,7 +49,7 @@ F_INC =
 #---------------------------------------------------------------------------
 # Global *compile time* flags for Fortran programs
 #---------------------------------------------------------------------------
-FFLAGS	= -O
+FFLAGS	= -O -O2 -O3 -vec-report3
 
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 
@@ -78,7 +78,7 @@ FLINKFLAGS = -O
 #---------------------------------------------------------------------------
 # This is the C compiler used for C programs
 #---------------------------------------------------------------------------
-CC = gcc-4.9
+CC = icc
 
 #---------------------------------------------------------------------------
 # This links C programs; usually the same as ${CC}
@@ -110,7 +110,7 @@ C_INC =
 # _LARGEFILE64_SOURCE - are standard compiler flags which allow to work with 
 # files larger than 2GB.
 #---------------------------------------------------------------------------
-CFLAGS	= -O
+CFLAGS	= -O -O3 -vec-report3
 
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 
@@ -126,7 +126,7 @@ CLINKFLAGS = -O
 # this compiler go here also; typically there are few flags required; hence 
 # there are no separate macros provided for such flags.
 #---------------------------------------------------------------------------
-UCC	= gcc-4.9
+UCC	= gcc
 
 
 #---------------------------------------------------------------------------

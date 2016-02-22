@@ -1,4 +1,4 @@
-c CLASS = S
+c CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -7,27 +7,27 @@ c  in this directory. Do not modify it by hand.
 c  
         integer            na, nonzer, niter
         double precision   shift, rcond
-        parameter(  na=1400,
-     >              nonzer=7,
-     >              niter=15,
-     >              shift=10.,
+        parameter(  na=150000,
+     >              nonzer=15,
+     >              niter=75,
+     >              shift=110.,
      >              rcond=1.0d-1 )
         logical  convertdouble
         parameter (convertdouble = .false.)
         character compiletime*11
-        parameter (compiletime='18 Feb 2016')
+        parameter (compiletime='22 Feb 2016')
         character npbversion*5
         parameter (npbversion='3.3.1')
-        character cs1*8
-        parameter (cs1='gfortran')
+        character cs1*5
+        parameter (cs1='ifort')
         character cs2*6
         parameter (cs2='$(F77)')
         character cs3*6
         parameter (cs3='(none)')
         character cs4*6
         parameter (cs4='(none)')
-        character cs5*2
-        parameter (cs5='-O')
+        character cs5*23
+        parameter (cs5='-O -O2 -O3 -vec-report3')
         character cs6*2
         parameter (cs6='-O')
         character cs7*6
