@@ -581,7 +581,7 @@ No anexo X presente na página X poderá encontrar informação mais detalhada r
   \begin{tabular}{ | l | r |  r | r | r | r |  }
   
     \hline
-    Benchmark & data type & S & A & B & C \\ \hline 
+    Bench. & data type & S & A & B & C \\ \hline 
     
      EP &  double & 128	MB & 2	GB	 & 8	GB	& 32	GB \\ \hline 
      
@@ -601,8 +601,26 @@ No anexo X presente na página X poderá encontrar informação mais detalhada r
 O cluster Search6 é baseado no Rocks 6.1 cluster management distribution. 
 Dado que  um dos principais propósitos deste caso de estudo acenta na investigação da influência de diferentes ferramentas de compilação e diferentes configurações de ferramentas de comunicação, assim como dos diferentes paradigmas de memória, na perfomance global dos kernels, o próximo passo natural passa por identificar os módulos disponíveis no nosso ambiente de clustering que cumprem o objectivo anteriormente enumerado. \par 
 Relativamente aos compiladores de interesse para o caso de estudo temos portanto o \textbf{GCC compiler suite}	e o \textbf{ Intel compilers suite}. O último apresenta apenas a possibilidade de seleção da versão "icc version 13.0.1 (gcc version 4.4.6 compatibility)". Ora, pela própria informação presente na versão do compilador da Intel deveremos incluir no nosso leque de testes a versão do compilador da gnu 4.4.6. Irei também incluir a versão 4.9.0 do compilador da Gnu por ser considera a versão default deste mesmo compilador no nosso ambiente de clustering.\par 
-Relativamente às MPI stacks, nomeadamente à versão do OpenMPI a ser incluída, será em ambos os casos (Intel e Gnu) a versão mais recente disponível para ambos, nomeadamente a versão 1.8.2 dos módulos com via de comunicação Gigabit Ethernet e Myrinet 10Gbps.\par 
-Relativamente às flags de compilação serão testas as respectivas optimizações disponibilizadas pelas flags de compilação -O2 e -O3, e sem qualquer tipo de otimização por flags de compilação.
+Relativamente às MPI stacks, nomeadamente à versão do OpenMPI a ser incluída, será em ambos os casos (Intel e GNU) a versão mais recente disponível para ambos, nomeadamente a versão 1.8.2 dos módulos com via de comunicação Gigabit Ethernet e Myrinet 10Gbps.\par 
+Relativamente às flags de compilação serão testas as respectivas optimizações disponibilizadas pelas flags de compilação -O2 e -O3, e sem qualquer tipo de otimização por flags de compilação.\par 
+Teremos portanto as seguintes combinações de software distintas no nosso caso de estudo:
+
+\begin{itemize}
+\item Compiladores distintos:
+\begin{itemize}
+\item Kernels compilados com compilar da GNU gcc versão 4.4.6
+\item Kernels compilados com compilar da GNU gcc versão 4.9.0
+\item Kernels compilados com compilar da Intel icc versão 13.0.1
+\end{itemize}
+\item Versão do OpenMPI:
+\begin{itemize}
+\item versão 1.8.2 via comunicação Gigabit Ethernet para compilador da GNU
+\item versão 1.8.2 via comunicação Gigabit Ethernet para compilador da Intel
+\item versão 1.8.2 via comunicação Myrinet 10Gbps para compilador da GNU
+\item versão 1.8.2 via comunicação Myrinet 10Gbps para compilador da Intel
+
+\end{itemize}
+\end{itemize}
 
 
 
