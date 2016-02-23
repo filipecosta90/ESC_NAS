@@ -7,7 +7,7 @@
 #define COMPILETIME "22 Feb 2016"
 #define NPBVERSION "3.3.1"
 #define CC "icc"
-#define CFLAGS "-O -O3 -vec-report3"
+#define CFLAGS "-O "
 #define CLINK "$(CC)"
 #define CLINKFLAGS "-O"
 #define C_LIB "(none)"

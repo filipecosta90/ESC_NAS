@@ -29,8 +29,8 @@ c
         parameter (cs3='(none)')
         character cs4*6
         parameter (cs4='(none)')
-        character cs5*23
-        parameter (cs5='-O -O2 -O3 -vec-report3')
+        character cs5*3
+        parameter (cs5='-O ')
         character cs6*2
         parameter (cs6='-O')
         character cs7*6

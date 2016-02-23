@@ -1,0 +1,21 @@
+Allocated computing node: compute-641-14
+Running 5 * ppn: 1 nodes
+running cg.A.x
+running cg.B.x
+running cg.C.x
+running cg.S.x
+running ep.A.x
+running ep.B.x
+running ep.C.x
+running ep.S.x
+running is.A.x
+running is.B.x
+running is.C.x
+running is.S.x
+running mg.A.x
+running mg.B.x
+running mg.C.x
+running mg.S.x
+running cg.A.x
+running cg.B.x
+running cg.C.x
