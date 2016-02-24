@@ -1,0 +1,18 @@
+Allocated computing node: compute-431-9
+Running 5 * ppn: 1 nodes
+running *.16
+.. going to run *.16 (dstat 13137)
+13137 killed
+running *.16
+.. going to run *.16 (dstat 13142)
+13142 killed
+running *.16
+.. going to run *.16 (dstat 13146)
+13146 killed
+running *.16
+.. going to run *.16 (dstat 13150)
+13150 killed
+running *.16
+.. going to run *.16 (dstat 13155)
+13155 killed
+Done...

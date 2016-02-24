@@ -9,7 +9,7 @@
 #          PBS directives must come first; any directives
 #          after the first executable statement are ignored.
 
-#PBS -N esc_seq_4.9.0_O3_431
+#PBS -N esc_seq_4.4.6_O3_431_DSTAT
 #PBS -l walltime=00:90:00
 #PBS -q mei
 
@@ -33,13 +33,13 @@
 cd ESC_NAS/NPB3.3.1/NPB3.3-SER
 
 module purge
-module load gnu/4.9.0
+module load gnu/4.4.6
 
 read -r node_info<$PBS_NODEFILE
 
 echo "Allocated computing node: $node_info"
 
-cd bin_gnu_4.9.0_O3
+cd bin_gnu_4.4.6_O3
 
 max_ppn=1
 sample_size=5
@@ -52,10 +52,10 @@ do
 for execc in *.x
 do
 	echo "running $execc"
-/home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info".csv >> /dev/null &
+	/home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info".csv >> /dev/null &
 	echo ".. going to run $execc (dstat $!)"
 	./$execc > DSTAT_"$execc"_"$seq_num"_"$node_info".txt
-	sleep 1
+	sleep 5
 	kill $!
 	echo "$! killed"
 done

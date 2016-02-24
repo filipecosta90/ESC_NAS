@@ -1,0 +1,7 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark
+
+ Size:       75000
+ Iterations:    75
+ 

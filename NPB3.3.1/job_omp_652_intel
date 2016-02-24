@@ -9,7 +9,7 @@
 #          PBS directives must come first; any directives
 #          after the first executable statement are ignored.
 
-#PBS -N esc_omp_13.0.1_O3_652
+#PBS -N esc_omp_13.0.1_O2_652_DSTAT
 #PBS -l walltime=00:90:00
 #PBS -q mei
 
@@ -39,7 +39,7 @@ read -r node_info<$PBS_NODEFILE
 
 echo "Allocated computing node: $node_info"
 
-cd bin_intel_13.0.1_O3
+cd bin_intel_13.0.1_O2
 
 max_ppn=1
 sample_size=5
@@ -53,17 +53,19 @@ for execc in *.x
 do
 	echo "running $execc"
 	for n_threads in 1 2 4 8 12 16 24 32 40 44 52 
-	do
-#	dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info".csv 
-	#iostat -xdct 1 >> "$execc"_"$seq_num"_"$node_info"_IOSTAT.txt &
-#	echo ".. going to run $execc (dstat $!)"
-	export OMP_DYNAMIC=FALSE
-	export OMP_NUM_THREAD=$n_threads
-	./$execc > "$execc"_"$seq_num"_"$node_info"_THREADS_"$n_threads".txt
-	sleep 1
-	#kill $!
-#	echo "$! killed"
-done
+
+do
+        /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_NTHREADS_"$n_threads".csv >> /dev/null &
+        echo ".. going to run $execc (dstat $!)"
+        export OMP_NUM_THREADS=$n_threads
+        echo "$OMP_NUM_THREADS $n_threads"
+        ./$execc > DSTAT_SETENV_"$execc"_"$seq_num"_"$node_info"_THREADS_"$n_threads".txt
+        sleep 5
+        kill $!
+        echo "$! killed"
+        done
+
+
 done
 done
 done
