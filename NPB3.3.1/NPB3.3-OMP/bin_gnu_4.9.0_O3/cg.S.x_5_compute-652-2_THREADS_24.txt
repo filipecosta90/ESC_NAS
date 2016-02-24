@@ -1,0 +1,62 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - CG Benchmark
+
+ Size:        1400
+ Iterations:                     15
+ Number of available threads:    40
+
+ Initialization time =           0.012 seconds
+
+   iteration           ||r||                 zeta
+        1       0.13649066693311E-12     9.9986441579140
+        2       0.20947299559203E-14     8.5733279203222
+        3       0.21163001426232E-14     8.5954510374058
+        4       0.19152713212209E-14     8.5969972340738
+        5       0.20335778184789E-14     8.5971549151767
+        6       0.19408856902479E-14     8.5971744311608
+        7       0.19823722498328E-14     8.5971770704913
+        8       0.19953259569540E-14     8.5971774440630
+        9       0.19411658944605E-14     8.5971774983942
+       10       0.17828066250012E-14     8.5971775064409
+       11       0.18606950134278E-14     8.5971775076486
+       12       0.19258092005864E-14     8.5971775078318
+       13       0.18588106288401E-14     8.5971775078598
+       14       0.18960255888969E-14     8.5971775078641
+       15       0.18112719978590E-14     8.5971775078648
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.8597177507865E+01
+ Error is    0.1239725599088E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        S
+ Size            =                     1400
+ Iterations      =                       15
+ Time in seconds =                     0.09
+ Total threads   =                       40
+ Avail threads   =                       40
+ Mop/s total     =                   705.16
+ Mop/s/thread    =                    17.63
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Feb 2016
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
