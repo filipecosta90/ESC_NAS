@@ -1,0 +1,10 @@
+is,641,B,3.78,88.69, Time in seconds =                     3.78,B,  Mop/s total     =                    88.69, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O 
+is,641,B,3.78,88.74, Time in seconds =                     3.78,B,  Mop/s total     =                    88.74, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O 
+is,641,B,3.78,88.75, Time in seconds =                     3.78,B,  Mop/s total     =                    88.75, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O 
+is,641,B,3.79,88.61, Time in seconds =                     3.79,B,  Mop/s total     =                    88.61, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O 
+is,641,B,3.79,88.63, Time in seconds =                     3.79,B,  Mop/s total     =                    88.63, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O 
+is,641,B,3.80,88.21, Time in seconds =                     3.80,B,  Mop/s total     =                    88.21, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O 
+is,641,B,3.80,88.32, Time in seconds =                     3.80,B,  Mop/s total     =                    88.32, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O 
+is,641,B,3.81,88.01, Time in seconds =                     3.81,B,  Mop/s total     =                    88.01, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O 
+is,641,B,4.43,75.81, Time in seconds =                     4.43,B,  Mop/s total     =                    75.81, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O 
+is,641,B,5.04,66.55, Time in seconds =                     5.04,B,  Mop/s total     =                    66.55, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O 

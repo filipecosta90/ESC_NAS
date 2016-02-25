@@ -1,0 +1,3 @@
+cg,652,8,B,8,14.23,3844.67, Time in seconds =                    14.23,B,  Mop/s total     =                  3844.67,,    F77          = ifort,    FFLAGS       = -O2 -openmp,,
+cg,652,8,B,8,14.40,3799.75, Time in seconds =                    14.40,B,  Mop/s total     =                  3799.75,,    F77          = ifort,    FFLAGS       = -O2 -openmp,,
+cg,652,8,B,8,14.95,3660.54, Time in seconds =                    14.95,B,  Mop/s total     =                  3660.54,,    F77          = ifort,    FFLAGS       = -O2 -openmp,,

@@ -1,0 +1,4 @@
+mg,431,A,2.96,1315.08, Time in seconds =                     2.96,A,  Mop/s total     =                  1315.08, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
+mg,641,A,1.86,2091.63, Time in seconds =                     1.86,A,  Mop/s total     =                  2091.63, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
+mg,652,A,1.49,2610.45, Time in seconds =                     1.49,A,  Mop/s total     =                  2610.45, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
+mg,662,A,2.03,1913.84, Time in seconds =                     2.03,A,  Mop/s total     =                  1913.84, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,

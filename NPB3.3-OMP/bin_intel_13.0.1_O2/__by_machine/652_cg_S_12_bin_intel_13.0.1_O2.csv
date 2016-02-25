@@ -1,0 +1,2 @@
+cg,652,12,S,12,0.08,802.05, Time in seconds =                     0.08,S,  Mop/s total     =                   802.05,,    F77          = ifort,    FFLAGS       = -O2 -openmp,,
+cg,652,12,S,12,0.11,600.52, Time in seconds =                     0.11,S,  Mop/s total     =                   600.52,,    F77          = ifort,    FFLAGS       = -O2 -openmp,,

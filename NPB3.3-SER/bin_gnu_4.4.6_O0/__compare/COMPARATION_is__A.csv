@@ -1,0 +1,4 @@
+is,431,A,0.85,98.22, Time in seconds =                     0.85,A,  Mop/s total     =                    98.22, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
+is,641,A,0.93,89.96, Time in seconds =                     0.93,A,  Mop/s total     =                    89.96, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
+is,652,A,0.77,108.39, Time in seconds =                     0.77,A,  Mop/s total     =                   108.39, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
+is,662,A,1.03,81.07, Time in seconds =                     1.03,A,  Mop/s total     =                    81.07, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O

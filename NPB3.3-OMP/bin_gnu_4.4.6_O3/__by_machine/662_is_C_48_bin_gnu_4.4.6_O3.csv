@@ -1,0 +1,11 @@
+is,662,48,C,48,1.45,925.87, Time in seconds =                     1.45,C,  Mop/s total     =                   925.87,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+is,662,48,C,48,1.49,898.13, Time in seconds =                     1.49,C,  Mop/s total     =                   898.13,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+is,662,48,C,48,1.51,886.65, Time in seconds =                     1.51,C,  Mop/s total     =                   886.65,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+is,662,48,C,48,1.51,890.24, Time in seconds =                     1.51,C,  Mop/s total     =                   890.24,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+is,662,48,C,48,1.52,883.06, Time in seconds =                     1.52,C,  Mop/s total     =                   883.06,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+is,662,48,C,48,1.60,839.61, Time in seconds =                     1.60,C,  Mop/s total     =                   839.61,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+is,662,48,C,48,1.60,839.93, Time in seconds =                     1.60,C,  Mop/s total     =                   839.93,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+is,662,48,C,48,1.60,840.07, Time in seconds =                     1.60,C,  Mop/s total     =                   840.07,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+is,662,48,C,48,1.61,832.69, Time in seconds =                     1.61,C,  Mop/s total     =                   832.69,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+is,662,48,C,48,1.62,828.15, Time in seconds =                     1.62,C,  Mop/s total     =                   828.15,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+is,662,48,C,48,1.65,813.57, Time in seconds =                     1.65,C,  Mop/s total     =                   813.57,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium

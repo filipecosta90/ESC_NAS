@@ -1,0 +1,10 @@
+is,662,C,18.91,70.97, Time in seconds =                    18.91,C,  Mop/s total     =                    70.97, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O -O2
+is,662,C,18.91,70.97, Time in seconds =                    18.91,C,  Mop/s total     =                    70.97, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O -O2
+is,662,C,18.93,70.88, Time in seconds =                    18.93,C,  Mop/s total     =                    70.88, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O -O2
+is,662,C,18.94,70.88, Time in seconds =                    18.94,C,  Mop/s total     =                    70.88, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O -O2
+is,662,C,18.95,70.81, Time in seconds =                    18.95,C,  Mop/s total     =                    70.81, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O -O2
+is,662,C,18.96,70.78, Time in seconds =                    18.96,C,  Mop/s total     =                    70.78, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O -O2
+is,662,C,18.98,70.73, Time in seconds =                    18.98,C,  Mop/s total     =                    70.73, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O -O2
+is,662,C,18.99,70.69, Time in seconds =                    18.99,C,  Mop/s total     =                    70.69, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O -O2
+is,662,C,19.05,70.44, Time in seconds =                    19.05,C,  Mop/s total     =                    70.44, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O -O2
+is,662,C,19.35,69.36, Time in seconds =                    19.35,C,  Mop/s total     =                    69.36, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = icc,    CFLAGS       = -O -O2

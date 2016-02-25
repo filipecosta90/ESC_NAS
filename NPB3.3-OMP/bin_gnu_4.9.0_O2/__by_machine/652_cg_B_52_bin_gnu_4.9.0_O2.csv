@@ -1,0 +1,2 @@
+cg,652,52,B,52,10.71,5107.78, Time in seconds =                    10.71,B,  Mop/s total     =                  5107.78,,    F77          = gfortran,    FFLAGS       = -O2 -fopenmp -mcmodel=medium,,
+cg,652,52,B,52,10.76,5082.84, Time in seconds =                    10.76,B,  Mop/s total     =                  5082.84,,    F77          = gfortran,    FFLAGS       = -O2 -fopenmp -mcmodel=medium,,
