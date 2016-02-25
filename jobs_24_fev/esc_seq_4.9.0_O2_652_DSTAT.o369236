@@ -1,0 +1,228 @@
+Allocated computing node: compute-652-2
+Running 5 * ppn: 1 nodes
+running cg.A.x
+.. going to run cg.A.x (dstat 31379)
+31379 killed
+running cg.B.x
+.. going to run cg.B.x (dstat 31382)
+31382 killed
+running cg.C.x
+.. going to run cg.C.x (dstat 31386)
+31386 killed
+running cg.S.x
+.. going to run cg.S.x (dstat 31395)
+31395 killed
+running ep.A.x
+.. going to run ep.A.x (dstat 31398)
+31398 killed
+running ep.B.x
+.. going to run ep.B.x (dstat 31401)
+31401 killed
+running ep.C.x
+.. going to run ep.C.x (dstat 31404)
+31404 killed
+running ep.S.x
+.. going to run ep.S.x (dstat 31412)
+31412 killed
+running is.A.x
+.. going to run is.A.x (dstat 31415)
+31415 killed
+running is.B.x
+.. going to run is.B.x (dstat 31419)
+31419 killed
+running is.C.x
+.. going to run is.C.x (dstat 31422)
+31422 killed
+running is.S.x
+.. going to run is.S.x (dstat 31427)
+31427 killed
+running mg.A.x
+.. going to run mg.A.x (dstat 31430)
+31430 killed
+running mg.B.x
+.. going to run mg.B.x (dstat 31433)
+31433 killed
+running mg.S.x
+.. going to run mg.S.x (dstat 31436)
+31436 killed
+running cg.A.x
+.. going to run cg.A.x (dstat 31439)
+31439 killed
+running cg.B.x
+.. going to run cg.B.x (dstat 31442)
+31442 killed
+running cg.C.x
+.. going to run cg.C.x (dstat 31448)
+31448 killed
+running cg.S.x
+.. going to run cg.S.x (dstat 31455)
+31455 killed
+running ep.A.x
+.. going to run ep.A.x (dstat 31458)
+31458 killed
+running ep.B.x
+.. going to run ep.B.x (dstat 31461)
+31461 killed
+running ep.C.x
+.. going to run ep.C.x (dstat 31464)
+31464 killed
+running ep.S.x
+.. going to run ep.S.x (dstat 31473)
+31473 killed
+running is.A.x
+.. going to run is.A.x (dstat 31476)
+31476 killed
+running is.B.x
+.. going to run is.B.x (dstat 31479)
+31479 killed
+running is.C.x
+.. going to run is.C.x (dstat 31482)
+31482 killed
+running is.S.x
+.. going to run is.S.x (dstat 31485)
+31485 killed
+running mg.A.x
+.. going to run mg.A.x (dstat 31488)
+31488 killed
+running mg.B.x
+.. going to run mg.B.x (dstat 31491)
+31491 killed
+running mg.S.x
+.. going to run mg.S.x (dstat 31495)
+31495 killed
+running cg.A.x
+.. going to run cg.A.x (dstat 31498)
+31498 killed
+running cg.B.x
+.. going to run cg.B.x (dstat 31501)
+31501 killed
+running cg.C.x
+.. going to run cg.C.x (dstat 31506)
+31506 killed
+running cg.S.x
+.. going to run cg.S.x (dstat 31513)
+31513 killed
+running ep.A.x
+.. going to run ep.A.x (dstat 31516)
+31516 killed
+running ep.B.x
+.. going to run ep.B.x (dstat 31519)
+31519 killed
+running ep.C.x
+.. going to run ep.C.x (dstat 31524)
+31524 killed
+running ep.S.x
+.. going to run ep.S.x (dstat 31559)
+31559 killed
+running is.A.x
+.. going to run is.A.x (dstat 31562)
+31562 killed
+running is.B.x
+.. going to run is.B.x (dstat 31565)
+31565 killed
+running is.C.x
+.. going to run is.C.x (dstat 31568)
+31568 killed
+running is.S.x
+.. going to run is.S.x (dstat 31571)
+31571 killed
+running mg.A.x
+.. going to run mg.A.x (dstat 31574)
+31574 killed
+running mg.B.x
+.. going to run mg.B.x (dstat 31577)
+31577 killed
+running mg.S.x
+.. going to run mg.S.x (dstat 31580)
+31580 killed
+running cg.A.x
+.. going to run cg.A.x (dstat 31583)
+31583 killed
+running cg.B.x
+.. going to run cg.B.x (dstat 31587)
+31587 killed
+running cg.C.x
+.. going to run cg.C.x (dstat 31590)
+31590 killed
+running cg.S.x
+.. going to run cg.S.x (dstat 31599)
+31599 killed
+running ep.A.x
+.. going to run ep.A.x (dstat 31602)
+31602 killed
+running ep.B.x
+.. going to run ep.B.x (dstat 31605)
+31605 killed
+running ep.C.x
+.. going to run ep.C.x (dstat 31609)
+31609 killed
+running ep.S.x
+.. going to run ep.S.x (dstat 31615)
+31615 killed
+running is.A.x
+.. going to run is.A.x (dstat 31618)
+31618 killed
+running is.B.x
+.. going to run is.B.x (dstat 31621)
+31621 killed
+running is.C.x
+.. going to run is.C.x (dstat 31624)
+31624 killed
+running is.S.x
+.. going to run is.S.x (dstat 31629)
+31629 killed
+running mg.A.x
+.. going to run mg.A.x (dstat 31632)
+31632 killed
+running mg.B.x
+.. going to run mg.B.x (dstat 31635)
+31635 killed
+running mg.S.x
+.. going to run mg.S.x (dstat 31639)
+31639 killed
+running cg.A.x
+.. going to run cg.A.x (dstat 31642)
+31642 killed
+running cg.B.x
+.. going to run cg.B.x (dstat 31645)
+31645 killed
+running cg.C.x
+.. going to run cg.C.x (dstat 31650)
+31650 killed
+running cg.S.x
+.. going to run cg.S.x (dstat 31657)
+31657 killed
+running ep.A.x
+.. going to run ep.A.x (dstat 31660)
+31660 killed
+running ep.B.x
+.. going to run ep.B.x (dstat 31663)
+31663 killed
+running ep.C.x
+.. going to run ep.C.x (dstat 31667)
+31667 killed
+running ep.S.x
+.. going to run ep.S.x (dstat 31673)
+31673 killed
+running is.A.x
+.. going to run is.A.x (dstat 31676)
+31676 killed
+running is.B.x
+.. going to run is.B.x (dstat 31681)
+31681 killed
+running is.C.x
+.. going to run is.C.x (dstat 31684)
+31684 killed
+running is.S.x
+.. going to run is.S.x (dstat 31688)
+31688 killed
+running mg.A.x
+.. going to run mg.A.x (dstat 31691)
+31691 killed
+running mg.B.x
+.. going to run mg.B.x (dstat 31694)
+31694 killed
+running mg.S.x
+.. going to run mg.S.x (dstat 31697)
+31697 killed
+Done...

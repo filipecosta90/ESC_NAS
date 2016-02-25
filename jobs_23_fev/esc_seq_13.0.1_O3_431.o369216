@@ -1,0 +1,4 @@
+Allocated computing node: compute-431-9
+Running 5 * ppn: 1 nodes
+running cg.A.x
+running cg.B.x

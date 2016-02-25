@@ -1,0 +1,199 @@
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+gcc  -o setparams setparams.c
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams mg S
+ifort -c  -O -O2 -O3 -vec-report3 mg.f
+cd ../common; ifort -c  -O -O2 -O3 -vec-report3 print_results.f
+cd ../common; ifort -c  -O -O2 -O3 -vec-report3 randi8.f
+cd ../common; ifort -c  -O -O2 -O3 -vec-report3 timers.f
+cd ../common; icc  -c  -O -O3 -vec-report3  -o wtime.o ../common/wtime.c
+ifort -O -o ../bin/mg.S.x mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+rm -f *.o *~ mputil*
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams is S
+icc  -c  -O -O3 -vec-report3 is.c
+cd ../common; icc  -c  -O -O3 -vec-report3 c_print_results.c
+cd ../common; icc  -c  -O -O3 -vec-report3 c_timers.c
+cd ../common; icc  -c  -O -O3 -vec-report3 -o c_wtime.o ../common/wtime.c
+icc -O -o ../bin/is.S.x is.o ../common/c_print_results.o ../common/c_timers.o ../common/c_wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams ep S
+ifort -c  -O -O2 -O3 -vec-report3 ep.f
+ifort -O -o ../bin/ep.S.x ep.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams cg S
+ifort -c  -O -O2 -O3 -vec-report3 cg.f
+ifort -O -o ../bin/cg.S.x cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams mg A
+ifort -c  -O -O2 -O3 -vec-report3 mg.f
+ifort -O -o ../bin/mg.A.x mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+rm -f *.o *~ mputil*
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams is A
+icc  -c  -O -O3 -vec-report3 is.c
+icc -O -o ../bin/is.A.x is.o ../common/c_print_results.o ../common/c_timers.o ../common/c_wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams ep A
+ifort -c  -O -O2 -O3 -vec-report3 ep.f
+ifort -O -o ../bin/ep.A.x ep.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams cg A
+ifort -c  -O -O2 -O3 -vec-report3 cg.f
+ifort -O -o ../bin/cg.A.x cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams mg B
+ifort -c  -O -O2 -O3 -vec-report3 mg.f
+ifort -O -o ../bin/mg.B.x mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+rm -f *.o *~ mputil*
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams is B
+icc  -c  -O -O3 -vec-report3 is.c
+icc -O -o ../bin/is.B.x is.o ../common/c_print_results.o ../common/c_timers.o ../common/c_wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams ep B
+ifort -c  -O -O2 -O3 -vec-report3 ep.f
+ifort -O -o ../bin/ep.B.x ep.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams cg B
+ifort -c  -O -O2 -O3 -vec-report3 cg.f
+ifort -O -o ../bin/cg.B.x cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams mg C
+ifort -c  -O -O2 -O3 -vec-report3 mg.f
+ifort -O -o ../bin/mg.C.x mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/MG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+rm -f *.o *~ mputil*
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams is C
+icc  -c  -O -O3 -vec-report3 is.c
+icc -O -o ../bin/is.C.x is.o ../common/c_print_results.o ../common/c_timers.o ../common/c_wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/IS'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams ep C
+ifort -c  -O -O2 -O3 -vec-report3 ep.f
+ifort -O -o ../bin/ep.C.x ep.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/EP'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+make[1]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
+make[2]: Entering directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/sys'
+../sys/setparams cg C
+ifort -c  -O -O2 -O3 -vec-report3 cg.f
+ifort -O -o ../bin/cg.C.x cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/a57816/ESC_NAS/NPB3.3.1/NPB3.3-SER/CG'
