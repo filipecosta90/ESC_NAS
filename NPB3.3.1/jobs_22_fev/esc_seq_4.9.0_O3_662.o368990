@@ -1,0 +1,4 @@
+Allocated computing node: compute-662-1
+Running 5 * ppn: 1 nodes
+running cg.A.x
+running cg.B.x
