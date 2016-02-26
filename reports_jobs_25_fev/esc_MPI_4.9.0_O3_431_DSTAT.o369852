@@ -1,0 +1,243 @@
+Allocated computing node: compute-431-8
+Running 5 * ppn: 1 nodes
+running cg.A.16
+.. going to run cg.A.16 (dstat 18100)
+18100 killed
+running cg.B.16
+.. going to run cg.B.16 (dstat 18137)
+18137 killed
+running cg.C.16
+.. going to run cg.C.16 (dstat 18173)
+18173 killed
+running cg.S.16
+.. going to run cg.S.16 (dstat 18212)
+18212 killed
+running ep.A.16
+.. going to run ep.A.16 (dstat 18249)
+18249 killed
+running ep.B.16
+.. going to run ep.B.16 (dstat 18287)
+18287 killed
+running ep.C.16
+.. going to run ep.C.16 (dstat 18324)
+18324 killed
+running ep.S.16
+.. going to run ep.S.16 (dstat 18361)
+18361 killed
+running is.A.16
+.. going to run is.A.16 (dstat 18397)
+18397 killed
+running is.B.16
+.. going to run is.B.16 (dstat 18433)
+18433 killed
+running is.C.16
+.. going to run is.C.16 (dstat 18469)
+18469 killed
+running is.S.16
+.. going to run is.S.16 (dstat 18506)
+18506 killed
+running mg.A.16
+.. going to run mg.A.16 (dstat 18543)
+18543 killed
+running mg.B.16
+.. going to run mg.B.16 (dstat 18579)
+18579 killed
+running mg.C.16
+.. going to run mg.C.16 (dstat 18615)
+18615 killed
+running mg.S.16
+.. going to run mg.S.16 (dstat 18653)
+18653 killed
+running cg.A.16
+.. going to run cg.A.16 (dstat 18689)
+18689 killed
+running cg.B.16
+.. going to run cg.B.16 (dstat 18726)
+18726 killed
+running cg.C.16
+.. going to run cg.C.16 (dstat 18763)
+18763 killed
+running cg.S.16
+.. going to run cg.S.16 (dstat 18800)
+18800 killed
+running ep.A.16
+.. going to run ep.A.16 (dstat 18836)
+18836 killed
+running ep.B.16
+.. going to run ep.B.16 (dstat 18873)
+18873 killed
+running ep.C.16
+.. going to run ep.C.16 (dstat 18910)
+18910 killed
+running ep.S.16
+.. going to run ep.S.16 (dstat 18950)
+18950 killed
+running is.A.16
+.. going to run is.A.16 (dstat 18986)
+18986 killed
+running is.B.16
+.. going to run is.B.16 (dstat 19023)
+19023 killed
+running is.C.16
+.. going to run is.C.16 (dstat 19059)
+19059 killed
+running is.S.16
+.. going to run is.S.16 (dstat 19095)
+19095 killed
+running mg.A.16
+.. going to run mg.A.16 (dstat 19131)
+19131 killed
+running mg.B.16
+.. going to run mg.B.16 (dstat 19168)
+19168 killed
+running mg.C.16
+.. going to run mg.C.16 (dstat 19204)
+19204 killed
+running mg.S.16
+.. going to run mg.S.16 (dstat 19244)
+19244 killed
+running cg.A.16
+.. going to run cg.A.16 (dstat 19280)
+19280 killed
+running cg.B.16
+.. going to run cg.B.16 (dstat 19316)
+19316 killed
+running cg.C.16
+.. going to run cg.C.16 (dstat 19352)
+19352 killed
+running cg.S.16
+.. going to run cg.S.16 (dstat 19423)
+19423 killed
+running ep.A.16
+.. going to run ep.A.16 (dstat 19459)
+19459 killed
+running ep.B.16
+.. going to run ep.B.16 (dstat 19495)
+19495 killed
+running ep.C.16
+.. going to run ep.C.16 (dstat 19531)
+19531 killed
+running ep.S.16
+.. going to run ep.S.16 (dstat 19567)
+19567 killed
+running is.A.16
+.. going to run is.A.16 (dstat 19604)
+19604 killed
+running is.B.16
+.. going to run is.B.16 (dstat 19641)
+19641 killed
+running is.C.16
+.. going to run is.C.16 (dstat 19677)
+19677 killed
+running is.S.16
+.. going to run is.S.16 (dstat 19714)
+19714 killed
+running mg.A.16
+.. going to run mg.A.16 (dstat 19750)
+19750 killed
+running mg.B.16
+.. going to run mg.B.16 (dstat 19786)
+19786 killed
+running mg.C.16
+.. going to run mg.C.16 (dstat 19823)
+19823 killed
+running mg.S.16
+.. going to run mg.S.16 (dstat 19862)
+19862 killed
+running cg.A.16
+.. going to run cg.A.16 (dstat 19898)
+19898 killed
+running cg.B.16
+.. going to run cg.B.16 (dstat 19934)
+19934 killed
+running cg.C.16
+.. going to run cg.C.16 (dstat 19971)
+19971 killed
+running cg.S.16
+.. going to run cg.S.16 (dstat 20011)
+20011 killed
+running ep.A.16
+.. going to run ep.A.16 (dstat 20048)
+20048 killed
+running ep.B.16
+.. going to run ep.B.16 (dstat 20084)
+20084 killed
+running ep.C.16
+.. going to run ep.C.16 (dstat 20120)
+20120 killed
+running ep.S.16
+.. going to run ep.S.16 (dstat 20161)
+20161 killed
+running is.A.16
+.. going to run is.A.16 (dstat 20197)
+20197 killed
+running is.B.16
+.. going to run is.B.16 (dstat 20233)
+20233 killed
+running is.C.16
+.. going to run is.C.16 (dstat 20269)
+20269 killed
+running is.S.16
+.. going to run is.S.16 (dstat 20305)
+20305 killed
+running mg.A.16
+.. going to run mg.A.16 (dstat 20341)
+20341 killed
+running mg.B.16
+.. going to run mg.B.16 (dstat 20377)
+20377 killed
+running mg.C.16
+.. going to run mg.C.16 (dstat 20413)
+20413 killed
+running mg.S.16
+.. going to run mg.S.16 (dstat 20452)
+20452 killed
+running cg.A.16
+.. going to run cg.A.16 (dstat 20488)
+20488 killed
+running cg.B.16
+.. going to run cg.B.16 (dstat 20524)
+20524 killed
+running cg.C.16
+.. going to run cg.C.16 (dstat 20564)
+20564 killed
+running cg.S.16
+.. going to run cg.S.16 (dstat 20602)
+20602 killed
+running ep.A.16
+.. going to run ep.A.16 (dstat 20641)
+20641 killed
+running ep.B.16
+.. going to run ep.B.16 (dstat 20677)
+20677 killed
+running ep.C.16
+.. going to run ep.C.16 (dstat 20713)
+20713 killed
+running ep.S.16
+.. going to run ep.S.16 (dstat 20752)
+20752 killed
+running is.A.16
+.. going to run is.A.16 (dstat 20788)
+20788 killed
+running is.B.16
+.. going to run is.B.16 (dstat 20824)
+20824 killed
+running is.C.16
+.. going to run is.C.16 (dstat 20860)
+20860 killed
+running is.S.16
+.. going to run is.S.16 (dstat 20896)
+20896 killed
+running mg.A.16
+.. going to run mg.A.16 (dstat 20933)
+20933 killed
+running mg.B.16
+.. going to run mg.B.16 (dstat 20969)
+20969 killed
+running mg.C.16
+.. going to run mg.C.16 (dstat 21006)
+21006 killed
+running mg.S.16
+.. going to run mg.S.16 (dstat 21042)
+21042 killed
+Done...

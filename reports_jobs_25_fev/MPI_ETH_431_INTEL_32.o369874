@@ -1,0 +1,243 @@
+Allocated computing node: compute-431-9
+Running 5 * ppn: 1 nodes
+running cg.A.32
+.. going to run cg.A.32 (dstat 11659)
+11659 killed
+running cg.B.32
+.. going to run cg.B.32 (dstat 11711)
+11711 killed
+running cg.C.32
+.. going to run cg.C.32 (dstat 11765)
+11765 killed
+running cg.S.32
+.. going to run cg.S.32 (dstat 11824)
+11824 killed
+running ep.A.32
+.. going to run ep.A.32 (dstat 11877)
+11877 killed
+running ep.B.32
+.. going to run ep.B.32 (dstat 11929)
+11929 killed
+running ep.C.32
+.. going to run ep.C.32 (dstat 11981)
+11981 killed
+running ep.S.32
+.. going to run ep.S.32 (dstat 12034)
+12034 killed
+running is.A.32
+.. going to run is.A.32 (dstat 12086)
+12086 killed
+running is.B.32
+.. going to run is.B.32 (dstat 12138)
+12138 killed
+running is.C.32
+.. going to run is.C.32 (dstat 12190)
+12190 killed
+running is.S.32
+.. going to run is.S.32 (dstat 12243)
+12243 killed
+running mg.A.32
+.. going to run mg.A.32 (dstat 12295)
+12295 killed
+running mg.B.32
+.. going to run mg.B.32 (dstat 12348)
+12348 killed
+running mg.C.32
+.. going to run mg.C.32 (dstat 12401)
+12401 killed
+running mg.S.32
+.. going to run mg.S.32 (dstat 12454)
+12454 killed
+running cg.A.32
+.. going to run cg.A.32 (dstat 12507)
+12507 killed
+running cg.B.32
+.. going to run cg.B.32 (dstat 12560)
+12560 killed
+running cg.C.32
+.. going to run cg.C.32 (dstat 12613)
+12613 killed
+running cg.S.32
+.. going to run cg.S.32 (dstat 12672)
+12672 killed
+running ep.A.32
+.. going to run ep.A.32 (dstat 12724)
+12724 killed
+running ep.B.32
+.. going to run ep.B.32 (dstat 12777)
+12777 killed
+running ep.C.32
+.. going to run ep.C.32 (dstat 12829)
+12829 killed
+running ep.S.32
+.. going to run ep.S.32 (dstat 12883)
+12883 killed
+running is.A.32
+.. going to run is.A.32 (dstat 12935)
+12935 killed
+running is.B.32
+.. going to run is.B.32 (dstat 12987)
+12987 killed
+running is.C.32
+.. going to run is.C.32 (dstat 13039)
+13039 killed
+running is.S.32
+.. going to run is.S.32 (dstat 13092)
+13092 killed
+running mg.A.32
+.. going to run mg.A.32 (dstat 13146)
+13146 killed
+running mg.B.32
+.. going to run mg.B.32 (dstat 13198)
+13198 killed
+running mg.C.32
+.. going to run mg.C.32 (dstat 13250)
+13250 killed
+running mg.S.32
+.. going to run mg.S.32 (dstat 13304)
+13304 killed
+running cg.A.32
+.. going to run cg.A.32 (dstat 13356)
+13356 killed
+running cg.B.32
+.. going to run cg.B.32 (dstat 13409)
+13409 killed
+running cg.C.32
+.. going to run cg.C.32 (dstat 13465)
+13465 killed
+running cg.S.32
+.. going to run cg.S.32 (dstat 13519)
+13519 killed
+running ep.A.32
+.. going to run ep.A.32 (dstat 13571)
+13571 killed
+running ep.B.32
+.. going to run ep.B.32 (dstat 13624)
+13624 killed
+running ep.C.32
+.. going to run ep.C.32 (dstat 13677)
+13677 killed
+running ep.S.32
+.. going to run ep.S.32 (dstat 13731)
+13731 killed
+running is.A.32
+.. going to run is.A.32 (dstat 13784)
+13784 killed
+running is.B.32
+.. going to run is.B.32 (dstat 13836)
+13836 killed
+running is.C.32
+.. going to run is.C.32 (dstat 13889)
+13889 killed
+running is.S.32
+.. going to run is.S.32 (dstat 13942)
+13942 killed
+running mg.A.32
+.. going to run mg.A.32 (dstat 13995)
+13995 killed
+running mg.B.32
+.. going to run mg.B.32 (dstat 14047)
+14047 killed
+running mg.C.32
+.. going to run mg.C.32 (dstat 14099)
+14099 killed
+running mg.S.32
+.. going to run mg.S.32 (dstat 14152)
+14152 killed
+running cg.A.32
+.. going to run cg.A.32 (dstat 14204)
+14204 killed
+running cg.B.32
+.. going to run cg.B.32 (dstat 14257)
+14257 killed
+running cg.C.32
+.. going to run cg.C.32 (dstat 14311)
+14311 killed
+running cg.S.32
+.. going to run cg.S.32 (dstat 14367)
+14367 killed
+running ep.A.32
+.. going to run ep.A.32 (dstat 14419)
+14419 killed
+running ep.B.32
+.. going to run ep.B.32 (dstat 14471)
+14471 killed
+running ep.C.32
+.. going to run ep.C.32 (dstat 14523)
+14523 killed
+running ep.S.32
+.. going to run ep.S.32 (dstat 14576)
+14576 killed
+running is.A.32
+.. going to run is.A.32 (dstat 14629)
+14629 killed
+running is.B.32
+.. going to run is.B.32 (dstat 14681)
+14681 killed
+running is.C.32
+.. going to run is.C.32 (dstat 14734)
+14734 killed
+running is.S.32
+.. going to run is.S.32 (dstat 14789)
+14789 killed
+running mg.A.32
+.. going to run mg.A.32 (dstat 14842)
+14842 killed
+running mg.B.32
+.. going to run mg.B.32 (dstat 14894)
+14894 killed
+running mg.C.32
+.. going to run mg.C.32 (dstat 14947)
+14947 killed
+running mg.S.32
+.. going to run mg.S.32 (dstat 15001)
+15001 killed
+running cg.A.32
+.. going to run cg.A.32 (dstat 15053)
+15053 killed
+running cg.B.32
+.. going to run cg.B.32 (dstat 15105)
+15105 killed
+running cg.C.32
+.. going to run cg.C.32 (dstat 15161)
+15161 killed
+running cg.S.32
+.. going to run cg.S.32 (dstat 15219)
+15219 killed
+running ep.A.32
+.. going to run ep.A.32 (dstat 15271)
+15271 killed
+running ep.B.32
+.. going to run ep.B.32 (dstat 15323)
+15323 killed
+running ep.C.32
+.. going to run ep.C.32 (dstat 15375)
+15375 killed
+running ep.S.32
+.. going to run ep.S.32 (dstat 15427)
+15427 killed
+running is.A.32
+.. going to run is.A.32 (dstat 15479)
+15479 killed
+running is.B.32
+.. going to run is.B.32 (dstat 15532)
+15532 killed
+running is.C.32
+.. going to run is.C.32 (dstat 15585)
+15585 killed
+running is.S.32
+.. going to run is.S.32 (dstat 15639)
+15639 killed
+running mg.A.32
+.. going to run mg.A.32 (dstat 15692)
+15692 killed
+running mg.B.32
+.. going to run mg.B.32 (dstat 15745)
+15745 killed
+running mg.C.32
+.. going to run mg.C.32 (dstat 15798)
+15798 killed
+running mg.S.32
+.. going to run mg.S.32 (dstat 15852)
+15852 killed
+Done...
