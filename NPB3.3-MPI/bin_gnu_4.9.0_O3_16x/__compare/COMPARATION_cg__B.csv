@@ -1,0 +1,2 @@
+cg,431,B,16,16,20.30,2694.48, Time in seconds =                    20.30,B,  Mop/s total     =                  2694.48,,    MPIF77       = mpif77,    FFLAGS       = -O -O3,,    FLINKFLAGS   = -O -O3
+cg,641,B,16,16,5.91,9253.84, Time in seconds =                     5.91,B,  Mop/s total     =                  9253.84,,    MPIF77       = mpif77,    FFLAGS       = -O -O3,,    FLINKFLAGS   = -O -O3
