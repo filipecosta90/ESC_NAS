@@ -9,7 +9,7 @@
 #          PBS directives must come first; any directives
 #          after the first executable statement are ignored.
 
-#PBS -N MPI_MX_431_INTEL_32
+#PBS -N esc_MPI_4.9.0_O3_431_MX_INTEL_32x
 #PBS -l walltime=00:60:00
 #PBS -q mei
 
@@ -28,7 +28,7 @@
 #          Specify the number of nodes requested and the
 #          number of processors per node. 
 
-#PBS -l nodes=4:r431:ppn=24:myri
+#PBS -l nodes=compute-431-1:ppn=24+compute-431-2:ppn=24+compute-431-3:ppn=24+compute-431-4:ppn=24
 
 cd ESC_NAS/NPB3.3.1/NPB3.3-MPI
 
@@ -36,7 +36,7 @@ module purge
 module load intel/2013.1.117
 module load intel/openmpi_mx/1.8.2
 
-ompi_info --param mpi all
+ompi_info --param mpi all >> "MPI_INFO.txt"
 
 read -r node_info<$PBS_NODEFILE
 
@@ -57,7 +57,7 @@ do
 	echo "running $execc"
         /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null &
 	echo ".. going to run $execc (dstat $!)"
-mpirun -np 32 --report-bindings --mca mtl mx --mca pml cm  ./$execc  > MPI_"$execc"_"$seq_num"_"$node_info"_MYRI.txt
+mpirun -np 32 --hostfile hosts_file_431 --report-bindings --mca mtl mx --mca pml cm  ./$execc  > MPI_"$execc"_"$seq_num"_"$node_info"_MYRI.txt
 	sleep 5
 	kill $!
 	echo "$! killed"
