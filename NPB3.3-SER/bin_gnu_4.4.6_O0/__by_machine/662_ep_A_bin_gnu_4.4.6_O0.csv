@@ -1,9 +1,9 @@
-ep,662,A,21.41,25.07, Time in seconds =                    21.41,A,  Mop/s total     =                    25.07, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-ep,662,A,21.41,25.08, Time in seconds =                    21.41,A,  Mop/s total     =                    25.08, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-ep,662,A,21.42,25.07, Time in seconds =                    21.42,A,  Mop/s total     =                    25.07, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-ep,662,A,21.44,25.04, Time in seconds =                    21.44,A,  Mop/s total     =                    25.04, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-ep,662,A,21.45,25.03, Time in seconds =                    21.45,A,  Mop/s total     =                    25.03, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-ep,662,A,21.45,25.03, Time in seconds =                    21.45,A,  Mop/s total     =                    25.03, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-ep,662,A,21.45,25.03, Time in seconds =                    21.45,A,  Mop/s total     =                    25.03, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-ep,662,A,21.45,25.03, Time in seconds =                    21.45,A,  Mop/s total     =                    25.03, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-ep,662,A,21.46,25.01, Time in seconds =                    21.46,A,  Mop/s total     =                    25.01, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
+662,21.41,25.07
+662,21.41,25.08
+662,21.42,25.07
+662,21.44,25.04
+662,21.45,25.03
+662,21.45,25.03
+662,21.45,25.03
+662,21.45,25.03
+662,21.46,25.01

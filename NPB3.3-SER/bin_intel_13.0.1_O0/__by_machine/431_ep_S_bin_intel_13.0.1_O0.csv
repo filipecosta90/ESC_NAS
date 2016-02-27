@@ -1,10 +1,10 @@
-ep,431,S,0.54,61.73, Time in seconds =                     0.54,S,  Mop/s total     =                    61.73, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-ep,431,S,0.55,60.59, Time in seconds =                     0.55,S,  Mop/s total     =                    60.59, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-ep,431,S,0.55,60.94, Time in seconds =                     0.55,S,  Mop/s total     =                    60.94, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-ep,431,S,0.55,61.00, Time in seconds =                     0.55,S,  Mop/s total     =                    61.00, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-ep,431,S,0.56,60.23, Time in seconds =                     0.56,S,  Mop/s total     =                    60.23, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-ep,431,S,0.57,58.44, Time in seconds =                     0.57,S,  Mop/s total     =                    58.44, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-ep,431,S,0.58,58.03, Time in seconds =                     0.58,S,  Mop/s total     =                    58.03, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-ep,431,S,0.58,58.14, Time in seconds =                     0.58,S,  Mop/s total     =                    58.14, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-ep,431,S,0.58,58.19, Time in seconds =                     0.58,S,  Mop/s total     =                    58.19, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-ep,431,S,0.65,51.64, Time in seconds =                     0.65,S,  Mop/s total     =                    51.64, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
+431,0.54,61.73
+431,0.55,60.59
+431,0.55,60.94
+431,0.55,61.00
+431,0.56,60.23
+431,0.57,58.44
+431,0.58,58.03
+431,0.58,58.14
+431,0.58,58.19
+431,0.65,51.64

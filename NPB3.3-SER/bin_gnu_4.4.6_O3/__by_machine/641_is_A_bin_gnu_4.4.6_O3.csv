@@ -1,9 +1,9 @@
-is,641,A,0.92,91.06, Time in seconds =                     0.92,A,  Mop/s total     =                    91.06, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,A,0.92,91.17, Time in seconds =                     0.92,A,  Mop/s total     =                    91.17, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,A,0.92,91.22, Time in seconds =                     0.92,A,  Mop/s total     =                    91.22, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,A,0.92,91.32, Time in seconds =                     0.92,A,  Mop/s total     =                    91.32, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,A,0.92,91.49, Time in seconds =                     0.92,A,  Mop/s total     =                    91.49, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,A,0.92,91.58, Time in seconds =                     0.92,A,  Mop/s total     =                    91.58, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,A,0.92,91.59, Time in seconds =                     0.92,A,  Mop/s total     =                    91.59, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,A,0.95,88.24, Time in seconds =                     0.95,A,  Mop/s total     =                    88.24, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,A,1.36,61.67, Time in seconds =                     1.36,A,  Mop/s total     =                    61.67, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
+641,0.92,91.06
+641,0.92,91.17
+641,0.92,91.22
+641,0.92,91.32
+641,0.92,91.49
+641,0.92,91.58
+641,0.92,91.59
+641,0.95,88.24
+641,1.36,61.67

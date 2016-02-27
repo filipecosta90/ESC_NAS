@@ -1,5 +1,9 @@
 #!bin/bash
 
+CURRENT=`pwd`
+BASENAME=`basename "$CURRENT"`
+
+
 mkdir __compare
 rm __compare/"COMPARATION_"*
 
@@ -9,7 +13,7 @@ do
   do
     for file in *$kernel"_"$class*.csv
     do
-      head -1 $file >> "COMPARATION_"$kernel"__"$class".csv"
+      head -1 $file >> "COMPARATION_"$kernel"__"$class"_"$BASENAME".csv"
     done
   done
 done

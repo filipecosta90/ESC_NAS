@@ -1,9 +1,9 @@
-ep,641,C,292.87,29.33, Time in seconds =                   292.87,C,  Mop/s total     =                    29.33, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O3,,
-ep,641,C,293.00,29.32, Time in seconds =                   293.00,C,  Mop/s total     =                    29.32, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O3,,
-ep,641,C,293.13,29.30, Time in seconds =                   293.13,C,  Mop/s total     =                    29.30, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O3,,
-ep,641,C,293.17,29.30, Time in seconds =                   293.17,C,  Mop/s total     =                    29.30, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O3,,
-ep,641,C,293.18,29.30, Time in seconds =                   293.18,C,  Mop/s total     =                    29.30, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O3,,
-ep,641,C,293.32,29.29, Time in seconds =                   293.32,C,  Mop/s total     =                    29.29, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O3,,
-ep,641,C,293.53,29.26, Time in seconds =                   293.53,C,  Mop/s total     =                    29.26, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O3,,
-ep,641,C,293.55,29.26, Time in seconds =                   293.55,C,  Mop/s total     =                    29.26, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O3,,
-ep,641,C,293.82,29.24, Time in seconds =                   293.82,C,  Mop/s total     =                    29.24, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O3,,
+641,292.87,29.33
+641,293.00,29.32
+641,293.13,29.30
+641,293.17,29.30
+641,293.18,29.30
+641,293.32,29.29
+641,293.53,29.26
+641,293.55,29.26
+641,293.82,29.24

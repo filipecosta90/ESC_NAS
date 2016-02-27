@@ -1,9 +1,9 @@
-mg,662,A,2.03,1913.84, Time in seconds =                     2.03,A,  Mop/s total     =                  1913.84, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-mg,662,A,2.03,1914.28, Time in seconds =                     2.03,A,  Mop/s total     =                  1914.28, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-mg,662,A,2.03,1914.51, Time in seconds =                     2.03,A,  Mop/s total     =                  1914.51, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-mg,662,A,2.03,1914.98, Time in seconds =                     2.03,A,  Mop/s total     =                  1914.98, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-mg,662,A,2.03,1916.31, Time in seconds =                     2.03,A,  Mop/s total     =                  1916.31, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-mg,662,A,2.03,1916.49, Time in seconds =                     2.03,A,  Mop/s total     =                  1916.49, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-mg,662,A,2.03,1917.46, Time in seconds =                     2.03,A,  Mop/s total     =                  1917.46, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-mg,662,A,2.11,1840.35, Time in seconds =                     2.11,A,  Mop/s total     =                  1840.35, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
-mg,662,A,2.11,1846.18, Time in seconds =                     2.11,A,  Mop/s total     =                  1846.18, NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark,    F77          = gfortran,    FFLAGS       = -O,,
+662,2.03,1913.84
+662,2.03,1914.28
+662,2.03,1914.51
+662,2.03,1914.98
+662,2.03,1916.31
+662,2.03,1916.49
+662,2.03,1917.46
+662,2.11,1840.35
+662,2.11,1846.18

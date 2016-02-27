@@ -1,9 +1,9 @@
-is,662,C,19.43,69.07, Time in seconds =                    19.43,C,  Mop/s total     =                    69.07, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,C,19.48,68.91, Time in seconds =                    19.48,C,  Mop/s total     =                    68.91, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,C,19.49,68.86, Time in seconds =                    19.49,C,  Mop/s total     =                    68.86, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,C,19.49,68.86, Time in seconds =                    19.49,C,  Mop/s total     =                    68.86, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,C,19.51,68.78, Time in seconds =                    19.51,C,  Mop/s total     =                    68.78, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,C,19.51,68.78, Time in seconds =                    19.51,C,  Mop/s total     =                    68.78, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,C,19.56,68.60, Time in seconds =                    19.56,C,  Mop/s total     =                    68.60, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,C,19.65,68.32, Time in seconds =                    19.65,C,  Mop/s total     =                    68.32, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,C,25.68,52.27, Time in seconds =                    25.68,C,  Mop/s total     =                    52.27, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
+662,19.43,69.07
+662,19.48,68.91
+662,19.49,68.86
+662,19.49,68.86
+662,19.51,68.78
+662,19.51,68.78
+662,19.56,68.60
+662,19.65,68.32
+662,25.68,52.27

@@ -1,9 +1,9 @@
-is,662,B,4.35,77.13, Time in seconds =                     4.35,B,  Mop/s total     =                    77.13, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,662,B,4.35,77.15, Time in seconds =                     4.35,B,  Mop/s total     =                    77.15, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,662,B,4.35,77.16, Time in seconds =                     4.35,B,  Mop/s total     =                    77.16, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,662,B,4.35,77.16, Time in seconds =                     4.35,B,  Mop/s total     =                    77.16, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,662,B,4.37,76.72, Time in seconds =                     4.37,B,  Mop/s total     =                    76.72, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,662,B,4.37,76.86, Time in seconds =                     4.37,B,  Mop/s total     =                    76.86, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,662,B,4.38,76.62, Time in seconds =                     4.38,B,  Mop/s total     =                    76.62, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,662,B,5.59,60.00, Time in seconds =                     5.59,B,  Mop/s total     =                    60.00, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,662,B,6.11,54.89, Time in seconds =                     6.11,B,  Mop/s total     =                    54.89, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
+662,4.35,77.13
+662,4.35,77.15
+662,4.35,77.16
+662,4.35,77.16
+662,4.37,76.72
+662,4.37,76.86
+662,4.38,76.62
+662,5.59,60.00
+662,6.11,54.89

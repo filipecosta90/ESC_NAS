@@ -1,9 +1,9 @@
-is,662,A,1.03,81.45, Time in seconds =                     1.03,A,  Mop/s total     =                    81.45, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,A,1.03,81.46, Time in seconds =                     1.03,A,  Mop/s total     =                    81.46, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,A,1.03,81.47, Time in seconds =                     1.03,A,  Mop/s total     =                    81.47, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,A,1.03,81.54, Time in seconds =                     1.03,A,  Mop/s total     =                    81.54, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,A,1.03,81.55, Time in seconds =                     1.03,A,  Mop/s total     =                    81.55, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,A,1.03,81.71, Time in seconds =                     1.03,A,  Mop/s total     =                    81.71, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,A,1.04,80.85, Time in seconds =                     1.04,A,  Mop/s total     =                    80.85, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,A,1.04,80.92, Time in seconds =                     1.04,A,  Mop/s total     =                    80.92, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
-is,662,A,1.04,80.95, Time in seconds =                     1.04,A,  Mop/s total     =                    80.95, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O2
+662,1.03,81.45
+662,1.03,81.46
+662,1.03,81.47
+662,1.03,81.54
+662,1.03,81.55
+662,1.03,81.71
+662,1.04,80.85
+662,1.04,80.92
+662,1.04,80.95

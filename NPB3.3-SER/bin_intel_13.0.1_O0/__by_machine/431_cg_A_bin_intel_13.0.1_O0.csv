@@ -1,10 +1,10 @@
-cg,431,A,1.40,1065.20, Time in seconds =                     1.40,A,  Mop/s total     =                  1065.20, NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-cg,431,A,1.40,1067.65, Time in seconds =                     1.40,A,  Mop/s total     =                  1067.65, NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-cg,431,A,1.49,1001.01, Time in seconds =                     1.49,A,  Mop/s total     =                  1001.01, NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-cg,431,A,1.50,994.47, Time in seconds =                     1.50,A,  Mop/s total     =                   994.47, NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-cg,431,A,1.50,995.71, Time in seconds =                     1.50,A,  Mop/s total     =                   995.71, NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-cg,431,A,1.50,995.81, Time in seconds =                     1.50,A,  Mop/s total     =                   995.81, NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-cg,431,A,1.51,993.23, Time in seconds =                     1.51,A,  Mop/s total     =                   993.23, NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-cg,431,A,1.55,968.52, Time in seconds =                     1.55,A,  Mop/s total     =                   968.52, NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-cg,431,A,1.56,956.66, Time in seconds =                     1.56,A,  Mop/s total     =                   956.66, NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
-cg,431,A,1.57,952.52, Time in seconds =                     1.57,A,  Mop/s total     =                   952.52, NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark,    F77          = ifort,    FFLAGS       = -O ,,
+431,1.40,1065.20
+431,1.40,1067.65
+431,1.49,1001.01
+431,1.50,994.47
+431,1.50,995.71
+431,1.50,995.81
+431,1.51,993.23
+431,1.55,968.52
+431,1.56,956.66
+431,1.57,952.52

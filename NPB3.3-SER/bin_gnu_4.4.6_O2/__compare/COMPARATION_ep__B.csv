@@ -1,4 +1,0 @@
-ep,431,B,73.24,29.32, Time in seconds =                    73.24,B,  Mop/s total     =                    29.32, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O2,,
-ep,641,B,74.66,28.76, Time in seconds =                    74.66,B,  Mop/s total     =                    28.76, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O2,,
-ep,652,B,58.30,36.84, Time in seconds =                    58.30,B,  Mop/s total     =                    36.84, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O2,,
-ep,662,B,80.16,26.79, Time in seconds =                    80.16,B,  Mop/s total     =                    26.79, NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark,    F77          = gfortran,    FFLAGS       = -O -O2,,

@@ -1,9 +1,9 @@
-is,641,C,17.37,77.25, Time in seconds =                    17.37,C,  Mop/s total     =                    77.25, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,C,17.38,77.23, Time in seconds =                    17.38,C,  Mop/s total     =                    77.23, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,C,17.39,77.17, Time in seconds =                    17.39,C,  Mop/s total     =                    77.17, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,C,17.41,77.08, Time in seconds =                    17.41,C,  Mop/s total     =                    77.08, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,C,17.42,77.07, Time in seconds =                    17.42,C,  Mop/s total     =                    77.07, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,C,17.57,76.38, Time in seconds =                    17.57,C,  Mop/s total     =                    76.38, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,C,17.72,75.75, Time in seconds =                    17.72,C,  Mop/s total     =                    75.75, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,C,17.89,75.00, Time in seconds =                    17.89,C,  Mop/s total     =                    75.00, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
-is,641,C,20.97,64.01, Time in seconds =                    20.97,C,  Mop/s total     =                    64.01, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O -O3
+641,17.37,77.25
+641,17.38,77.23
+641,17.39,77.17
+641,17.41,77.08
+641,17.42,77.07
+641,17.57,76.38
+641,17.72,75.75
+641,17.89,75.00
+641,20.97,64.01

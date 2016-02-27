@@ -1,9 +1,9 @@
-is,662,S,0.00,188.43, Time in seconds =                     0.00,S,  Mop/s total     =                   188.43, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
-is,662,S,0.00,188.54, Time in seconds =                     0.00,S,  Mop/s total     =                   188.54, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
-is,662,S,0.00,189.57, Time in seconds =                     0.00,S,  Mop/s total     =                   189.57, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
-is,662,S,0.00,189.68, Time in seconds =                     0.00,S,  Mop/s total     =                   189.68, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
-is,662,S,0.00,191.91, Time in seconds =                     0.00,S,  Mop/s total     =                   191.91, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
-is,662,S,0.00,192.13, Time in seconds =                     0.00,S,  Mop/s total     =                   192.13, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
-is,662,S,0.00,192.24, Time in seconds =                     0.00,S,  Mop/s total     =                   192.24, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
-is,662,S,0.00,192.36, Time in seconds =                     0.00,S,  Mop/s total     =                   192.36, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
-is,662,S,0.00,195.40, Time in seconds =                     0.00,S,  Mop/s total     =                   195.40, NAS Parallel Benchmarks (NPB3.3-SER) - IS Benchmark,,,    CC           = gcc,    CFLAGS       = -O
+662,0.00,188.43
+662,0.00,188.54
+662,0.00,189.57
+662,0.00,189.68
+662,0.00,191.91
+662,0.00,192.13
+662,0.00,192.24
+662,0.00,192.36
+662,0.00,195.40

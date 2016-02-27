@@ -27,7 +27,7 @@ do
   time=`grep 'Time in seconds ' $file`
   time_clean=`echo $time | grep -o '[0-9]*\.[0-9]*'`
 
-  echo "$kernel,$machine_number,$class_clean,$time_clean,$mops_clean,$time,$class_clean, $mops,$benchmark,$f77,$f77_flags,$cc,$cc_flags" >>  $machine_number"_"$kernel"_"$class_clean"_"$BASENAME".csv"
+  echo "$machine_number,$time_clean,$mops_clean" >>  $machine_number"_"$kernel"_"$class_clean"_"$BASENAME".csv"
 done
 
 for file1 in *.csv
