@@ -1,0 +1,118 @@
+[compute-541-1.local:14033] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-541-1.local:14033] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-541-1.local:14033] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-541-1.local:14033] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-541-1.local:14033] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-541-1.local:14033] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-541-1.local:14033] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-541-1.local:14033] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-541-1.local:14033] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-541-1.local:14033] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-541-1.local:14033] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-541-1.local:14033] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-541-1.local:14033] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-541-1.local:14033] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-541-1.local:14033] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-541-1.local:14033] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-541-1.local:14040] PML cm cannot be selected
+[compute-541-1.local:14036] PML cm cannot be selected
+[compute-541-1.local:14042] PML cm cannot be selected
+[compute-541-1.local:14049] PML cm cannot be selected
+[compute-541-1.local:14047] PML cm cannot be selected
+[compute-541-1.local:14050] PML cm cannot be selected
+[compute-541-1.local:14033] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-541-1.local:14033] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[compute-541-1.local:14090] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-541-1.local:14090] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-541-1.local:14090] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-541-1.local:14090] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-541-1.local:14090] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-541-1.local:14090] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-541-1.local:14090] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-541-1.local:14090] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-541-1.local:14090] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-541-1.local:14090] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-541-1.local:14090] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-541-1.local:14090] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-541-1.local:14090] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-541-1.local:14090] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-541-1.local:14090] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-541-1.local:14090] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-541-1.local:14103] PML cm cannot be selected
+[compute-541-1.local:14105] PML cm cannot be selected
+[compute-541-1.local:14101] PML cm cannot be selected
+[compute-541-1.local:14090] 2 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-541-1.local:14090] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370224.search6.di.uminho.pt.SC: line 56: 14032 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-541-1.local:14150] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-541-1.local:14150] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-541-1.local:14150] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-541-1.local:14150] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-541-1.local:14150] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-541-1.local:14150] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-541-1.local:14150] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-541-1.local:14150] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-541-1.local:14150] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-541-1.local:14150] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-541-1.local:14150] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-541-1.local:14150] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-541-1.local:14150] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-541-1.local:14150] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-541-1.local:14150] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-541-1.local:14150] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-541-1.local:14160] PML cm cannot be selected
+[compute-541-1.local:14163] PML cm cannot be selected
+[compute-541-1.local:14166] PML cm cannot be selected
+[compute-541-1.local:14167] PML cm cannot be selected
+[compute-541-1.local:14171] PML cm cannot be selected
+[compute-541-1.local:14173] PML cm cannot be selected
+[compute-541-1.local:14150] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-541-1.local:14150] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370224.search6.di.uminho.pt.SC: line 56: 14089 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-541-1.local:14206] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-541-1.local:14206] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-541-1.local:14206] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-541-1.local:14206] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-541-1.local:14206] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-541-1.local:14206] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-541-1.local:14206] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-541-1.local:14206] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-541-1.local:14206] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-541-1.local:14206] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-541-1.local:14206] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-541-1.local:14206] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-541-1.local:14206] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-541-1.local:14206] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-541-1.local:14206] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-541-1.local:14206] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-541-1.local:14216] PML cm cannot be selected
+[compute-541-1.local:14217] PML cm cannot be selected
+[compute-541-1.local:14214] PML cm cannot be selected
+[compute-541-1.local:14215] PML cm cannot be selected
+[compute-541-1.local:14206] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-541-1.local:14206] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370224.search6.di.uminho.pt.SC: line 56: 14149 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-541-1.local:14266] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-541-1.local:14266] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-541-1.local:14266] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-541-1.local:14266] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-541-1.local:14266] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-541-1.local:14266] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-541-1.local:14266] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-541-1.local:14266] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-541-1.local:14266] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-541-1.local:14266] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-541-1.local:14266] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-541-1.local:14266] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-541-1.local:14266] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-541-1.local:14266] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-541-1.local:14266] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-541-1.local:14266] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-541-1.local:14288] PML cm cannot be selected
+[compute-541-1.local:14279] PML cm cannot be selected
+[compute-541-1.local:14284] PML cm cannot be selected
+[compute-541-1.local:14289] PML cm cannot be selected
+[compute-541-1.local:14275] PML cm cannot be selected
+[compute-541-1.local:14266] 4 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-541-1.local:14266] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370224.search6.di.uminho.pt.SC: line 56: 14205 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null

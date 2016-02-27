@@ -10,19 +10,19 @@
 #  are likely not practical to run in serial. See README.install).
 # No blank lines. 
 # The following example builds serial sample sizes of all benchmarks. 
-mg	S	8
-is	S	8
-ep	S	8
-cg	S	8
-mg	A	8
-is	A	8
-ep	A	8
-cg	A	8
-mg	B	8
-is	B	8
-ep	B	8
-cg	B	8
-mg	C	8
-is	C	8
-ep	C	8
-cg	C	8
+mg	S	16
+is	S	16
+ep	S	16
+cg	S	16
+mg	A	16
+is	A	16
+ep	A	16
+cg	A	16
+mg	B	16
+is	B	16
+ep	B	16
+cg	B	16
+mg	C	16
+is	C	16
+ep	C	16
+cg	C	16

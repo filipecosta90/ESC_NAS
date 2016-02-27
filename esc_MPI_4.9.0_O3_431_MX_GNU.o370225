@@ -1,0 +1,18 @@
+Allocated computing node: compute-641-7
+Running 5 * ppn: 1 nodes
+running cg.A.16
+.. going to run cg.A.16 (dstat 1860)
+1860 killed
+running cg.A.16
+.. going to run cg.A.16 (dstat 1894)
+1894 killed
+running cg.A.16
+.. going to run cg.A.16 (dstat 1928)
+1928 killed
+running cg.A.16
+.. going to run cg.A.16 (dstat 1964)
+1964 killed
+running cg.A.16
+.. going to run cg.A.16 (dstat 1999)
+1999 killed
+Done...

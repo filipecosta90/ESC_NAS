@@ -1,0 +1,97 @@
+[compute-431-1.local:06690] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-1.local:06690] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-1.local:06693] PML cm cannot be selected
+[compute-431-1.local:06701] PML cm cannot be selected
+[compute-431-1.local:06695] PML cm cannot be selected
+[compute-431-1.local:06703] PML cm cannot be selected
+[compute-431-1.local:06704] PML cm cannot be selected
+[compute-431-1.local:06705] PML cm cannot be selected
+[compute-431-1.local:06706] PML cm cannot be selected
+[compute-431-1.local:06707] PML cm cannot be selected
+[compute-431-1.local:06690] 7 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-1.local:06690] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[compute-431-1.local:06745] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-1.local:06745] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-1.local:06753] PML cm cannot be selected
+[compute-431-1.local:06752] PML cm cannot be selected
+[compute-431-1.local:06755] PML cm cannot be selected
+[compute-431-1.local:06759] PML cm cannot be selected
+[compute-431-1.local:06760] PML cm cannot be selected
+[compute-431-1.local:06765] PML cm cannot be selected
+[compute-431-1.local:06745] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-1.local:06745] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370222.search6.di.uminho.pt.SC: line 56:  6689 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-1.local:06801] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-1.local:06801] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-1.local:06811] PML cm cannot be selected
+[compute-431-1.local:06812] PML cm cannot be selected
+[compute-431-1.local:06816] PML cm cannot be selected
+[compute-431-1.local:06817] PML cm cannot be selected
+[compute-431-1.local:06801] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-1.local:06801] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370222.search6.di.uminho.pt.SC: line 56:  6744 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-1.local:06861] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-1.local:06861] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-1.local:06869] PML cm cannot be selected
+[compute-431-1.local:06876] PML cm cannot be selected
+[compute-431-1.local:06871] PML cm cannot be selected
+[compute-431-1.local:06872] PML cm cannot be selected
+[compute-431-1.local:06861] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-1.local:06861] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370222.search6.di.uminho.pt.SC: line 56:  6800 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null

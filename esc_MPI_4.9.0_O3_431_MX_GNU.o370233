@@ -1,0 +1,4 @@
+Allocated computing node: compute-431-1
+Running 5 * ppn: 1 nodes
+running cg.C.16
+.. going to run cg.C.16 (dstat 7723)

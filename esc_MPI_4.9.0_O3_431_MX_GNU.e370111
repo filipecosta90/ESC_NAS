@@ -1,0 +1,1359 @@
+[compute-431-4.local:30222] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30222] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30222] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30222] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30222] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30222] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30222] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30222] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:30258] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:30258] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30258] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30258] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30258] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30258] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30258] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30258] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30221 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30294] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30294] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30294] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30294] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30294] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30294] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30294] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30294] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30257 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30330] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30330] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30330] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30330] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30330] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30330] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30330] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30330] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30293 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30366] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30366] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30366] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30366] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30366] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30366] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30366] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30366] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30329 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30403] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30403] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30403] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30403] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30403] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30403] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30403] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30403] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30365 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30439] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30439] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30439] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30439] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30439] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30439] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30439] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30439] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30402 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30475] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30475] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30475] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30475] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30475] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30475] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30475] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30475] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30438 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30511] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:30511] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30511] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30511] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30511] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30511] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30511] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30511] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30474 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30547] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30547] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30547] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30547] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30547] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30547] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30547] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30547] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30510 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30583] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:30583] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30583] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30583] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30583] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30583] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30583] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30583] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30546 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30620] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30620] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30620] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30620] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30620] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30620] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30620] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30620] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30582 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30656] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30656] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30656] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30656] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30656] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30656] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30656] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30656] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30619 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30692] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30692] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30692] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30692] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30692] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30692] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30692] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30692] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30655 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30728] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:30728] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30728] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30728] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30728] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30728] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30728] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30728] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30691 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30764] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30764] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30764] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30764] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30764] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30764] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30764] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30764] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30727 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30800] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:30800] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30800] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30800] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30800] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30800] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30800] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30800] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30763 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30836] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30836] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30836] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30836] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30836] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30836] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30836] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30836] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30799 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30874] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30874] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30874] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30874] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30874] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30874] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30874] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30874] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30835 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30910] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30910] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30910] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30910] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30910] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30910] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30910] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30910] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30873 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30946] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30946] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30946] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30946] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30946] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30946] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30946] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30946] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30909 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:30982] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:30982] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:30982] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:30982] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:30982] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:30982] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:30982] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:30982] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30945 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31018] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31018] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31018] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31018] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31018] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31018] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31018] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31018] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 30981 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31054] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31054] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31054] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31054] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31054] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31054] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31054] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31054] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31017 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31090] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31090] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31090] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31090] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31090] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31090] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31090] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31090] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31053 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31127] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31127] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31127] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31127] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31127] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31127] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31127] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31127] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31089 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31163] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31163] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31163] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31163] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31163] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31163] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31163] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31163] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31126 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31199] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31199] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31199] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31199] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31199] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31199] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31199] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31199] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31162 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31235] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31235] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31235] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31235] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31235] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31235] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31235] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31235] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31198 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31271] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31271] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31271] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31271] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31271] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31271] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31271] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31271] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31234 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31307] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31307] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31307] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31307] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31307] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31307] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31307] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31307] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31270 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31345] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31345] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31345] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31345] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31345] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31345] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31345] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31345] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31306 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31381] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:31381] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31381] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31381] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31381] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31381] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31381] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31381] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31344 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31417] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31417] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31417] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31417] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31417] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31417] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31417] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31417] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31380 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31454] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31454] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31454] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31454] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31454] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31454] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31454] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31454] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31416 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31490] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31490] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31490] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31490] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:31490] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31490] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31490] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31490] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31453 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31526] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31526] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31526] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31526] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31526] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31526] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31526] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31526] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31489 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31562] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31562] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31562] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31562] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31562] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31562] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31562] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31562] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31525 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31600] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31600] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31600] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31600] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31600] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31600] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31600] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31600] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31561 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31636] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31636] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31636] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31636] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:31636] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31636] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31636] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31636] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31599 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31672] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31672] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31672] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31672] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31672] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31672] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31672] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31672] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31635 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31708] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31708] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31708] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31708] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31708] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31708] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31708] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31708] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31671 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31744] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31744] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31744] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31744] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31744] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31744] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31744] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31744] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31707 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31780] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31780] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31780] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31780] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31780] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31780] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31780] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31780] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31743 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31816] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31816] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31816] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31816] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31816] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31816] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31816] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31816] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31779 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31852] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31852] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31852] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31852] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31852] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31852] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:31852] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31852] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31815 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31888] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31888] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31888] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31888] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31888] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31888] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31888] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31888] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31851 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31924] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31924] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31924] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31924] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31924] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31924] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31924] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:31924] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31887 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31960] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:31960] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31960] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31960] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31960] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31960] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31960] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31960] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31923 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:31997] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:31997] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:31997] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:31997] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:31997] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:31997] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:31997] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:31997] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31959 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32033] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:32033] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32033] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32033] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32033] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32033] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32033] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32033] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 31996 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32069] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32069] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32069] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32069] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32069] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32069] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32069] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32069] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32032 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32105] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32105] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32105] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32105] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32105] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32105] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32105] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32105] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32068 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32141] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:32141] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32141] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32141] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32141] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32141] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32141] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32141] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32104 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32178] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32178] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32178] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32178] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32178] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32178] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32178] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32178] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32140 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32214] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32214] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32214] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32214] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32214] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32214] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32214] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32214] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32177 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32250] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:32250] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32250] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32250] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32250] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32250] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32250] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32250] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32213 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32286] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32286] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32286] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32286] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32286] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32286] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32286] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32286] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32249 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32323] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:32323] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32323] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32323] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32323] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32323] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32323] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32323] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32285 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32360] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32360] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32360] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32360] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32360] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32360] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32360] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32360] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32322 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32396] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32396] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32396] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32396] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:32396] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32396] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32396] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32396] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32359 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32432] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32432] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32432] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32432] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32432] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32432] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32432] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32432] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32395 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32468] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:32468] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32468] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32468] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32468] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32468] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32468] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32468] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32431 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32504] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:32504] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32504] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32504] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32504] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32504] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32504] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32504] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32467 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32540] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32540] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32540] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32540] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32540] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32540] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32540] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32540] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32503 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32576] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32576] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32576] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32576] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32576] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32576] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32576] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32576] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32539 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32612] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32612] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32612] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32612] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32612] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32612] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32612] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32612] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32575 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32648] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32648] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32648] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32648] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32648] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32648] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32648] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32648] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32611 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32684] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32684] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32684] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32684] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32684] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32684] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32684] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32684] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32647 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32721] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32721] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32721] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32721] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32721] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32721] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32721] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32721] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32683 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:32757] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:32757] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:32757] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:32757] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:32757] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:32757] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:32757] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:32757] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32720 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:00363] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:00363] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:00363] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:00363] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:00363] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:00363] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:00363] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:00363] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55: 32756 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:00400] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:00400] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:00400] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:00400] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:00400] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:00400] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:00400] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:00400] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55:   362 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:00436] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:00436] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:00436] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:00436] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:00436] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:00436] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:00436] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:00436] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55:   399 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:00472] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:00472] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:00472] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:00472] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:00472] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:00472] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:00472] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:00472] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55:   435 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:00509] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:00509] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:00509] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:00509] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:00509] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:00509] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:00509] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:00509] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55:   471 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:00545] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:00545] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:00545] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:00545] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:00545] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:00545] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:00545] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:00545] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55:   508 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:00581] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:00581] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:00581] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:00581] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:00581] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:00581] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+[compute-431-4.local:00581] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:00581] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55:   544 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:00623] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:00623] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:00623] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:00623] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:00623] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:00623] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:00623] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:00623] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55:   580 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:00684] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../..][../../../../../..]
+[compute-431-4.local:00684] MCW rank 1 bound to socket 1[core 6[hwt 0-1]]: [../../../../../..][BB/../../../../..]
+[compute-431-4.local:00684] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../..][../../../../../..]
+[compute-431-4.local:00684] MCW rank 3 bound to socket 1[core 7[hwt 0-1]]: [../../../../../..][../BB/../../../..]
+[compute-431-4.local:00684] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../..][../../../../../..]
+[compute-431-4.local:00684] MCW rank 5 bound to socket 1[core 8[hwt 0-1]]: [../../../../../..][../../BB/../../..]
+[compute-431-4.local:00684] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../..][../../../../../..]
+[compute-431-4.local:00684] MCW rank 7 bound to socket 1[core 9[hwt 0-1]]: [../../../../../..][../../../BB/../..]
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370111.search6.di.uminho.pt.SC: line 55:   622 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null

@@ -1,0 +1,1670 @@
+[compute-431-4.local:06833] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:06833] MCW rank 6 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:06847] PML cm cannot be selected
+[compute-431-4.local:06840] PML cm cannot be selected
+[compute-431-4.local:06844] PML cm cannot be selected
+[compute-431-4.local:06837] PML cm cannot be selected
+[compute-431-4.local:06845] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:06849] PML cm cannot be selected
+[compute-431-4.local:06850] PML cm cannot be selected
+[compute-431-4.local:06833] 6 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:06833] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[compute-431-4.local:06886] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:06886] MCW rank 6 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:06896] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:06899] PML cm cannot be selected
+[compute-431-4.local:06898] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:06900] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:06886] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:06886] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  6832 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:06946] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:06946] MCW rank 14 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:06958] PML cm cannot be selected
+[compute-431-4.local:06954] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:06957] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:06959] PML cm cannot be selected
+[compute-431-4.local:06960] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:06965] PML cm cannot be selected
+[compute-431-4.local:06946] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:06946] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  6885 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07002] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07002] MCW rank 6 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07011] PML cm cannot be selected
+[compute-431-4.local:07014] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07013] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07016] PML cm cannot be selected
+[compute-431-4.local:07002] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07002] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  6945 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07062] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07062] MCW rank 15 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07072] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07073] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07075] PML cm cannot be selected
+[compute-431-4.local:07076] PML cm cannot be selected
+[compute-431-4.local:07077] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07079] PML cm cannot be selected
+[compute-431-4.local:07062] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07062] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7001 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07119] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07119] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07126] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07134] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07132] PML cm cannot be selected
+[compute-431-4.local:07119] 2 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07119] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7061 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07177] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07177] MCW rank 2 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07188] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07187] PML cm cannot be selected
+[compute-431-4.local:07189] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07190] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07193] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07196] PML cm cannot be selected
+[compute-431-4.local:07177] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07177] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7118 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07234] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07234] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07246] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07244] PML cm cannot be selected
+[compute-431-4.local:07245] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07250] PML cm cannot be selected
+[compute-431-4.local:07252] PML cm cannot be selected
+[compute-431-4.local:07234] 4 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07234] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7176 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07292] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07292] MCW rank 6 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07302] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07303] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07304] PML cm cannot be selected
+[compute-431-4.local:07306] PML cm cannot be selected
+[compute-431-4.local:07307] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07311] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07292] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07292] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7233 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07348] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07348] MCW rank 2 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07360] PML cm cannot be selected
+[compute-431-4.local:07358] PML cm cannot be selected
+[compute-431-4.local:07361] PML cm cannot be selected
+[compute-431-4.local:07363] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07359] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07368] PML cm cannot be selected
+[compute-431-4.local:07348] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07348] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7291 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07404] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07404] MCW rank 14 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07415] PML cm cannot be selected
+[compute-431-4.local:07413] PML cm cannot be selected
+[compute-431-4.local:07420] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07424] PML cm cannot be selected
+[compute-431-4.local:07426] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07419] PML cm cannot be selected
+[compute-431-4.local:07404] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07404] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7347 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07460] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07460] MCW rank 6 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07468] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07470] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07474] PML cm cannot be selected
+[compute-431-4.local:07476] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07460] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07460] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7403 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07520] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07520] MCW rank 15 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07531] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07535] PML cm cannot be selected
+[compute-431-4.local:07537] PML cm cannot be selected
+[compute-431-4.local:07540] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07520] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07520] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7459 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07580] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07580] MCW rank 8 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07589] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07591] PML cm cannot be selected
+[compute-431-4.local:07592] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07597] PML cm cannot be selected
+[compute-431-4.local:07580] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07580] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7519 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07640] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07640] MCW rank 6 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07650] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07651] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07652] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07640] 2 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07640] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7579 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07702] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07702] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07715] PML cm cannot be selected
+[compute-431-4.local:07714] PML cm cannot be selected
+[compute-431-4.local:07713] PML cm cannot be selected
+[compute-431-4.local:07716] PML cm cannot be selected
+[compute-431-4.local:07717] PML cm cannot be selected
+[compute-431-4.local:07718] PML cm cannot be selected
+[compute-431-4.local:07721] PML cm cannot be selected
+[compute-431-4.local:07710] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07702] 7 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07702] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7639 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07754] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07754] MCW rank 4 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07760] PML cm cannot be selected
+[compute-431-4.local:07766] PML cm cannot be selected
+[compute-431-4.local:07765] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07774] PML cm cannot be selected
+[compute-431-4.local:07754] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07754] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7701 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07812] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07812] MCW rank 4 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07823] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07822] PML cm cannot be selected
+[compute-431-4.local:07824] PML cm cannot be selected
+[compute-431-4.local:07825] PML cm cannot be selected
+[compute-431-4.local:07826] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07812] 4 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07812] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7753 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07870] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07870] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07881] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07878] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07885] PML cm cannot be selected
+[compute-431-4.local:07888] PML cm cannot be selected
+[compute-431-4.local:07870] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07870] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7811 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07930] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07930] MCW rank 14 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07941] PML cm cannot be selected
+[compute-431-4.local:07940] PML cm cannot be selected
+[compute-431-4.local:07942] PML cm cannot be selected
+[compute-431-4.local:07943] PML cm cannot be selected
+[compute-431-4.local:07944] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07949] PML cm cannot be selected
+[compute-431-4.local:07951] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07930] 6 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07930] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7869 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:07984] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:07984] MCW rank 2 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07997] PML cm cannot be selected
+[compute-431-4.local:07994] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:07995] PML cm cannot be selected
+[compute-431-4.local:07996] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08000] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:07984] 4 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:07984] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7929 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08042] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08042] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08051] PML cm cannot be selected
+[compute-431-4.local:08052] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08054] PML cm cannot be selected
+[compute-431-4.local:08055] PML cm cannot be selected
+[compute-431-4.local:08056] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08042] 4 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08042] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  7983 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08100] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08100] MCW rank 15 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08111] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08107] PML cm cannot be selected
+[compute-431-4.local:08110] PML cm cannot be selected
+[compute-431-4.local:08113] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08100] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08100] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8041 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08160] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08160] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08172] PML cm cannot be selected
+[compute-431-4.local:08170] PML cm cannot be selected
+[compute-431-4.local:08171] PML cm cannot be selected
+[compute-431-4.local:08180] PML cm cannot be selected
+[compute-431-4.local:08173] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08174] PML cm cannot be selected
+[compute-431-4.local:08178] PML cm cannot be selected
+[compute-431-4.local:08160] 6 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08160] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8099 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08214] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08214] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08226] PML cm cannot be selected
+[compute-431-4.local:08223] PML cm cannot be selected
+[compute-431-4.local:08225] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08227] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08231] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08214] 4 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08214] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8159 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08272] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08272] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08282] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08283] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08288] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08291] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08272] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08272] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8213 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08331] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08331] MCW rank 6 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08341] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08342] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08339] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08346] PML cm cannot be selected
+[compute-431-4.local:08349] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08331] 4 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08331] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8271 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08389] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08389] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08398] PML cm cannot be selected
+[compute-431-4.local:08400] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08401] PML cm cannot be selected
+[compute-431-4.local:08403] PML cm cannot be selected
+[compute-431-4.local:08405] PML cm cannot be selected
+[compute-431-4.local:08407] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08410] PML cm cannot be selected
+[compute-431-4.local:08389] 6 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08389] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8330 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08441] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08441] MCW rank 15 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08447] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08455] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08452] PML cm cannot be selected
+[compute-431-4.local:08441] 2 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08441] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8388 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08503] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08503] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08512] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08516] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08514] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08517] PML cm cannot be selected
+[compute-431-4.local:08518] PML cm cannot be selected
+[compute-431-4.local:08521] PML cm cannot be selected
+[compute-431-4.local:08503] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08503] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8440 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08559] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08559] MCW rank 15 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08570] PML cm cannot be selected
+[compute-431-4.local:08567] PML cm cannot be selected
+[compute-431-4.local:08573] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08571] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08578] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08559] 4 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08559] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8502 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08617] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08617] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08627] PML cm cannot be selected
+[compute-431-4.local:08630] PML cm cannot be selected
+[compute-431-4.local:08628] PML cm cannot be selected
+[compute-431-4.local:08629] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08631] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08634] PML cm cannot be selected
+[compute-431-4.local:08636] PML cm cannot be selected
+[compute-431-4.local:08617] 6 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08617] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8558 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08672] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08672] MCW rank 6 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08685] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08682] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08681] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08672] 2 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08672] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8616 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08734] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:08734] MCW rank 4 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08743] PML cm cannot be selected
+[compute-431-4.local:08746] PML cm cannot be selected
+[compute-431-4.local:08748] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08745] PML cm cannot be selected
+[compute-431-4.local:08749] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08734] 4 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08734] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8671 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08792] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08792] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08803] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08807] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08800] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08792] 2 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08792] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8733 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08854] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08854] MCW rank 2 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08863] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08865] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08867] PML cm cannot be selected
+[compute-431-4.local:08868] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:08870] PML cm cannot be selected
+[compute-431-4.local:08873] PML cm cannot be selected
+[compute-431-4.local:08854] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08854] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8791 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08910] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08910] MCW rank 6 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08920] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08924] PML cm cannot be selected
+[compute-431-4.local:08925] PML cm cannot be selected
+[compute-431-4.local:08927] PML cm cannot be selected
+[compute-431-4.local:08931] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08921] PML cm cannot be selected
+[compute-431-4.local:08910] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08910] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8853 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:08966] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:08966] MCW rank 6 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08976] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08979] PML cm cannot be selected
+[compute-431-4.local:08980] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:08986] PML cm cannot be selected
+[compute-431-4.local:08966] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:08966] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8909 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:09026] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:09026] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09036] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09037] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09040] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09026] 2 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:09026] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  8965 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:09086] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:09086] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09097] PML cm cannot be selected
+[compute-431-4.local:09096] PML cm cannot be selected
+[compute-431-4.local:09099] PML cm cannot be selected
+[compute-431-4.local:09098] PML cm cannot be selected
+[compute-431-4.local:09102] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09101] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09086] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:09086] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  9025 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:09142] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:09142] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09153] PML cm cannot be selected
+[compute-431-4.local:09156] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09154] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09161] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09142] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:09142] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  9085 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:09204] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:09204] MCW rank 3 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09213] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09217] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:09221] PML cm cannot be selected
+[compute-431-4.local:09223] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09215] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:09204] 4 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:09204] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  9141 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:09262] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:09262] MCW rank 15 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09275] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:09273] PML cm cannot be selected
+[compute-431-4.local:09274] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:09271] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:09277] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:09281] PML cm cannot be selected
+[compute-431-4.local:09282] PML cm cannot be selected
+[compute-431-4.local:09262] 6 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:09262] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  9203 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:09316] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:09316] MCW rank 2 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+[compute-431-4.local:09327] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09326] PML cm cannot be selected
+[compute-431-4.local:09331] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09328] PML cm cannot be selected
+[compute-431-4.local:09332] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:09335] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09316] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:09316] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  9261 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:09372] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:09372] MCW rank 4 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09382] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  9315 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:09438] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:09438] MCW rank 6 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09446] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09456] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09449] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:09438] 2 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:09438] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  9371 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:09500] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 2 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:09500] MCW rank 15 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09511] PML cm cannot be selected
+[compute-431-4.local:09509] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:09512] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:09513] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09519] PML cm cannot be selected
+[compute-431-4.local:09520] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09500] 5 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:09500] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  9437 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+[compute-431-4.local:09556] MCW rank 3 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 4 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 5 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 6 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 7 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 8 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 9 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 10 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 11 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 12 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 13 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 14 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 15 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 0 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 1 is not bound (or bound to all available processors)
+[compute-431-4.local:09556] MCW rank 2 is not bound (or bound to all available processors)
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09566] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09567] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09569] PML cm cannot be selected
+warning:regcache incompatible with malloc
+[compute-431-4.local:09572] PML cm cannot be selected
+warning:regcache incompatible with malloc
+warning:regcache incompatible with malloc
+[compute-431-4.local:09556] 3 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-431-4.local:09556] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/370188.search6.di.uminho.pt.SC: line 55:  9499 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null

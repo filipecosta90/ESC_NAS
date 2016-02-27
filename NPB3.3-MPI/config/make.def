@@ -36,23 +36,23 @@ FLINK	= $(MPIF77)
 #---------------------------------------------------------------------------
 # These macros are passed to the linker to help link with MPI correctly
 #---------------------------------------------------------------------------
-FMPI_LIB  = -L/usr/local/lib -lmpi
+FMPI_LIB  = -lmpi -lgfortran
 
 #---------------------------------------------------------------------------
 # These macros are passed to the compiler to help find 'mpif.h'
 #---------------------------------------------------------------------------
-FMPI_INC = -I/usr/local/include -I/share/apps/openmpi/1.8.2/gnu/mx/include -pthread -I/share/apps/openmpi/1.8.2/gnu/mx/lib
+FMPI_INC = 
 
 #---------------------------------------------------------------------------
 # Global *compile time* flags for Fortran programs
 #---------------------------------------------------------------------------
-FFLAGS	= -O -O3 -I/share/apps/openmpi/1.8.2/gnu/mx/include -pthread -I/share/apps/openmpi/1.8.2/gnu/mx/lib
+FFLAGS	= -O3 -lgfortran
 
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 
 # size usually go here. 
 #---------------------------------------------------------------------------
-FLINKFLAGS = -O -O3 -pthread -I/share/apps/openmpi/1.8.2/gnu/mx/lib -Wl,-rpath -Wl,/share/apps/openmpi/1.8.2/gnu/mx/lib -Wl,--enable-new-dtags -L/share/apps/openmpi/1.8.2/gnu/mx/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi
+FLINKFLAGS = -O3 -lgfortran
 
 #---------------------------------------------------------------------------
 # Parallel C:
@@ -81,25 +81,24 @@ CLINK	= $(MPICC)
 #---------------------------------------------------------------------------
 # These macros are passed to the linker to help link with MPI correctly
 #---------------------------------------------------------------------------
-CMPI_LIB  = -L/usr/local/lib -lmpi
+CMPI_LIB  = -lmpi
 
 #---------------------------------------------------------------------------
 # These macros are passed to the compiler to help find 'mpi.h'
 #---------------------------------------------------------------------------
-CMPI_INC = -I/usr/local/include
+CMPI_INC = 
 
 #---------------------------------------------------------------------------
 # Global *compile time* flags for C programs
 #---------------------------------------------------------------------------
-CFLAGS	= -O -O3 -I/share/apps/openmpi/1.8.2/gnu/mx/include -pthread
+CFLAGS	= -O3
 
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 
 # size usually go here. 
 #---------------------------------------------------------------------------
-CLINKFLAGS = -O -O3 -pthread -Wl,-rpath -Wl,/share/apps/openmpi/1.8.2/gnu/mx/lib -Wl,--enable-new-dtags -L/share/apps/openmpi/1.8.2/gnu/mx/lib -lmpi
 
-
+CLINKFLAGS = -O3
 #---------------------------------------------------------------------------
 # MPI dummy library:
 #
@@ -118,7 +117,7 @@ CLINKFLAGS = -O -O3 -pthread -Wl,-rpath -Wl,/share/apps/openmpi/1.8.2/gnu/mx/lib
 # this compiler go here also; typically there are few flags required; hence 
 # there are no separate macros provided for such flags.
 #---------------------------------------------------------------------------
-CC	= cc -g -I/share/apps/openmpi/1.8.2/gnu/mx/include -pthread
+CC	= cc -g 
 
 
 #---------------------------------------------------------------------------

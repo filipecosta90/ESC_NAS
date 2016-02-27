@@ -1,0 +1,5 @@
+/var/spool/torque/mom_priv/jobs/370199.search6.di.uminho.pt.SC: line 56: 32562 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+/var/spool/torque/mom_priv/jobs/370199.search6.di.uminho.pt.SC: line 56: 32567 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+/var/spool/torque/mom_priv/jobs/370199.search6.di.uminho.pt.SC: line 56: 32572 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+/var/spool/torque/mom_priv/jobs/370199.search6.di.uminho.pt.SC: line 56: 32576 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
+/var/spool/torque/mom_priv/jobs/370199.search6.di.uminho.pt.SC: line 56: 32580 Terminated              /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null
