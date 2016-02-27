@@ -28,7 +28,7 @@
 #          Specify the number of nodes requested and the
 #          number of processors per node. 
 
-#PBS -l nodes=4:r641:ppn=32
+#PBS -l nodes=compute-641-10:ppn=32+compute-641-11:ppn=32
 
 cd ESC_NAS/NPB3.3.1/NPB3.3-MPI
 
@@ -57,7 +57,7 @@ do
 	echo "running $execc"
         /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null &
 	echo ".. going to run $execc (dstat $!)"
-mpirun -np 16 --report-bindings --mca mtl mx --mca pml cm  ./$execc  > MPI_"$execc"_"$seq_num"_"$node_info"_MYRI.txt
+mpirun -np 16 --hostfile hosts_file_641 --report-bindings --mca mtl mx --mca pml cm  ./$execc  > MPI_"$execc"_"$seq_num"_"$node_info"_MYRI.txt
 	sleep 5
 	kill $!
 	echo "$! killed"

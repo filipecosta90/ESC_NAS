@@ -10,7 +10,7 @@
 #          after the first executable statement are ignored.
 
 #PBS -N MPI_GNU_641_MX_32
-#PBS -l walltime=00:90:00
+#PBS -l walltime=00:60:00
 #PBS -q mei
 
 #          PBS can send informative email messages to you about the
@@ -28,7 +28,7 @@
 #          Specify the number of nodes requested and the
 #          number of processors per node. 
 
-#PBS -l nodes=4:r641:ppn=32
+#PBS -l nodes=compute-641-10:ppn=32+compute-641-11:ppn=32+compute-641-12:ppn=32+compute-641-14:ppn=32
 
 cd ESC_NAS/NPB3.3.1/NPB3.3-MPI
 
@@ -57,7 +57,7 @@ do
 	echo "running $execc"
         /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null &
 	echo ".. going to run $execc (dstat $!)"
-mpirun -np 32 --report-bindings --mca mtl mx --mca pml cm  ./$execc  > MPI_"$execc"_"$seq_num"_"$node_info"_MYRI.txt
+mpirun -np 32 --hostfile hosts_file_641 --report-bindings --mca mtl mx --mca pml cm  ./$execc  > MPI_"$execc"_"$seq_num"_"$node_info"_MYRI.txt
 	sleep 5
 	kill $!
 	echo "$! killed"
