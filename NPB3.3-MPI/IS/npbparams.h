@@ -1,5 +1,5 @@
 #define CLASS 'C'
-#define NUM_PROCS 16
+#define NUM_PROCS 32
 /*
    This file is generated automatically by the setparams utility.
    It sets the number of processors and the class of the NPB

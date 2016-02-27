@@ -1,0 +1,5 @@
+mg,641,C,8,8,8.06,19310.56, Time in seconds =                     8.06,C,  Mop/s total     =                 19310.56,,    MPIF77       = mpif77,    FFLAGS       = -O -O3,,    FLINKFLAGS   = -O -O3
+mg,641,C,8,8,8.07,19285.08, Time in seconds =                     8.07,C,  Mop/s total     =                 19285.08,,    MPIF77       = mpif77,    FFLAGS       = -O -O3,,    FLINKFLAGS   = -O -O3
+mg,641,C,8,8,8.07,19289.40, Time in seconds =                     8.07,C,  Mop/s total     =                 19289.40,,    MPIF77       = mpif77,    FFLAGS       = -O -O3,,    FLINKFLAGS   = -O -O3
+mg,641,C,8,8,8.07,19293.28, Time in seconds =                     8.07,C,  Mop/s total     =                 19293.28,,    MPIF77       = mpif77,    FFLAGS       = -O -O3,,    FLINKFLAGS   = -O -O3
+mg,641,C,8,8,8.08,19263.22, Time in seconds =                     8.08,C,  Mop/s total     =                 19263.22,,    MPIF77       = mpif77,    FFLAGS       = -O -O3,,    FLINKFLAGS   = -O -O3
