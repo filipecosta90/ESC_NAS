@@ -34,7 +34,7 @@ mops_ep_c = ep_c ( :, [2]);
 mops_ep_s = ep_s ( :, [2]); 
 mops_mg_a = mg_a ( :, [2]); 
 mops_mg_b = mg_b ( :, [2]); 
-%mops_mg_c = mg_c ( :, [3]); 
+mops_mg_c = mg_c ( :, [2]); 
 mops_mg_s = mg_s ( :, [2]); 
 
 bpcombined = [mops_mg_s(:), mops_mg_a(:), mops_mg_b(:) , mops_mg_c(:) ];

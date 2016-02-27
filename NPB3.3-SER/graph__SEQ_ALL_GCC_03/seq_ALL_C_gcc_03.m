@@ -34,20 +34,18 @@ mops_ep_c = ep_c ( :, [2]);
 mops_ep_s = ep_s ( :, [2]); 
 mops_mg_a = mg_a ( :, [2]); 
 mops_mg_b = mg_b ( :, [2]); 
-mops_mg_c = mg_c ( :, [3]); 
+mops_mg_c = mg_c ( :, [2]); 
 mops_mg_s = mg_s ( :, [2]); 
 
 bpcombined = [mops_cg_c(:), mops_is_c(:), mops_ep_c(:) , mops_mg_c(:) ];
 hb = bar(x, bpcombined, 'grouped')
 bg = [1 1 1; 0 0 0]
-cores = distinguishable_colors(4,bg)
+cores = distinguishable_colors(8,bg)
 figure(1)
-set(hb(1), 'FaceColor',cores(1,:))
-set(hb(2), 'FaceColor',cores(2,:))
-set(hb(3), 'FaceColor',cores(3,:))
-set(hb(4), 'FaceColor',cores(4,:))
-
-
+set(hb(1), 'FaceColor',cores(5,:))
+set(hb(2), 'FaceColor',cores(6,:))
+set(hb(3), 'FaceColor',cores(7,:))
+set(hb(4), 'FaceColor',cores(8,:))
 
 l = legend('cg - C','is - C','ep - C', 'mg - C' );
 
