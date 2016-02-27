@@ -1,0 +1,5 @@
+ep,431,C,8,8,43.19,198.91, Time in seconds =                    43.19,C,  Mop/s total     =                   198.91,,    MPIF77       = mpif77,    FFLAGS       = -O3 -lgfortran,,    FLINKFLAGS   = -O3 -lgfortran
+ep,431,C,8,8,43.24,198.67, Time in seconds =                    43.24,C,  Mop/s total     =                   198.67,,    MPIF77       = mpif77,    FFLAGS       = -O3 -lgfortran,,    FLINKFLAGS   = -O3 -lgfortran
+ep,431,C,8,8,43.25,198.62, Time in seconds =                    43.25,C,  Mop/s total     =                   198.62,,    MPIF77       = mpif77,    FFLAGS       = -O3 -lgfortran,,    FLINKFLAGS   = -O3 -lgfortran
+ep,431,C,8,8,43.25,198.63, Time in seconds =                    43.25,C,  Mop/s total     =                   198.63,,    MPIF77       = mpif77,    FFLAGS       = -O3 -lgfortran,,    FLINKFLAGS   = -O3 -lgfortran
+ep,431,C,8,8,43.32,198.28, Time in seconds =                    43.32,C,  Mop/s total     =                   198.28,,    MPIF77       = mpif77,    FFLAGS       = -O3 -lgfortran,,    FLINKFLAGS   = -O3 -lgfortran
