@@ -1,5 +1,4 @@
-  FigHandle = figure;
-  set(FigHandle, 'Position', [0, 0, 640, 480]);
+ 
 
 cg_c_431_42 = csvread('COMPARATION_431_cg__C__bin_gnu_4.4.6_O2.csv');
 ep_c_431_42 = csvread('COMPARATION_431_ep__C__bin_gnu_4.4.6_O2.csv');
@@ -114,35 +113,48 @@ tempo_cg_c_652_92 = cg_c_652_92 ( :, [2]);
 threads_cg_c_662_92 = cg_c_662_92 ( :, [1]); 
 tempo_cg_c_662_92 = cg_c_662_92 ( :, [2]); 
 
-%446 03
-threads_cg_c_431_93 = cg_c_431_93 ( :, [1]); 
-tempo_cg_c_431_93 = cg_c_431_93 ( :, [2]); 
-threads_cg_c_641_93 = cg_c_641_93 ( :, [1]); 
-tempo_cg_c_641_93 = cg_c_641_93 ( :, [2]); 
-threads_cg_c_652_93 = cg_c_652_93 ( :, [1]); 
-tempo_cg_c_652_93 = cg_c_652_93 ( :, [2]); 
-threads_cg_c_662_93 = cg_c_662_93 ( :, [1]); 
-tempo_cg_c_662_93 = cg_c_662_93 ( :, [2]); 
+
+
+%490 03
+threads_mg_c_431_93 = mg_c_431_93 ( :, [1]); 
+tempo_mg_c_431_93 = mg_c_431_93 ( :, [2]);
+tempo_mg_c_431_93 = ( tempo_mg_c_431_93 (1 , : ) ./ tempo_mg_c_431_93  ) - 1;
+
+threads_mg_c_641_93 = mg_c_641_93 ( :, [1]); 
+tempo_mg_c_641_93 = mg_c_641_93 ( :, [2]); 
+tempo_mg_c_641_93 = ( tempo_mg_c_641_93 (1 , : ) ./ tempo_mg_c_641_93  ) - 1;
+
+threads_mg_c_652_93 = mg_c_652_93 ( :, [1]); 
+tempo_mg_c_652_93 = mg_c_652_93 ( :, [2]); 
+tempo_mg_c_652_93 = ( tempo_mg_c_652_93 (1 , : ) ./ tempo_mg_c_652_93  ) - 1;
+
+threads_mg_c_662_93 = mg_c_662_93 ( :, [1]); 
+tempo_mg_c_662_93 = mg_c_662_93 ( :, [2]); 
+tempo_mg_c_662_93 = ( tempo_mg_c_662_93 (1 , : ) ./ tempo_mg_c_662_93  ) - 1;
 
 
 
 bg = [1 1 1; 0 0 0];
 cores = distinguishable_colors(100,bg);
 
-loglog(threads_cg_c_431_93,tempo_cg_c_431_93,'ro--','Color', cores(1,:),'MarkerSize', 12);
+plot(threads_mg_c_431_93,tempo_mg_c_431_93,'ro--','Color', cores(1,:),'MarkerSize', 12);
 hold on;
-loglog(threads_cg_c_641_93,tempo_cg_c_641_93,'r+--','Color', cores(2,:),'MarkerSize', 12);
+plot(threads_mg_c_641_93,tempo_mg_c_641_93,'r+--','Color', cores(2,:),'MarkerSize', 12);
 hold on;
-loglog(threads_cg_c_652_93,tempo_cg_c_652_93,'r*--','Color', cores(3,:),'MarkerSize', 12);
+plot(threads_mg_c_652_93,tempo_mg_c_652_93,'r*--','Color', cores(3,:),'MarkerSize', 12);
 hold on;
-loglog(threads_cg_c_662_93,tempo_cg_c_662_93,'rx--','Color', cores(4,:),'MarkerSize', 12);
+plot(threads_mg_c_662_93,tempo_mg_c_662_93,'rx--','Color', cores(4,:),'MarkerSize', 12);
 hold on;
 %%%%%
+%set(gca,'xscale','log');
+%set(gca,'yscale','log');
 
 
 grid on;
-set(gca, 'XTick', [1 2 4 8 12 16 24 32 40 44 52 ]);
-xlim([1,52]) ;
+set(gca, 'XTick', [1 2 4 8 12 16 24 32 40 44 48 52 ]);
+xlim([1 52]) ;
+ylim([0 44]) ;
+
 
 set(gca,'YTickLabel',num2str(get(gca,'YTick').'));
 
@@ -156,13 +168,14 @@ l = legend('431 - gcc 4.9.0 -O3','641 - gcc 4.9.0 -O3' , '652 - gcc 4.9.0 -O3', 
 
 
 set(l,'FontSize',12);
-ylabel('Tempo (segundos)');
+ylabel('Ganho');
 
 xlabel('Num. Threads OpenMP');
-t = title({'Rela\c{c}\~ao entre Tempo Total em segundos para o kernel OMP - CG','Classe de dados C para compilador gcc 4.9.0 com flags de compila\c{c}\~ao -O3'},'interpreter','latex')
+t = title({'Rela\c{c}\~ao de Ganho para o kernel OMP - MG','Classe de dados C para compilador gcc 4.9.0 com flags de compila\c{c}\~ao -O3'},'interpreter','latex')
 
 set(t,'FontSize',24);
 set(gca,'fontsize',12);
+
 
 
 
