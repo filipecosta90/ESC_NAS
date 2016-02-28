@@ -1,12 +1,12 @@
-mg,641,32,A,32,1.07,3623.13, Time in seconds =                     1.07,A,  Mop/s total     =                  3623.13,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-mg,641,32,A,32,1.32,2945.81, Time in seconds =                     1.32,A,  Mop/s total     =                  2945.81,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-mg,641,32,A,32,1.77,2196.88, Time in seconds =                     1.77,A,  Mop/s total     =                  2196.88,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-mg,641,32,A,32,5.86,664.08, Time in seconds =                     5.86,A,  Mop/s total     =                   664.08,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-mg,641,32,A,32,5.87,662.90, Time in seconds =                     5.87,A,  Mop/s total     =                   662.90,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-mg,641,32,A,32,5.87,662.94, Time in seconds =                     5.87,A,  Mop/s total     =                   662.94,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-mg,641,32,A,32,5.88,661.82, Time in seconds =                     5.88,A,  Mop/s total     =                   661.82,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-mg,641,32,A,32,5.88,661.85, Time in seconds =                     5.88,A,  Mop/s total     =                   661.85,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-mg,641,32,A,32,5.89,660.67, Time in seconds =                     5.89,A,  Mop/s total     =                   660.67,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-mg,641,32,A,32,5.89,660.70, Time in seconds =                     5.89,A,  Mop/s total     =                   660.70,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-mg,641,32,A,32,5.90,659.54, Time in seconds =                     5.90,A,  Mop/s total     =                   659.54,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-mg,641,32,A,32,5.90,659.73, Time in seconds =                     5.90,A,  Mop/s total     =                   659.73,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
+32,1.07,3623.13
+32,1.32,2945.81
+32,1.77,2196.88
+32,5.86,664.08
+32,5.87,662.90
+32,5.87,662.94
+32,5.88,661.82
+32,5.88,661.85
+32,5.89,660.67
+32,5.89,660.70
+32,5.90,659.54
+32,5.90,659.73

@@ -1,2 +1,2 @@
-is,641,8,C,8,2.64,507.69, Time in seconds =                     2.64,C,  Mop/s total     =                   507.69,,,,    CC           = icc,    CFLAGS       = -O2 -openmp
-is,641,8,C,8,2.72,493.68, Time in seconds =                     2.72,C,  Mop/s total     =                   493.68,,,,    CC           = icc,    CFLAGS       = -O2 -openmp
+8,2.64,507.69
+8,2.72,493.68

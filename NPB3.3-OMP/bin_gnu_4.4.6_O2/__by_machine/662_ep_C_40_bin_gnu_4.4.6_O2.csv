@@ -1,1 +1,1 @@
-ep,662,40,C,40,10.70,802.45, Time in seconds =                    10.70,C,  Mop/s total     =                   802.45,,    F77          = gfortran,    FFLAGS       = -O2 -fopenmp -mcmodel=medium,,
+40,10.70,802.45

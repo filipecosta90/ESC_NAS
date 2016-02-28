@@ -1,2 +1,2 @@
-is,641,40,A,40,0.10,802.62, Time in seconds =                     0.10,A,  Mop/s total     =                   802.62,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,641,40,A,40,0.10,871.59, Time in seconds =                     0.10,A,  Mop/s total     =                   871.59,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
+40,0.10,802.62
+40,0.10,871.59

@@ -1,57 +1,57 @@
-cg,652,40,C,40,16.15,8876.01, Time in seconds =                    16.15,C,  Mop/s total     =                  8876.01,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.17,8864.81, Time in seconds =                    16.17,C,  Mop/s total     =                  8864.81,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.27,8811.64, Time in seconds =                    16.27,C,  Mop/s total     =                  8811.64,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.28,8806.38, Time in seconds =                    16.28,C,  Mop/s total     =                  8806.38,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.29,8800.89, Time in seconds =                    16.29,C,  Mop/s total     =                  8800.89,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.30,8795.20, Time in seconds =                    16.30,C,  Mop/s total     =                  8795.20,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.31,8788.33, Time in seconds =                    16.31,C,  Mop/s total     =                  8788.33,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.33,8780.12, Time in seconds =                    16.33,C,  Mop/s total     =                  8780.12,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.34,8772.57, Time in seconds =                    16.34,C,  Mop/s total     =                  8772.57,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.35,8767.30, Time in seconds =                    16.35,C,  Mop/s total     =                  8767.30,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.37,8756.68, Time in seconds =                    16.37,C,  Mop/s total     =                  8756.68,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.38,8753.75, Time in seconds =                    16.38,C,  Mop/s total     =                  8753.75,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.39,8743.95, Time in seconds =                    16.39,C,  Mop/s total     =                  8743.95,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.40,8738.89, Time in seconds =                    16.40,C,  Mop/s total     =                  8738.89,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.45,8713.14, Time in seconds =                    16.45,C,  Mop/s total     =                  8713.14,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.48,8697.41, Time in seconds =                    16.48,C,  Mop/s total     =                  8697.41,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.50,8688.97, Time in seconds =                    16.50,C,  Mop/s total     =                  8688.97,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.53,8670.68, Time in seconds =                    16.53,C,  Mop/s total     =                  8670.68,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.58,8643.90, Time in seconds =                    16.58,C,  Mop/s total     =                  8643.90,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.64,8614.16, Time in seconds =                    16.64,C,  Mop/s total     =                  8614.16,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.68,8596.30, Time in seconds =                    16.68,C,  Mop/s total     =                  8596.30,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.71,8578.76, Time in seconds =                    16.71,C,  Mop/s total     =                  8578.76,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,16.92,8472.87, Time in seconds =                    16.92,C,  Mop/s total     =                  8472.87,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.09,8387.58, Time in seconds =                    17.09,C,  Mop/s total     =                  8387.58,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.18,8344.44, Time in seconds =                    17.18,C,  Mop/s total     =                  8344.44,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.25,8309.39, Time in seconds =                    17.25,C,  Mop/s total     =                  8309.39,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.30,8286.23, Time in seconds =                    17.30,C,  Mop/s total     =                  8286.23,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.32,8276.27, Time in seconds =                    17.32,C,  Mop/s total     =                  8276.27,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.36,8257.17, Time in seconds =                    17.36,C,  Mop/s total     =                  8257.17,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.50,8189.28, Time in seconds =                    17.50,C,  Mop/s total     =                  8189.28,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.51,8186.11, Time in seconds =                    17.51,C,  Mop/s total     =                  8186.11,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.55,8166.65, Time in seconds =                    17.55,C,  Mop/s total     =                  8166.65,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.60,8142.88, Time in seconds =                    17.60,C,  Mop/s total     =                  8142.88,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.61,8141.31, Time in seconds =                    17.61,C,  Mop/s total     =                  8141.31,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.63,8129.49, Time in seconds =                    17.63,C,  Mop/s total     =                  8129.49,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.63,8130.86, Time in seconds =                    17.63,C,  Mop/s total     =                  8130.86,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.64,8124.22, Time in seconds =                    17.64,C,  Mop/s total     =                  8124.22,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.65,8123.91, Time in seconds =                    17.65,C,  Mop/s total     =                  8123.91,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.66,8118.41, Time in seconds =                    17.66,C,  Mop/s total     =                  8118.41,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.66,8118.87, Time in seconds =                    17.66,C,  Mop/s total     =                  8118.87,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.71,8093.24, Time in seconds =                    17.71,C,  Mop/s total     =                  8093.24,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.75,8074.63, Time in seconds =                    17.75,C,  Mop/s total     =                  8074.63,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.75,8076.99, Time in seconds =                    17.75,C,  Mop/s total     =                  8076.99,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.88,8019.37, Time in seconds =                    17.88,C,  Mop/s total     =                  8019.37,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.90,8009.59, Time in seconds =                    17.90,C,  Mop/s total     =                  8009.59,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.91,8003.92, Time in seconds =                    17.91,C,  Mop/s total     =                  8003.92,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.93,7993.20, Time in seconds =                    17.93,C,  Mop/s total     =                  7993.20,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.98,7973.54, Time in seconds =                    17.98,C,  Mop/s total     =                  7973.54,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,17.99,7967.94, Time in seconds =                    17.99,C,  Mop/s total     =                  7967.94,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,18.09,7924.54, Time in seconds =                    18.09,C,  Mop/s total     =                  7924.54,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,18.15,7896.27, Time in seconds =                    18.15,C,  Mop/s total     =                  7896.27,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,18.16,7892.45, Time in seconds =                    18.16,C,  Mop/s total     =                  7892.45,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,18.27,7845.27, Time in seconds =                    18.27,C,  Mop/s total     =                  7845.27,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,18.51,7744.71, Time in seconds =                    18.51,C,  Mop/s total     =                  7744.71,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,18.71,7660.54, Time in seconds =                    18.71,C,  Mop/s total     =                  7660.54,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,19.01,7538.85, Time in seconds =                    19.01,C,  Mop/s total     =                  7538.85,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
-cg,652,40,C,40,19.29,7430.59, Time in seconds =                    19.29,C,  Mop/s total     =                  7430.59,,    F77          = gfortran,    FFLAGS       = -O3 -fopenmp -mcmodel=medium,,
+40,16.15,8876.01
+40,16.17,8864.81
+40,16.27,8811.64
+40,16.28,8806.38
+40,16.29,8800.89
+40,16.30,8795.20
+40,16.31,8788.33
+40,16.33,8780.12
+40,16.34,8772.57
+40,16.35,8767.30
+40,16.37,8756.68
+40,16.38,8753.75
+40,16.39,8743.95
+40,16.40,8738.89
+40,16.45,8713.14
+40,16.48,8697.41
+40,16.50,8688.97
+40,16.53,8670.68
+40,16.58,8643.90
+40,16.64,8614.16
+40,16.68,8596.30
+40,16.71,8578.76
+40,16.92,8472.87
+40,17.09,8387.58
+40,17.18,8344.44
+40,17.25,8309.39
+40,17.30,8286.23
+40,17.32,8276.27
+40,17.36,8257.17
+40,17.50,8189.28
+40,17.51,8186.11
+40,17.55,8166.65
+40,17.60,8142.88
+40,17.61,8141.31
+40,17.63,8129.49
+40,17.63,8130.86
+40,17.64,8124.22
+40,17.65,8123.91
+40,17.66,8118.41
+40,17.66,8118.87
+40,17.71,8093.24
+40,17.75,8074.63
+40,17.75,8076.99
+40,17.88,8019.37
+40,17.90,8009.59
+40,17.91,8003.92
+40,17.93,7993.20
+40,17.98,7973.54
+40,17.99,7967.94
+40,18.09,7924.54
+40,18.15,7896.27
+40,18.16,7892.45
+40,18.27,7845.27
+40,18.51,7744.71
+40,18.71,7660.54
+40,19.01,7538.85
+40,19.29,7430.59
