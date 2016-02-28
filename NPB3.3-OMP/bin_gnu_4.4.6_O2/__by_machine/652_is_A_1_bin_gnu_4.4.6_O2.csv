@@ -1,1 +1,1 @@
-is,652,1,A,1,1.06,79.00, Time in seconds =                     1.06,A,  Mop/s total     =                    79.00,,,,    CC           = gcc,    CFLAGS       = -O2 -fopenmp -mcmodel=medium
+1,1.06,79.00

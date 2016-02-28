@@ -1,11 +1,11 @@
-is,662,48,A,48,0.44,190.20, Time in seconds =                     0.44,A,  Mop/s total     =                   190.20,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
-is,662,48,A,48,0.45,187.25, Time in seconds =                     0.45,A,  Mop/s total     =                   187.25,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
-is,662,48,A,48,0.45,188.09, Time in seconds =                     0.45,A,  Mop/s total     =                   188.09,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
-is,662,48,A,48,0.45,188.10, Time in seconds =                     0.45,A,  Mop/s total     =                   188.10,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
-is,662,48,A,48,0.46,180.80, Time in seconds =                     0.46,A,  Mop/s total     =                   180.80,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
-is,662,48,A,48,0.46,181.58, Time in seconds =                     0.46,A,  Mop/s total     =                   181.58,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
-is,662,48,A,48,0.46,182.36, Time in seconds =                     0.46,A,  Mop/s total     =                   182.36,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
-is,662,48,A,48,0.46,182.48, Time in seconds =                     0.46,A,  Mop/s total     =                   182.48,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
-is,662,48,A,48,0.46,183.31, Time in seconds =                     0.46,A,  Mop/s total     =                   183.31,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
-is,662,48,A,48,0.47,177.99, Time in seconds =                     0.47,A,  Mop/s total     =                   177.99,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
-is,662,48,A,48,0.50,169.43, Time in seconds =                     0.50,A,  Mop/s total     =                   169.43,,,,    CC           = gcc,    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+48,0.44,190.20
+48,0.45,187.25
+48,0.45,188.09
+48,0.45,188.10
+48,0.46,180.80
+48,0.46,181.58
+48,0.46,182.36
+48,0.46,182.48
+48,0.46,183.31
+48,0.47,177.99
+48,0.50,169.43

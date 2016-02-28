@@ -1,2 +1,2 @@
-ep,652,52,A,52,0.43,1251.57, Time in seconds =                     0.43,A,  Mop/s total     =                  1251.57,,    F77          = ifort,    FFLAGS       = -O2 -openmp,,
-ep,652,52,A,52,0.44,1214.23, Time in seconds =                     0.44,A,  Mop/s total     =                  1214.23,,    F77          = ifort,    FFLAGS       = -O2 -openmp,,
+52,0.43,1251.57
+52,0.44,1214.23

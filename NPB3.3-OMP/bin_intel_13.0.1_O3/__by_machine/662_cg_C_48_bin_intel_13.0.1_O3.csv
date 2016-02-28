@@ -1,55 +1,55 @@
-cg,662,48,C,48,18.02,7953.86, Time in seconds =                    18.02,C,  Mop/s total     =                  7953.86,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,18.04,7948.19, Time in seconds =                    18.04,C,  Mop/s total     =                  7948.19,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,18.13,7906.25, Time in seconds =                    18.13,C,  Mop/s total     =                  7906.25,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,18.22,7865.67, Time in seconds =                    18.22,C,  Mop/s total     =                  7865.67,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,18.44,7772.19, Time in seconds =                    18.44,C,  Mop/s total     =                  7772.19,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,18.52,7742.21, Time in seconds =                    18.52,C,  Mop/s total     =                  7742.21,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,18.59,7710.65, Time in seconds =                    18.59,C,  Mop/s total     =                  7710.65,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,20.83,6880.89, Time in seconds =                    20.83,C,  Mop/s total     =                  6880.89,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.17,5088.21, Time in seconds =                    28.17,C,  Mop/s total     =                  5088.21,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.38,5050.96, Time in seconds =                    28.38,C,  Mop/s total     =                  5050.96,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.39,5049.75, Time in seconds =                    28.39,C,  Mop/s total     =                  5049.75,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.40,5047.77, Time in seconds =                    28.40,C,  Mop/s total     =                  5047.77,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.41,5044.94, Time in seconds =                    28.41,C,  Mop/s total     =                  5044.94,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.42,5043.12, Time in seconds =                    28.42,C,  Mop/s total     =                  5043.12,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.42,5043.63, Time in seconds =                    28.42,C,  Mop/s total     =                  5043.63,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.48,5032.40, Time in seconds =                    28.48,C,  Mop/s total     =                  5032.40,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.51,5028.63, Time in seconds =                    28.51,C,  Mop/s total     =                  5028.63,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.56,5019.05, Time in seconds =                    28.56,C,  Mop/s total     =                  5019.05,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.72,4991.73, Time in seconds =                    28.72,C,  Mop/s total     =                  4991.73,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.72,4992.03, Time in seconds =                    28.72,C,  Mop/s total     =                  4992.03,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.82,4974.49, Time in seconds =                    28.82,C,  Mop/s total     =                  4974.49,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.83,4971.36, Time in seconds =                    28.83,C,  Mop/s total     =                  4971.36,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.83,4971.86, Time in seconds =                    28.83,C,  Mop/s total     =                  4971.86,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.83,4971.99, Time in seconds =                    28.83,C,  Mop/s total     =                  4971.99,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.83,4972.34, Time in seconds =                    28.83,C,  Mop/s total     =                  4972.34,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.87,4965.88, Time in seconds =                    28.87,C,  Mop/s total     =                  4965.88,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.91,4958.19, Time in seconds =                    28.91,C,  Mop/s total     =                  4958.19,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.91,4958.32, Time in seconds =                    28.91,C,  Mop/s total     =                  4958.32,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.92,4956.81, Time in seconds =                    28.92,C,  Mop/s total     =                  4956.81,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,28.94,4952.78, Time in seconds =                    28.94,C,  Mop/s total     =                  4952.78,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.08,4930.06, Time in seconds =                    29.08,C,  Mop/s total     =                  4930.06,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.11,4924.88, Time in seconds =                    29.11,C,  Mop/s total     =                  4924.88,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.15,4917.03, Time in seconds =                    29.15,C,  Mop/s total     =                  4917.03,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.18,4913.14, Time in seconds =                    29.18,C,  Mop/s total     =                  4913.14,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.22,4906.60, Time in seconds =                    29.22,C,  Mop/s total     =                  4906.60,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.34,4885.38, Time in seconds =                    29.34,C,  Mop/s total     =                  4885.38,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.36,4882.84, Time in seconds =                    29.36,C,  Mop/s total     =                  4882.84,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.44,4869.15, Time in seconds =                    29.44,C,  Mop/s total     =                  4869.15,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.68,4829.81, Time in seconds =                    29.68,C,  Mop/s total     =                  4829.81,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.70,4827.28, Time in seconds =                    29.70,C,  Mop/s total     =                  4827.28,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.77,4814.98, Time in seconds =                    29.77,C,  Mop/s total     =                  4814.98,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.82,4806.96, Time in seconds =                    29.82,C,  Mop/s total     =                  4806.96,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.89,4795.47, Time in seconds =                    29.89,C,  Mop/s total     =                  4795.47,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.90,4793.77, Time in seconds =                    29.90,C,  Mop/s total     =                  4793.77,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.90,4793.97, Time in seconds =                    29.90,C,  Mop/s total     =                  4793.97,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,29.94,4787.63, Time in seconds =                    29.94,C,  Mop/s total     =                  4787.63,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,30.00,4779.02, Time in seconds =                    30.00,C,  Mop/s total     =                  4779.02,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,30.06,4768.32, Time in seconds =                    30.06,C,  Mop/s total     =                  4768.32,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,30.08,4765.32, Time in seconds =                    30.08,C,  Mop/s total     =                  4765.32,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,30.20,4747.03, Time in seconds =                    30.20,C,  Mop/s total     =                  4747.03,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,30.22,4743.51, Time in seconds =                    30.22,C,  Mop/s total     =                  4743.51,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,30.26,4737.55, Time in seconds =                    30.26,C,  Mop/s total     =                  4737.55,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,30.28,4734.72, Time in seconds =                    30.28,C,  Mop/s total     =                  4734.72,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,30.31,4728.90, Time in seconds =                    30.31,C,  Mop/s total     =                  4728.90,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
-cg,662,48,C,48,30.55,4692.23, Time in seconds =                    30.55,C,  Mop/s total     =                  4692.23,,    F77          = ifort,    FFLAGS       = -O3 -openmp,,
+48,18.02,7953.86
+48,18.04,7948.19
+48,18.13,7906.25
+48,18.22,7865.67
+48,18.44,7772.19
+48,18.52,7742.21
+48,18.59,7710.65
+48,20.83,6880.89
+48,28.17,5088.21
+48,28.38,5050.96
+48,28.39,5049.75
+48,28.40,5047.77
+48,28.41,5044.94
+48,28.42,5043.12
+48,28.42,5043.63
+48,28.48,5032.40
+48,28.51,5028.63
+48,28.56,5019.05
+48,28.72,4991.73
+48,28.72,4992.03
+48,28.82,4974.49
+48,28.83,4971.36
+48,28.83,4971.86
+48,28.83,4971.99
+48,28.83,4972.34
+48,28.87,4965.88
+48,28.91,4958.19
+48,28.91,4958.32
+48,28.92,4956.81
+48,28.94,4952.78
+48,29.08,4930.06
+48,29.11,4924.88
+48,29.15,4917.03
+48,29.18,4913.14
+48,29.22,4906.60
+48,29.34,4885.38
+48,29.36,4882.84
+48,29.44,4869.15
+48,29.68,4829.81
+48,29.70,4827.28
+48,29.77,4814.98
+48,29.82,4806.96
+48,29.89,4795.47
+48,29.90,4793.77
+48,29.90,4793.97
+48,29.94,4787.63
+48,30.00,4779.02
+48,30.06,4768.32
+48,30.08,4765.32
+48,30.20,4747.03
+48,30.22,4743.51
+48,30.26,4737.55
+48,30.28,4734.72
+48,30.31,4728.90
+48,30.55,4692.23

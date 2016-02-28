@@ -1,1 +1,1 @@
-mg,431,32,C,32,17.78,8755.24, Time in seconds =                    17.78,C,  Mop/s total     =                  8755.24,,    F77          = gfortran,    FFLAGS       = -O2 -fopenmp -mcmodel=medium,,
+32,17.78,8755.24

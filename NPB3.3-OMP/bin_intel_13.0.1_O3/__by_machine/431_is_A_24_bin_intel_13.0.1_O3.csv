@@ -1,80 +1,80 @@
-is,431,24,A,24,0.07,1132.40, Time in seconds =                     0.07,A,  Mop/s total     =                  1132.40,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.07,1160.86, Time in seconds =                     0.07,A,  Mop/s total     =                  1160.86,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.07,1168.00, Time in seconds =                     0.07,A,  Mop/s total     =                  1168.00,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.08,1025.38, Time in seconds =                     0.08,A,  Mop/s total     =                  1025.38,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.08,1029.25, Time in seconds =                     0.08,A,  Mop/s total     =                  1029.25,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.08,1037.49, Time in seconds =                     0.08,A,  Mop/s total     =                  1037.49,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.08,1038.09, Time in seconds =                     0.08,A,  Mop/s total     =                  1038.09,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.08,994.44, Time in seconds =                     0.08,A,  Mop/s total     =                   994.44,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.11,739.32, Time in seconds =                     0.11,A,  Mop/s total     =                   739.32,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.11,740.19, Time in seconds =                     0.11,A,  Mop/s total     =                   740.19,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.11,748.18, Time in seconds =                     0.11,A,  Mop/s total     =                   748.18,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.11,771.22, Time in seconds =                     0.11,A,  Mop/s total     =                   771.22,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.11,785.08, Time in seconds =                     0.11,A,  Mop/s total     =                   785.08,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.12,678.46, Time in seconds =                     0.12,A,  Mop/s total     =                   678.46,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.12,687.48, Time in seconds =                     0.12,A,  Mop/s total     =                   687.48,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.12,696.24, Time in seconds =                     0.12,A,  Mop/s total     =                   696.24,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.12,703.62, Time in seconds =                     0.12,A,  Mop/s total     =                   703.62,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.12,717.15, Time in seconds =                     0.12,A,  Mop/s total     =                   717.15,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.12,717.78, Time in seconds =                     0.12,A,  Mop/s total     =                   717.78,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.12,718.58, Time in seconds =                     0.12,A,  Mop/s total     =                   718.58,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.12,727.52, Time in seconds =                     0.12,A,  Mop/s total     =                   727.52,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,622.88, Time in seconds =                     0.13,A,  Mop/s total     =                   622.88,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,629.96, Time in seconds =                     0.13,A,  Mop/s total     =                   629.96,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,630.30, Time in seconds =                     0.13,A,  Mop/s total     =                   630.30,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,633.44, Time in seconds =                     0.13,A,  Mop/s total     =                   633.44,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,635.66, Time in seconds =                     0.13,A,  Mop/s total     =                   635.66,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,636.97, Time in seconds =                     0.13,A,  Mop/s total     =                   636.97,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,637.14, Time in seconds =                     0.13,A,  Mop/s total     =                   637.14,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,638.24, Time in seconds =                     0.13,A,  Mop/s total     =                   638.24,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,646.28, Time in seconds =                     0.13,A,  Mop/s total     =                   646.28,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,647.08, Time in seconds =                     0.13,A,  Mop/s total     =                   647.08,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,650.47, Time in seconds =                     0.13,A,  Mop/s total     =                   650.47,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,664.72, Time in seconds =                     0.13,A,  Mop/s total     =                   664.72,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.13,667.37, Time in seconds =                     0.13,A,  Mop/s total     =                   667.37,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,578.70, Time in seconds =                     0.14,A,  Mop/s total     =                   578.70,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,579.36, Time in seconds =                     0.14,A,  Mop/s total     =                   579.36,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,581.52, Time in seconds =                     0.14,A,  Mop/s total     =                   581.52,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,587.81, Time in seconds =                     0.14,A,  Mop/s total     =                   587.81,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,594.14, Time in seconds =                     0.14,A,  Mop/s total     =                   594.14,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,595.28, Time in seconds =                     0.14,A,  Mop/s total     =                   595.28,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,598.25, Time in seconds =                     0.14,A,  Mop/s total     =                   598.25,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,600.98, Time in seconds =                     0.14,A,  Mop/s total     =                   600.98,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,603.64, Time in seconds =                     0.14,A,  Mop/s total     =                   603.64,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,604.21, Time in seconds =                     0.14,A,  Mop/s total     =                   604.21,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,608.28, Time in seconds =                     0.14,A,  Mop/s total     =                   608.28,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,609.77, Time in seconds =                     0.14,A,  Mop/s total     =                   609.77,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,614.51, Time in seconds =                     0.14,A,  Mop/s total     =                   614.51,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.14,615.26, Time in seconds =                     0.14,A,  Mop/s total     =                   615.26,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,542.20, Time in seconds =                     0.15,A,  Mop/s total     =                   542.20,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,545.30, Time in seconds =                     0.15,A,  Mop/s total     =                   545.30,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,546.49, Time in seconds =                     0.15,A,  Mop/s total     =                   546.49,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,547.53, Time in seconds =                     0.15,A,  Mop/s total     =                   547.53,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,549.72, Time in seconds =                     0.15,A,  Mop/s total     =                   549.72,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,549.83, Time in seconds =                     0.15,A,  Mop/s total     =                   549.83,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,555.35, Time in seconds =                     0.15,A,  Mop/s total     =                   555.35,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,557.82, Time in seconds =                     0.15,A,  Mop/s total     =                   557.82,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,560.26, Time in seconds =                     0.15,A,  Mop/s total     =                   560.26,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,561.46, Time in seconds =                     0.15,A,  Mop/s total     =                   561.46,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,562.38, Time in seconds =                     0.15,A,  Mop/s total     =                   562.38,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,562.83, Time in seconds =                     0.15,A,  Mop/s total     =                   562.83,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,566.28, Time in seconds =                     0.15,A,  Mop/s total     =                   566.28,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,567.38, Time in seconds =                     0.15,A,  Mop/s total     =                   567.38,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,572.50, Time in seconds =                     0.15,A,  Mop/s total     =                   572.50,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,574.50, Time in seconds =                     0.15,A,  Mop/s total     =                   574.50,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.15,577.35, Time in seconds =                     0.15,A,  Mop/s total     =                   577.35,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.16,521.22, Time in seconds =                     0.16,A,  Mop/s total     =                   521.22,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.16,523.82, Time in seconds =                     0.16,A,  Mop/s total     =                   523.82,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.16,533.49, Time in seconds =                     0.16,A,  Mop/s total     =                   533.49,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.16,536.25, Time in seconds =                     0.16,A,  Mop/s total     =                   536.25,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.16,537.38, Time in seconds =                     0.16,A,  Mop/s total     =                   537.38,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.16,538.20, Time in seconds =                     0.16,A,  Mop/s total     =                   538.20,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.17,488.67, Time in seconds =                     0.17,A,  Mop/s total     =                   488.67,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.17,491.04, Time in seconds =                     0.17,A,  Mop/s total     =                   491.04,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.17,496.30, Time in seconds =                     0.17,A,  Mop/s total     =                   496.30,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.17,497.21, Time in seconds =                     0.17,A,  Mop/s total     =                   497.21,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.17,497.69, Time in seconds =                     0.17,A,  Mop/s total     =                   497.69,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.17,506.01, Time in seconds =                     0.17,A,  Mop/s total     =                   506.01,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.18,462.36, Time in seconds =                     0.18,A,  Mop/s total     =                   462.36,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.18,468.06, Time in seconds =                     0.18,A,  Mop/s total     =                   468.06,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
-is,431,24,A,24,0.18,476.64, Time in seconds =                     0.18,A,  Mop/s total     =                   476.64,,,,    CC           = icc,    CFLAGS       = -O3 -openmp
+24,0.07,1132.40
+24,0.07,1160.86
+24,0.07,1168.00
+24,0.08,1025.38
+24,0.08,1029.25
+24,0.08,1037.49
+24,0.08,1038.09
+24,0.08,994.44
+24,0.11,739.32
+24,0.11,740.19
+24,0.11,748.18
+24,0.11,771.22
+24,0.11,785.08
+24,0.12,678.46
+24,0.12,687.48
+24,0.12,696.24
+24,0.12,703.62
+24,0.12,717.15
+24,0.12,717.78
+24,0.12,718.58
+24,0.12,727.52
+24,0.13,622.88
+24,0.13,629.96
+24,0.13,630.30
+24,0.13,633.44
+24,0.13,635.66
+24,0.13,636.97
+24,0.13,637.14
+24,0.13,638.24
+24,0.13,646.28
+24,0.13,647.08
+24,0.13,650.47
+24,0.13,664.72
+24,0.13,667.37
+24,0.14,578.70
+24,0.14,579.36
+24,0.14,581.52
+24,0.14,587.81
+24,0.14,594.14
+24,0.14,595.28
+24,0.14,598.25
+24,0.14,600.98
+24,0.14,603.64
+24,0.14,604.21
+24,0.14,608.28
+24,0.14,609.77
+24,0.14,614.51
+24,0.14,615.26
+24,0.15,542.20
+24,0.15,545.30
+24,0.15,546.49
+24,0.15,547.53
+24,0.15,549.72
+24,0.15,549.83
+24,0.15,555.35
+24,0.15,557.82
+24,0.15,560.26
+24,0.15,561.46
+24,0.15,562.38
+24,0.15,562.83
+24,0.15,566.28
+24,0.15,567.38
+24,0.15,572.50
+24,0.15,574.50
+24,0.15,577.35
+24,0.16,521.22
+24,0.16,523.82
+24,0.16,533.49
+24,0.16,536.25
+24,0.16,537.38
+24,0.16,538.20
+24,0.17,488.67
+24,0.17,491.04
+24,0.17,496.30
+24,0.17,497.21
+24,0.17,497.69
+24,0.17,506.01
+24,0.18,462.36
+24,0.18,468.06
+24,0.18,476.64
