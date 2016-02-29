@@ -1,1 +1,0 @@
-cg,431,S,8,8,0.02,3213.64, Time in seconds =                     0.02,S,  Mop/s total     =                  3213.64,,    MPIF77       = mpif77,    FFLAGS       = -O3 -lgfortran,,    FLINKFLAGS   = -O3 -lgfortran
