@@ -1,10 +1,10 @@
  
 
-cpu_csv = readtable('__cpu_usage/CPU_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-disk_csv = readtable('__disk_usage/DISK_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-memory_csv = readtable('__memory_usage/MEMORY_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-net_csv = readtable('__net_usage/NET_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-system_csv = readtable('__system_usage/SYSTEM_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
+cpu_csv = readtable('__cpu_usage/CPU_ep.C.x_2_compute-431-4_NTHREADS_24.csv','ReadVariableNames',false);
+disk_csv = readtable('__disk_usage/DISK_ep.C.x_2_compute-431-4_NTHREADS_24.csv','ReadVariableNames',false);
+memory_csv = readtable('__memory_usage/MEMORY_ep.C.x_2_compute-431-4_NTHREADS_24.csv','ReadVariableNames',false);
+net_csv = readtable('__net_usage/NET_ep.C.x_2_compute-431-4_NTHREADS_24.csv','ReadVariableNames',false);
+system_csv = readtable('__system_usage/SYSTEM_ep.C.x_2_compute-431-4_NTHREADS_24.csv','ReadVariableNames',false);
 
 %%%%%% CPU STATS %%%%%
 cpu_usr = table2array( cpu_csv ( :, [3])); 
@@ -138,8 +138,6 @@ set(hb(2), 'FaceColor',cores(3,:));
 set(hb(3), 'FaceColor',cores(8,:));
 set(hb(4), 'FaceColor',cores(2,:));
 l = legend('% CPU USR','% CPU SYS','% CPU IDL','% CPU WAIT' );
-
-
 
 
 

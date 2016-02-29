@@ -1,39 +1,31 @@
  
 
-cpu_csv = readtable('__cpu_usage/CPU_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-disk_csv = readtable('__disk_usage/DISK_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-memory_csv = readtable('__memory_usage/MEMORY_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-net_csv = readtable('__net_usage/NET_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-system_csv = readtable('__system_usage/SYSTEM_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
+cpu_csv = readtable('__cpu_usage/CPU_is.C.x_1_compute-431-7_NTHREADS_24.csv','ReadVariableNames',false);
+disk_csv = readtable('__disk_usage/DISK_is.C.x_1_compute-431-7_NTHREADS_24.csv','ReadVariableNames',false);
+memory_csv = readtable('__memory_usage/MEMORY_is.C.x_1_compute-431-7_NTHREADS_24.csv','ReadVariableNames',false);
+net_csv = readtable('__net_usage/NET_is.C.x_1_compute-431-7_NTHREADS_24.csv','ReadVariableNames',false);
+system_csv = readtable('__system_usage/SYSTEM_is.C.x_1_compute-431-7_NTHREADS_24.csv','ReadVariableNames',false);
 
 %%%%%% CPU STATS %%%%%
 cpu_usr = table2array( cpu_csv ( :, [3])); 
-cpu_usr = cpu_usr (1:end-4,:)
 
 cpu_sys = table2array( cpu_csv ( :, [4])); 
-cpu_sys = cpu_sys (1:end-4,:)
 
 cpu_idl = table2array( cpu_csv ( :, [5])); 
-cpu_idl = cpu_idl (1:end-4,:)
 
 cpu_wait = table2array( cpu_csv ( :, [6]));
-cpu_wait = cpu_wait (1:end-4,:)
 
 
 %%%%%% DISK STATS %%%%%
 disk_read = table2array( disk_csv ( :, [3])); 
-disk_read = disk_read (1:end-4,:)
 
 disk_write = table2array( disk_csv ( :, [4]));
-disk_write = disk_write (1:end-4,:)
 
 
 %%%%%% MEMORY STATS %%%%%
 memory_used = table2array( memory_csv ( :, [3])); 
-memory_used = memory_used (1:end-4,:)
 
 memory_free = table2array( memory_csv ( :, [4])); 
-memory_free = memory_free (1:end-4,:)
 
 memory_total = memory_used + memory_free;
 memory_used = memory_used / memory_total * 100;
@@ -42,17 +34,13 @@ memory_free = memory_free / memory_total * 100;
 
 %%%%%% NET STATS %%%%%
 net_recv = table2array( net_csv ( :, [3]) ); 
-net_recv = net_recv (1:end-4,:)
 
 net_send = table2array( net_csv ( :, [4]) ); 
-net_send = net_send (1:end-4,:)
 
 %%%%%% SYSTEM STATS %%%%%
 system_int = table2array( system_csv ( :, [3])); 
-system_int = system_int (1:end-4,:)
 
 system_csw = table2array( system_csv ( :, [4])) ; 
-system_csw = system_csw (1:end-4,:)
 
 
 bg = [1 1 1; 0 0 0];

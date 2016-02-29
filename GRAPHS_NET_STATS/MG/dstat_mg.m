@@ -1,10 +1,10 @@
  
 
-cpu_csv = readtable('__cpu_usage/CPU_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-disk_csv = readtable('__disk_usage/DISK_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-memory_csv = readtable('__memory_usage/MEMORY_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-net_csv = readtable('__net_usage/NET_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
-system_csv = readtable('__system_usage/SYSTEM_cg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
+cpu_csv = readtable('__cpu_usage/CPU_mg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
+disk_csv = readtable('__disk_usage/DISK_mg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
+memory_csv = readtable('__memory_usage/MEMORY_mg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
+net_csv = readtable('__net_usage/NET_mg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
+system_csv = readtable('__system_usage/SYSTEM_mg.C.32_1_compute-431-1_MPI_ETH.csv','ReadVariableNames',false);
 
 %%%%%% CPU STATS %%%%%
 cpu_usr = table2array( cpu_csv ( :, [3])); 
