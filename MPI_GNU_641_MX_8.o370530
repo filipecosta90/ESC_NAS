@@ -1,0 +1,243 @@
+Allocated computing node: compute-641-10
+Running 5 * ppn: 1 nodes
+running cg.A.8
+.. going to run cg.A.8 (dstat 10644)
+10644 killed
+running cg.B.8
+.. going to run cg.B.8 (dstat 10666)
+10666 killed
+running cg.C.8
+.. going to run cg.C.8 (dstat 10688)
+10688 killed
+running cg.S.8
+.. going to run cg.S.8 (dstat 10714)
+10714 killed
+running ep.A.8
+.. going to run ep.A.8 (dstat 10734)
+10734 killed
+running ep.B.8
+.. going to run ep.B.8 (dstat 10754)
+10754 killed
+running ep.C.8
+.. going to run ep.C.8 (dstat 10776)
+10776 killed
+running ep.S.8
+.. going to run ep.S.8 (dstat 10798)
+10798 killed
+running is.A.8
+.. going to run is.A.8 (dstat 10818)
+10818 killed
+running is.B.8
+.. going to run is.B.8 (dstat 10839)
+10839 killed
+running is.C.8
+.. going to run is.C.8 (dstat 10859)
+10859 killed
+running is.S.8
+.. going to run is.S.8 (dstat 10880)
+10880 killed
+running mg.A.8
+.. going to run mg.A.8 (dstat 10900)
+10900 killed
+running mg.B.8
+.. going to run mg.B.8 (dstat 10920)
+10920 killed
+running mg.C.8
+.. going to run mg.C.8 (dstat 10940)
+10940 killed
+running mg.S.8
+.. going to run mg.S.8 (dstat 10962)
+10962 killed
+running cg.A.8
+.. going to run cg.A.8 (dstat 10982)
+10982 killed
+running cg.B.8
+.. going to run cg.B.8 (dstat 11003)
+11003 killed
+running cg.C.8
+.. going to run cg.C.8 (dstat 11024)
+11024 killed
+running cg.S.8
+.. going to run cg.S.8 (dstat 11045)
+11045 killed
+running ep.A.8
+.. going to run ep.A.8 (dstat 11065)
+11065 killed
+running ep.B.8
+.. going to run ep.B.8 (dstat 11087)
+11087 killed
+running ep.C.8
+.. going to run ep.C.8 (dstat 11109)
+11109 killed
+running ep.S.8
+.. going to run ep.S.8 (dstat 11135)
+11135 killed
+running is.A.8
+.. going to run is.A.8 (dstat 11156)
+11156 killed
+running is.B.8
+.. going to run is.B.8 (dstat 11177)
+11177 killed
+running is.C.8
+.. going to run is.C.8 (dstat 11198)
+11198 killed
+running is.S.8
+.. going to run is.S.8 (dstat 11220)
+11220 killed
+running mg.A.8
+.. going to run mg.A.8 (dstat 11240)
+11240 killed
+running mg.B.8
+.. going to run mg.B.8 (dstat 11260)
+11260 killed
+running mg.C.8
+.. going to run mg.C.8 (dstat 11281)
+11281 killed
+running mg.S.8
+.. going to run mg.S.8 (dstat 11303)
+11303 killed
+running cg.A.8
+.. going to run cg.A.8 (dstat 11323)
+11323 killed
+running cg.B.8
+.. going to run cg.B.8 (dstat 11343)
+11343 killed
+running cg.C.8
+.. going to run cg.C.8 (dstat 11363)
+11363 killed
+running cg.S.8
+.. going to run cg.S.8 (dstat 11387)
+11387 killed
+running ep.A.8
+.. going to run ep.A.8 (dstat 11408)
+11408 killed
+running ep.B.8
+.. going to run ep.B.8 (dstat 11428)
+11428 killed
+running ep.C.8
+.. going to run ep.C.8 (dstat 11448)
+11448 killed
+running ep.S.8
+.. going to run ep.S.8 (dstat 11473)
+11473 killed
+running is.A.8
+.. going to run is.A.8 (dstat 11493)
+11493 killed
+running is.B.8
+.. going to run is.B.8 (dstat 11513)
+11513 killed
+running is.C.8
+.. going to run is.C.8 (dstat 11533)
+11533 killed
+running is.S.8
+.. going to run is.S.8 (dstat 11553)
+11553 killed
+running mg.A.8
+.. going to run mg.A.8 (dstat 11573)
+11573 killed
+running mg.B.8
+.. going to run mg.B.8 (dstat 11595)
+11595 killed
+running mg.C.8
+.. going to run mg.C.8 (dstat 11615)
+11615 killed
+running mg.S.8
+.. going to run mg.S.8 (dstat 11638)
+11638 killed
+running cg.A.8
+.. going to run cg.A.8 (dstat 11658)
+11658 killed
+running cg.B.8
+.. going to run cg.B.8 (dstat 11679)
+11679 killed
+running cg.C.8
+.. going to run cg.C.8 (dstat 11700)
+11700 killed
+running cg.S.8
+.. going to run cg.S.8 (dstat 11727)
+11727 killed
+running ep.A.8
+.. going to run ep.A.8 (dstat 11748)
+11748 killed
+running ep.B.8
+.. going to run ep.B.8 (dstat 11768)
+11768 killed
+running ep.C.8
+.. going to run ep.C.8 (dstat 11789)
+11789 killed
+running ep.S.8
+.. going to run ep.S.8 (dstat 11811)
+11811 killed
+running is.A.8
+.. going to run is.A.8 (dstat 11831)
+11831 killed
+running is.B.8
+.. going to run is.B.8 (dstat 11852)
+11852 killed
+running is.C.8
+.. going to run is.C.8 (dstat 11873)
+11873 killed
+running is.S.8
+.. going to run is.S.8 (dstat 11893)
+11893 killed
+running mg.A.8
+.. going to run mg.A.8 (dstat 11914)
+11914 killed
+running mg.B.8
+.. going to run mg.B.8 (dstat 11934)
+11934 killed
+running mg.C.8
+.. going to run mg.C.8 (dstat 11954)
+11954 killed
+running mg.S.8
+.. going to run mg.S.8 (dstat 11975)
+11975 killed
+running cg.A.8
+.. going to run cg.A.8 (dstat 11996)
+11996 killed
+running cg.B.8
+.. going to run cg.B.8 (dstat 12016)
+12016 killed
+running cg.C.8
+.. going to run cg.C.8 (dstat 12038)
+12038 killed
+running cg.S.8
+.. going to run cg.S.8 (dstat 12059)
+12059 killed
+running ep.A.8
+.. going to run ep.A.8 (dstat 12079)
+12079 killed
+running ep.B.8
+.. going to run ep.B.8 (dstat 12099)
+12099 killed
+running ep.C.8
+.. going to run ep.C.8 (dstat 12121)
+12121 killed
+running ep.S.8
+.. going to run ep.S.8 (dstat 12147)
+12147 killed
+running is.A.8
+.. going to run is.A.8 (dstat 12169)
+12169 killed
+running is.B.8
+.. going to run is.B.8 (dstat 12189)
+12189 killed
+running is.C.8
+.. going to run is.C.8 (dstat 12210)
+12210 killed
+running is.S.8
+.. going to run is.S.8 (dstat 12233)
+12233 killed
+running mg.A.8
+.. going to run mg.A.8 (dstat 12254)
+12254 killed
+running mg.B.8
+.. going to run mg.B.8 (dstat 12274)
+12274 killed
+running mg.C.8
+.. going to run mg.C.8 (dstat 12294)
+12294 killed
+running mg.S.8
+.. going to run mg.S.8 (dstat 12315)
+12315 killed
+Done...
