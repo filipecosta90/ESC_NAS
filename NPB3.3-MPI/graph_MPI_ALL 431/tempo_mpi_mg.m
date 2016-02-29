@@ -16,10 +16,8 @@ tempo_cg_c_431_gnu_mx = cg_c_431_gnu_mx ( :, [2]);
 tempo_cg_c_431_intel = cg_c_431_intel ( :, [2]); 
 tempo_cg_c_431_intel_mx = cg_c_431_intel_mx ( :, [2]); 
 
-mops_cg_c_431_gnu = cg_c_431_gnu ( :, [3]); 
-mops_cg_c_431_gnu_mx = cg_c_431_gnu_mx ( :, [3]); 
-mops_cg_c_431_intel = cg_c_431_intel ( :, [3]); 
-mops_cg_c_431_intel_mx = cg_c_431_intel_mx ( :, [3]); 
+ganho_cg_c_gnu = ( tempo_cg_c_431_gnu ./ tempo_cg_c_431_gnu_mx ) -1 ;
+
 
 bg = [1 1 1; 0 0 0];
 cores = distinguishable_colors(100,bg);
