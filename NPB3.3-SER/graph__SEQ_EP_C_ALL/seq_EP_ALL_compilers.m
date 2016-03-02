@@ -1,5 +1,5 @@
  FigHandle = figure;
-  set(FigHandle, 'Position', [0, 0, 640, 480]);
+  set(FigHandle, 'Position', [0, 0, 640, 640]);
 
 name = {'compute 431';'compute 641';'compute 652';'compute 662'};
 x = [1:4];
@@ -39,6 +39,7 @@ set(hb(8), 'FaceColor',cores(8,:))
 set(hb(9), 'FaceColor',cores(9,:))
 
 l = legend('gcc 4.4.6 -00','gcc 4.4.6 -O2','gcc 4.4.6 -O3', 'gcc 4.9.0 -O0','gcc 4.9.0 -O2','gcc 4.9.0 -O3','icc 13.0.1 -O0', 'icc 13.0.1 -O2', 'icc 13.0.1 -O3' );
+set(l,'Location','southoutside')
 
 set(l,'FontSize',12);
 ylabel('MOP/s');

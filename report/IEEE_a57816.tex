@@ -62,8 +62,11 @@
 % manually specify the path to it like:
 % \documentclass[conference,compsoc]{../sty/IEEEtran}
 
-
-
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\DeclareGraphicsExtensions{.eps}
+\usepackage{url}
+\usepackage{multicol}% http://ctan.org/pkg/multicols
 
 
 % Some very useful LaTeX packages include:
@@ -397,10 +400,10 @@ Email: a57816@alunos.uminho.pt}
 
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
-\begin{abstract}
+%\begin{abstract}
 
-Neste estudo, analisamos a performance de kernels 
-\end{abstract}
+%Neste estudo, analisamos a performance de kernels 
+%\end{abstract}
 
 % no keywords
 
@@ -419,24 +422,24 @@ Neste estudo, analisamos a performance de kernels
 
 
 
-\section{Introduction}
+%\section{Introduction}
 % no \IEEEPARstart
-This demo file is intended to serve as a ``starter file''
-for IEEE Computer Society conference papers produced under \LaTeX\ using
-IEEEtran.cls version 1.8b and later.
+%This demo file is intended to serve as a ``starter file''
+%for IEEE Computer Society conference papers produced under \LaTeX\ using
+%IEEEtran.cls version 1.8b and later.
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
-I wish you the best of success.
+%I wish you the best of success.
 
-\hfill Filipe Oliveira
+%\hfill Filipe Oliveira
  
-\hfill 1 Março, 2016
+%\hfill 1 Março, 2016
 
-\section{Contextualização das Benchmarks}
+\section{Introdução -- Contextualização das Benchmarks}
 %NAS Parallel Benchmarks (NPB’s) [1] were derived from CFD codes. They were designed to
 %compare the performance of parallel computers and are widely recognized as a standard indicator
 %of computer performance. 
-As "NAS Parallel Benchmarks"\cite{nas} englobam 5 kernels (EP, MG, CG, FT, IS) e 3 aplicações  que simulam dinâmica de fluídos (LU,SP,BT). No nosso caso de estudo, temos por interesse os 5 kernels, dado que centraremos o nosso estudo da performance relativa via alterações no paradigma de memória e forma de comunicação entre nodos, assim como a própria ferramenta de compilação e respectivas flags. Assim sendo, temos então 5 opções a analisar: EP, MG, CG, FT, IS. Resta-nos portanto analisar primeiramente quais as principais propriedades de cada um antes de qualquer avanço no trabalho. \par 
+As "NAS Parallel Benchmarks"\cite{nas} englobam 5 kernels (EP, MG, CG, FT, IS) e 3 aplicações  que simulam dinâmica de fluídos (LU,SP,BT). No nosso caso de estudo, temos por interesse os 5 kernels, dado que centraremos o nosso estudo da performance relativa via alterações no paradigma de memória e forma de comunicação entre nós, assim como a própria ferramenta de compilação e respectivas flags. Assim sendo, temos então 5 opções a analisar: EP, MG, CG, FT, IS. Resta-nos portanto analisar primeiramente quais as principais propriedades de cada um antes de qualquer avanço no trabalho. \par 
 \begin{itemize}
 
 \item \textbf{EP},  tal como o próprio nome indica (Embarrassingly Parallel), que por calcular números aleatórios é um kernel implicitamente embaracosamente paralelo. Tem como propósito estabelecer o Peak Performance em "FP Operations" de um sistema de computação em teste. É então espectável obtermos os melhores resultados de performance neste kernel e, por esse mesmo motivo, este será um dos kernels com grande relevância para o nosso caso de estudo.
@@ -456,13 +459,13 @@ As "NAS Parallel Benchmarks"\cite{nas} englobam 5 kernels (EP, MG, CG, FT, IS) e
 
 \section{Caracterização do Hardware do ambiente de testes}
 Escolhidas as benchmarks, resta-me especificar os ambientes de teste nos quais pretendo realizar as benchmarks. Através da análise do hardware disponível no Search6 \footnote{Services and Advanced Research Computing with HTC/HPC clusters}, a nossa plataforma de teste, deparamo-nos com duas 
-realidades distintas presentes no mesmo cluster. Se por um lado temos uma grande porção dos nodos de computação com configurações de hardware relativamente homogéneas (28 dos 54 nodos disponíveis apresentam todos as mesmas características de comunicação, armazenamento local, memória RAM disponível e mesma família de processadores - Ivy Bridge), por outro lado temos os restantes 26 nodos com características relativamente distintas entre nodos (diferentes famílias de processadores, diferentes características de comunicação entre nodos disponíveis, memória RAM disponível em diferente número). \par 
-Considerando a abrangência do número de nodos o ponto essencial para a escolha do tipo de nodos a teste, decidi incluir no mesmo os nodos do tipo 662, 652, 641, e 431(apenas os nodos com 48GB de memória RAM disponíveis), que passarei de seguida a caracterizar. \par 
-Denote que ao realizarmos os testes de performance nos nodos acima enumerados estamos a abrangir 33 dos 54 nodos disponíveis, preservando características entre eles fundamentais para a possibilidade de comparação como por exemplo o suporte da rede Myrinet 10Gbps, e englobando como requerido mais do que uma classe de arquitectura existe no Search6.\par 
+realidades distintas presentes no mesmo cluster. Se por um lado temos uma grande porção dos nós de computação com configurações de hardware relativamente homogéneas (28 dos 54 nós disponíveis apresentam todos as mesmas características de comunicação, armazenamento local, memória RAM disponível e mesma família de processadores - Ivy Bridge), por outro lado temos os restantes 26 nós com características relativamente distintas entre nós (diferentes famílias de processadores, diferentes características de comunicação entre nós disponíveis, memória RAM disponível em diferente número). \par 
+Considerando a abrangência do número de nós o ponto essencial para a escolha do tipo de nós a teste, decidi incluir no mesmo os nós do tipo 662, 652, 641, e 431(apenas os nós com 48GB de memória RAM disponíveis), que passarei de seguida a caracterizar. \par 
+Denote que ao realizarmos os testes de performance nos nós acima enumerados estamos a abrangir 33 dos 54 nós disponíveis, preservando características entre eles fundamentais para a possibilidade de comparação como por exemplo o suporte da rede Myrinet 10Gbps, e englobando como requerido mais do que uma classe de arquitectura existe no Search6.\par 
 
 
 \begin{table}[H]
-\caption{Características de Hardware do nodo 662}
+\caption{Características de Hardware do nó 662}
      \label{table:characterization}
 \centering
   \begin{tabular}{ | l | r | }
@@ -488,7 +491,7 @@ Denote que ao realizarmos os testes de performance nos nodos acima enumerados es
 \end{table}
 
 \begin{table}[H]
-\caption{Características de Hardware do nodo 652}
+\caption{Características de Hardware do nó 652}
      \label{table:characterization}
 \centering
   \begin{tabular}{ | l | r | }
@@ -514,7 +517,7 @@ Denote que ao realizarmos os testes de performance nos nodos acima enumerados es
 \end{table}
 
 \begin{table}[H]
-\caption{Características de Hardware do nodo 641}
+\caption{Características de Hardware do nó 641}
      \label{table:characterization}
 \centering
   \begin{tabular}{ | l | r | }
@@ -540,7 +543,7 @@ Denote que ao realizarmos os testes de performance nos nodos acima enumerados es
 \end{table}
 
 \begin{table}[h!]
-\caption{Características de Hardware do nodo 431}
+\caption{Características de Hardware do nó 431}
      \label{table:characterization}
 \centering
   \begin{tabular}{ | l | r | }
@@ -565,14 +568,13 @@ Denote que ao realizarmos os testes de performance nos nodos acima enumerados es
   \end{tabular}
 \end{table}
 
-Da caracterização de hardware acima realizada podemos retirar já as diferentes possibilidades relativamente ao número de threads a testar em ambiente de memória partilhada, assim como propriedades adequadas aos testes em ambiente de memória distribuída. Para além do anteriormente enumerado  obtive dados de extrema importância relativa à próxima decisão do nosso caso de estudo -- a escolha das classes de dados a incluir no nosso caso de estudo. Será com base nas propriedades relativas à Memória RAM disponível, tamanho e forma de distribuição dos vários níveis de cache, assim como a Peak Memory Bandwith teórica de Memória do CPU, que centrarei a minha decisão sobre quais as classes de dados relevantes.
+Da caracterização de hardware acima realizada podemos retirar já as diferentes possibilidades relativamente ao número de threads a testar em ambiente de memória partilhada, assim como propriedades adequadas aos testes em ambiente de memória distribuída. Para além do anteriormente enumerado  obtive dados de extrema importância relativa à próxima decisão do nosso caso de estudo -- a escolha das classes de dados a incluir no nosso caso de estudo. Será com base nas propriedades relativas à Memória RAM disponível, tamanho e forma de distribuição dos vários níveis de cache, assim como a Peak Memory Bandwidth teórica de Memória do CPU, que centrarei a minha decisão sobre quais as classes de dados relevantes.
 
 \subsection{Inclusão de diferentes dimensões (classes) de dados}
 
-Será importante para a relevância dos testes de perfomance incluir datasets de diferentes dimensões. Ora, analisando as propriedades dos processadores presentes nos nossos nodos de computação devo portante seleccionar um dataset capaz de ser compreendido na Cache L1 (menor ou igual a 32KB), um dataset capaz de ser compreendido na Cache L2 (menor ou igual a 256KB), um dataset capaz de ser compreendido na Cache L3 (menor que 12MB) e um dataset capaz de ser compreendido na Memória Ram disponível nos nodos de computação (menor que 48GB). \par 
-Analisadas as dimensões dos problemas para as diferentes Classes de dados e Benchmarks a incluir no nosso caso de estudo, verificamos que em nenhum dos casos os datasets são possíveis de ser compreendidos totalmente na cache L1. Assim, e focando o nosso processo de seleção com base nas benchmarks IS e MG podemos concluir que as classes de dados que melhor se associam ao nosso problema são portanto a classe S (totalmente contida na cache L2 ou L3 ), e as classes A, B, e C por serem consideradas classes standard das benchmarks e de fácil comparação de resultados com a comunidade do HPC. \par 
+Será importante para a relevância dos testes de perfomance incluir datasets de diferentes dimensões. Ora, analisando as propriedades dos processadores presentes nos nossos nós de computação devo portante seleccionar um dataset capaz de ser compreendido na Cache L1 (menor ou igual a 32KB), um dataset capaz de ser compreendido na Cache L2 (menor ou igual a 256KB), um dataset capaz de ser compreendido na Cache L3 (menor que 12MB) e um dataset capaz de ser compreendido na Memória Ram disponível nos nós de computação (menor que 48GB). \par 
+Analisadas as dimensões dos problemas para as diferentes Classes de dados e Benchmarks a incluir no nosso caso de estudo através da tabela \ref{table:dimensaoproblema}, verificamos que em nenhum dos casos os datasets são possíveis de ser compreendidos totalmente na cache L1. Assim, e focando o nosso processo de seleção com base nas benchmarks IS e MG podemos concluir que as classes de dados que melhor se associam ao nosso problema são portanto a classe S (totalmente contida na cache L2 ou L3 ), e as classes A, B, e C por serem consideradas classes standard das benchmarks e de fácil comparação de resultados com a comunidade do HPC. \par 
 Denote ainda que para o caso da benchmark CG a classe de dados C apresenta um tamanho de dados superior ao possível de estar contido na memória principal obrigando teoricamente a um decréscimo de perfomance derivada do aumento de IO.\par 
-No anexo X presente na página X poderá encontrar informação mais detalhada relativa à forma de cálculo do tamanho dos datasets das diferentes classes de dados. 
 
 \begin{table}[h!]
 \caption{Dimensão do dataset para as diferentes Classes e Benchmarks}
@@ -719,13 +721,349 @@ Teremos portanto as seguintes combinações de software distintas no nosso caso 
 % \fnbelowfloat command of the stfloats package.
 
 
-\section{Benchmarking em ambiente de testes sequencial}
+\section{Benchmarking em ambiente de testes sequencial -- NPB SEQ}
 
-Para as 
+Nesta primeira fase do caso de estudo temos principal interesse na perfomance dos 4 kernels em teste relativamente ao tempo total para a solução, assim como o número máximo de Milhões de FP Operations alcançado por cada kernel.\par Assim, foquemos a nossa atenção primeiramente no número máximo de FP Operations alcançado para a maior classe de dados em teste (classe C), para as várias opções de compiladores e flags de compilação:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/SEQ/MOPS_seq_cg_C.eps}
+\caption{Milhões de FP Operations alcançado para o kernel SEQ - CG, classe de dados C para diferentes compiladores e flags de compilação}
+\label{mops_seq_cg_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/SEQ/MOPS_seq_is_C.eps}
+\caption{Milhões de FP Operations alcançado para o kernel SEQ - IS, classe de dados C para diferentes compiladores e flags de compilação}
+\label{mops_seq_is_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/SEQ/MOPS_seq_ep_C.eps}
+\caption{Milhões de FP Operations alcançado para o kernel SEQ - EP, classe de dados C para diferentes compiladores e flags de compilação}
+\label{mops_seq_ep_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/SEQ/MOPS_seq_mg_C.eps}
+\caption{Milhões de FP Operations alcançado para o kernel SEQ - MG, classe de dados C para diferentes compiladores e flags de compilação}
+\label{mops_seq_mg_c}
+\end{figure}
+
+Como poderá analisar, é para os nós do tipo compute-662 que obtemos os valores mais baixos de FP Operations por segundo. Denote que estamos a centrar este primeiro caso de estudo tendo por base a versão sequencial, ou seja, o número de cores físicos disponíveis por tipo de nó não terá influência, tendo sim por exemplo, a frequência de clock base de cada CPU. Ora, tendo isso em conta, este resultado é espectável dada a frequência dos nós 662 ser inferior a qualquer um dos outros nós em teste. Podemos ainda comprovar esta afirmação pela performance dos nós compute-431 quando comparada com nós de computação que possuem CPUs de uma arquitectura mais recente. \par 
+Podemos ainda observar que relativamente à performance relativa para diferentes compiladores e flags de compilação é nos kernels compilados com o compilador gcc versão 4.9.0 com flag de compilação -03 que obtemos os melhores resultados. O compilador da Intel apenas ultrapassa o compilador da GNU em todos os nós de computação para o kernel EP, como visível na figura \ref{mops_seq_ep_c}. Podemos daqui concluir que para os 4 kernels em estudo o compilador icc tem melhor performance em kernels sem dependência de dados. Contudo, o valor máximo de FP Operations não foi de todo alcançado pelo kernel EP mas sim pelo kernel MG como visível na figura \ref{mops_seq_mg_c}.\par 
+Ora, analisado o máximo de FP Operations alcançado pelos kernels sequenciais, centremos a nossa atenção no tempo total para a solução destes mesmos kernels para todas as classes de dados em estudo, restringindo agora o análise gráfica para o melhor resultado obtido em termos de opção de compilador e flag de compilação -- gcc 4.9.0 com flag -O3.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/SEQ/TEMPO_seq-cg.eps}
+\caption{Relação entre tempo total para a solução para o kernel SEQ - CG, classes de dados S,A,B e C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{tempo_seq_cg_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/SEQ/TEMPO_seq-is.eps}
+\caption{Relação entre tempo total para a solução para o kernel SEQ - IS, classes de dados S,A,B e C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{tempo_seq_is_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/SEQ/TEMPO_seq-ep.eps}
+\caption{Relação entre tempo total para a solução para o kernel SEQ - EP, classes de dados S,A,B e C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{tempo_seq_ep_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/SEQ/TEMPO_seq-mg.eps}
+\caption{Relação entre tempo total para a solução para o kernel SEQ - MG, classes de dados S,A,B e C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{tempo_seq_mg_c}
+\end{figure}
+
+Analisando o tempo de computação por tipo de nó voltamos a confirmar o enunciado anteriormente -- os melhores resultados estão presentes para os nós do tipo compute-651 seguidos dos apresentados pelos nós compute-431. Temos portante duas arquitecturas de processadores distintas com resultados praticamente equivalentes. Comprovamos ainda que a proporção de crescimento do tempo para a solução entre classes de dados é conforme o espetado aproximadamente 4x. \par 
+Resta-nos relacionar o tempo entre os 4 kernels para os diferentes nós de computação para a maior classe de dados em estudo:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/SEQ/TEMPO_seq_gcc_C_all.eps}
+\caption{Relação entre tempo total para a solução para os kernels SEQ - CG, IS, EP e MG, para a classe de dados C para compilador gcc 4.9.0 com flag de compilação -O3}
+\label{tempo_seq_all_c}
+\end{figure}
+
+Podemos concluir deste último gráfico a razão do kernel EP ser tão penalizado em termos de FP Operations por segundo. Ora, como pode analisar o tempo para a solução do mesmo, apesar de ser inferior a todos os outros, não apresenta uma diferença suficiente para o que o número de operações justifique o tempo de computação. Temos no outro extremo dois kernels de complexidade superior (CG e MG) agravados pela dependência de dados mas que conseguem manter um rácio de número de operações por segundo em muito superior ao kernel que deveria definir um tecto quanto ao número de FP operations. Veremos se esta mesma razão se mantém quando adicionarmos o overhead de comunicação entre processos para os casos de ambiente de memória distribuída e memória partilhada.
+
+\section{Benchmarking em ambiente de memória partilhada -- NPB OMP}
+
+Para o caso de estudo em ambiente de memória partilhada foram criados casos de teste que superassem o número de threads possíveis de correrem concorrente por tipo de CPU, ou seja, superou-se o número de threads por CPU mesmo em hyper-threading. Analisemos portanto a relação entre o tempo de computação e o aumento do número de threads openMP para a solução, para os diferentes kernels e para a maior classe de dados em teste, fixando o compilador que apresentou melhores resultados anteriormente (gcc 4.9.0. com flag de compilação -O3):
 
 
-\section{Conclusion}
-The conclusion goes here.
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/TEMPO_omp_cg_o3.eps}
+\caption{Relação entre tempo total para a solução para o kernel OMP - CG, classe de dados C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{tempo_omp_cg_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/TEMPO_omp_is_o3.eps}
+\caption{Relação entre tempo total para a solução para o kernel OMP - IS, classe de dados C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{tempo_omp_is_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/TEMPO_omp_ep_o3.eps}
+\caption{Relação entre tempo total para a solução para o kernel OMP - EP, classe de dados C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{tempo_omp_ep_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/TEMPO_omp_mg_o3.eps}
+\caption{Relação entre tempo total para a solução para o kernel OMP - MG, classe de dados C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{tempo_omp_mg_c}
+\end{figure}
+
+Ora, se anteriormente o tempo total de solução apresentado para os nós do tipo compute-662 era ultrapassado por todos os restantes tipos de nós, neste ambiente de teste tal não sucede. Isto deve-se ao número de threads disponível por CPU deste tipo de nó ser superior ao valor apresentado pelos seus "concorrentes", assim como o tamanho dos níveis de cache pertencer ao grupo dos que apresentam maior dimensão. \par 
+Denote que o tempo de computação apresenta uma redução para todo os incrementes no número de threads presente na solução até ao número de threads openMP superar o número de threads disponíveis por CPU. É espectável que tal suceda. Quando existem mais threads na solução que as "fisicamente" (em hyper-threading) disponibilizadas algumas terão que ser colocadas em espera e os dados presentes em cache serão possivelmente invalidados pelos dados da thread que ganhou o tempo de processador em detrimento desta. Denote que, para todos os nós em estudo, apenas as Cache L1 e L2 são explicitamente de um Core, o nível L3 é partilhado por grupos de Cores, exponenciando o problema anteriormente descrito. \par 
+
+Analisados os tempos totais de solução, centremos a nossa atenção nos ganhos alcançados para as versões paralelas dos kernels quando comparados com o valores de referência sequencial, para a classe de dados C, para o compilador com melhores resultados sequenciais (gcc 4.9.0 com flag de compilação -O3).\par 
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/ganho_cg_03.eps}
+\caption{Relação de ganho para o kernel OMP - CG, classe de dados C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{ganho_omp_cg_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/ganho_is_03.eps}
+\caption{Relação de ganho para o kernel OMP - IS, classe de dados C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{ganho_omp_is_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/ganho_ep_03.eps}
+\caption{Relação de ganho para o kernel OMP - EP, classe de dados C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{ganho_omp_ep_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/ganho_mg_03.eps}
+\caption{Relação de ganho para o kernel OMP - MG, classe de dados C para  compilador gcc 4.9.0 com flag de compilação -O3}
+\label{ganho_omp_mg_c}
+\end{figure}
+
+Como podemos constatar pelas figuras \ref{ganho_omp_cg_c} a \ref{ganho_omp_mg_c} foi para os nós compute-662 que obtivemos a maior relação de ganho. Ora isto pode ser explicado pelo anteriormente descrito e pelo facto de este mesmo nó apresentar para a versão sequencial um tempo aquém do esperado. Ora, assim em adição aos bons resultados para este tipo de nós em ambiente paralelo de memória partilhado estão os mais resultados para os testes sequenciais, elevando assim ainda mais o valor do ganho. \par 
+Por questões pedagógicas e de validação analisemos o comportamento de outra versão do compilador (gcc 4.4.6) e outra flag de compilação (-O2), restringindo-nos nesta análise aos nós com melhor resultado em kernels paralelos em memória partilhada -- os nós compute-662.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/ganho_compiladores_cg.eps}
+\caption{Relação de ganho para o kernel OMP - CG, classe de dados C para  compiladores gcc 4.4.6 e 4.9.0 com flags de compilação -O2 ou -O3}
+\label{ganho_compiladores_cg_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/ganho_compiladores_is.eps}
+\caption{Relação de ganho para o kernel OMP - IS, classe de dados C para  compiladores gcc 4.4.6 e 4.9.0 com flags de compilação -O2 ou -O3}
+\label{ganho_compiladores_is_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/ganho_compiladores_ep.eps}
+\caption{Relação de ganho para o kernel OMP - IS, classe de dados C para  compiladores gcc 4.4.6 e 4.9.0 com flags de compilação -O2 ou -O3}
+\label{ganho_compiladores_ep_c}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/OMP/ganho_compiladores_mg.eps}
+\caption{Relação de ganho para o kernel OMP - IS, classe de dados C para  compiladores gcc 4.4.6 e 4.9.0 com flags de compilação -O2 ou -O3}
+\label{ganho_compiladores_mg_c}
+\end{figure}
+
+Podemos concluir que o ganho relativo se manteve constante com exceção do número de threads igual a 48 para a versão do compilador gcc 4.4.6 com flag de compilação -O3. Ora, tal decréscimo de performance repercute-se em todos os kernels. Podemos afirmar com certeza que o mesmo decréscimo foi ultrapassada com a última versão do compilador tornando pouco expressivo o valor do mesmo no caso de estudo.
+
+
+\section{Benchmarking em ambiente de memória distribuída -- NPB MPI}
+
+Para o caso de estudo em ambiente de memória distribuída foram criados casos de teste que envolveram 2 e 4 máquinas distintas do mesmo tipo. Assim para o caso de 2 máquinas envolvidas na solução teremos em teste 8 e 16 processos MPI e para o caso de 4 máquinas envolvidas na solução teremos em teste 32 processos MPI. Depois de uma sessão informativa com o Search Admin foi aconselhado que o número de processos comunicantes via Myrinet 10Gbps não ultrapassasse os 8, daí os testes anteriormente descritos. Para além das diferentes configurações relativamente ao número de processos e nós teremos ainda diferentes formas de comunicação, sendo estas Gigabit Ethernet e Myrinet 10Gbps. Ora dado necessitarmos de 4 do mesmo tipo excluímos obrigatoriamente os nós do tipo compute-652 do ambiente de teste (existem apenas 2 nós disponíveis). \par 
+Dado que o cluster utilizado para ambiente de testes é também um cluster de produção, os recursos disponíveis são também limitados, sendo que a probabilidade de alocar exclusivamente 4 dos 6 nós do tipo compute-662 era muito reduzida foi limitado o ambiente de teste em memória distribuída aos nós do tipo compute-641 e compute-431. Denote que continuamos a poder comparar duas arquitecturas de processador distintas como era nosso objectivo.\par 
+Serão então apresentados os resultados divididos por tipo de nó. 
+
+
+\subsection{Relação entre tempo total para a solução para os kernels OMP CG, IS, EP, MG -- nós compute-431}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/431/mpi_431_cg.eps}
+\caption{Relação entre tempo total para a solução para o kernel MPI - CG, nós 431, classe de dados C para compiladores gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação Gigabit Ethernet e Myrinet 10Gbps}
+\label{tempo_mpi_cg_431}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/431/mpi_431_is.eps}
+\caption{Relação entre tempo total para a solução para o kernel MPI - IS, nós 431, classe de dados C para compiladores gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação Gigabit Ethernet e Myrinet 10Gbps}
+\label{tempo_mpi_is_431}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/431/mpi_431_ep.eps}
+\caption{Relação entre tempo total para a solução para o kernel MPI - EP, nós 431, classe de dados C para compiladores gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação Gigabit Ethernet e Myrinet 10Gbps}
+\label{tempo_mpi_ep_431}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/431/mpi_431_mg.eps}
+\caption{Relação entre tempo total para a solução para o kernel MPI - MG, nós 431, classe de dados C para compiladores gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação Gigabit Ethernet e Myrinet 10Gbps}
+\label{tempo_mpi_mg_431}
+\end{figure}
+
+
+
+\subsection{Relação entre tempo total para a solução para os kernels OMP CG, IS, EP, MG -- nós compute-641}
+
+Denote que no momento de conclusão deste caso de estudo foi impossível recolher valores para o teste em comunicação via Myrinet 10Gbps para o compilador ICC 13.0.1 sendo portanto o mesmo tipo de teste retirado das análises gráficas. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/641/mpi_641_cg.eps}
+\caption{Relação entre tempo total para a solução para o kernel MPI - CG, nós 641, classe de dados C para compiladores gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação Gigabit Ethernet e Myrinet 10Gbps}
+\label{tempo_mpi_cg_641}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/641/mpi_641_is.eps}
+\caption{Relação entre tempo total para a solução para o kernel MPI - IS, nós 641, classe de dados C para compiladores gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação Gigabit Ethernet e Myrinet 10Gbps}
+\label{tempo_mpi_is_641}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/641/mpi_641_ep.eps}
+\caption{Relação entre tempo total para a solução para o kernel MPI - EP, nós 641, classe de dados C para compiladores gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação Gigabit Ethernet e Myrinet 10Gbps}
+\label{tempo_mpi_ep_641}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/641/mpi_641_mg.eps}
+\caption{Relação entre tempo total para a solução para o kernel MPI - MG, nós 641, classe de dados C para compiladores gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação Gigabit Ethernet e Myrinet 10Gbps}
+\label{tempo_mpi_mg_641}
+\end{figure}
+
+\subsection{Características comuns aos resultados dos nós compute-431 e compute-641}
+
+Denote que para todos os kernels em estudo a adição de nós de computação e número de processos MPI envolvidos para solução diminui o tempo de computação quando a comunicação entre processos é feita via Myrinet 10Gbps. Para os casos de comunicação via Gigabit Ethernet o tempo de solução piora sendo que para o caso do kernel EP o agravamento não é tão visível dada a inexistência da dependência de dados e consequente "independência" entre processos MPI envolvidos. \par 
+Analisemos a relação entre tempos totais para as melhores soluções SER/OMP/MPI dos kernels em teste, para ambos os nós de computação.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/431/TIME_seq_vs_mpi_omp-gcc_vs_icc_431.eps}
+\caption{Relação entre tempo total em segundos para a solução para os kernels SEQ/OMP/MPI - CG, IS, EP, MG, nós 431, classe de dados C para compiladores gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação Gigabit Ethernet e Myrinet 10Gbps}
+\label{tempos_431}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_vs_icc_641.eps}
+\caption{Relação entre tempo total em segundos para a solução para os kernels SEQ/OMP/MPI - CG, IS, EP, MG, nós 641, classe de dados C para compiladores gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação Gigabit Ethernet e Myrinet 10Gbps}
+\label{tempos_641}
+\end{figure}
+
+Denote que em ambos os nós de computação a relação entre tipo de de soluções  se mantém, sendo para o caso dos kernels CG e MG a melhor solução num ambiente de memória distribuída com comunicação via Myrinet 10Gbps e, para o caso dos kernels EP e IS a melhor solução num ambiente de memória partilhada com paralelismo via threads openMP.\par 
+Ora, podemos ainda retirar dos gráficos anteriormente apresentados que a solução em ambiente de memória distribuída é sempre melhor com comunicação via Myrinet 10Gbps, contudo e sabendo que a latência de comunicação para o caso da comunicação via Gigabit Ethernet ronda valores entre os 10 e 100 $\mu$s e a latência de comunicação via Myrinet 10Gbps ronda valores entre os 1 e 10 $\mu$s, teoricamente teríamos para um ambiente com as mesmas condições de teste um ganho de 10. Analisemos essa suposição teórica:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/myri_vs_eth_431_vs_641.eps}
+\caption{Relação de ganho para os kernels MPI - CG, IS, EP, MG, nós 431 e 641, classe de dados C para compilador gcc 4.9.0 com flag de compilação  -O3, para comunicação Gigabit Ethernet vs Myrinet 10Gbps}
+\label{tempos_641}
+\end{figure}
+
+Ora, apesar dos resultados serem satisfatórios não atingem o limite teórico. Tal pode ser devido aos kernels não utilizarem toda a capacidade disponível na rede Myrinet 10Gbps, por durante o período de teste a rede Myrinet se encontrar congestionado ou por os kernels simplesmente não serem IO Bound o suficiente para o tempo de comunicação ter significância suficiente -- repare que para o caso de kernels onde não existe dependência de dados o ganho obtido no recurso a Myrinet é menos expressivo -- como expectável. 
+
+\section{Análise do ganho relativo ao kernel SER dos kernels OMP e MPI em ambiente de  teste}
+
+Analisados os tempos de todas as soluções é necessário exprimir o ganho obtido para todas as soluções em teste, quando comparadas com a solução base sequencial. De seguida exprime-se o resultado gráfico das melhores soluções encontradas para os ambientes de memória distribuída e partilhada, para os nós compute-431 e compute-641.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/431/ganho_mpi_omp_vs_seq_431.eps}
+\caption{Relação de ganho para os kernels OMP/MPI - CG, IS, EP, MG, nós 431, classe de dados C para compilador gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação(apenas kernels MPI) Gigabit Ethernet vs Myrinet 10Gbps}
+\label{ganhos_todos_431}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/MPI/641/ganho_mpi_omp_vs_seq_641.eps}
+\caption{Relação de ganho para os kernels OMP/MPI - CG, IS, EP, MG, nós 641, classe de dados C para compilador gcc 4.9.0 e icc 13.0.1 com flag de compilação  -O3, para comunicação(apenas kernels MPI) Gigabit Ethernet vs Myrinet 10Gbps}
+\label{ganhos_todos_641}
+\end{figure}
+
+Assim, como base tanto nos resultados temporais como a nível de ganho versus a versão sequencial dos kernels em teste que as melhores soluções do conjunto de testes realizados são:
+
+
+
+\begin{itemize}
+\item \textbf{CG} - Kernel em memória distribuída com comunicação via Myrinet 10Gbps (4 nós 32 Processos), compilador gcc 4.9.0 flag -O3;
+\item \textbf{IS} - Kernel em memória partilhada com nº de processos openMP igual ao número de threads disponível, compilador gcc 4.9.0 flag -O3;
+\item \textbf{EP} - Kernel em memória partilhada com nº de processos openMP igual ao número de threads disponível, compilador gcc 4.9.0 ou compilador icc 13.0.1 flag -O3;
+\item \textbf{MG} - Kernel em memória distribuída com comunicação via Myrinet 10Gbps (4 nós 32 Processos), compilador gcc 4.9.0 flag -O3;
+
+\end{itemize}
+
+\section{Monitorização de propriedades dos sistemas de computação para as melhores soluções do conjunto de testes}
+
+Obtidos os melhores kernels relativamente ao tempo de solução resta-nos analisar essas mesmas soluções relativamente à utilização dos recursos de computação e comunicação dos sistemas. Assim, e recorrendo às métricas disponibilizadas pela ferramenta \textbf{dstat} apresenta-se em anexo (dado o tamanho dos gráficos) a influência dos kernels relativamente à ocupação da memória (Memory Stats), CPU (CPU Stats), transferência de dados em rede (Net Stats), utilização dos sistemas pelos diferentes processos (System Stats), e operações de escrita/leitura de disco (Disk Stats). Atente nos 4 agrupamentos de gráficos respectivos aos 4 kernels em teste:
+
+\begin{itemize}
+\item \textbf{CG} - Figura \ref{dstat_cg};
+\item \textbf{IS} - Figura \ref{dstat_is};
+\item \textbf{EP} - Figura \ref{dstat_ep};
+\item \textbf{MG} - Figura \ref{dstat_mg};
+
+\end{itemize}
+
+Pela análise das 4 figuras relativamente ao cpu usage podemos concluir que todos os kernels consomem quase a totalidade do tempo de computação da máquina, e que em adição nenhum dos kernels apresenta uma espera relevante em termos de percentagem de cpu wait. Ora, como podemos constatar pela análise dos gráficos System Stats, kernels sem dependência de dados (EP e IS) apresenta um maior número de interrupções do sistema e context swap. Tal deve-se ao facto de existirem um maior número de processos em "luta" por CPU time. Já os kernels CG e MG apresentam um número de bytes transferidos de grandeza 10 vezes superior ao apresentado pelos kernels EP e IS. Tal é expectável dado que a  melhor solução para os kernels EP e IS centra-se num nó não exigindo comunicação exterior e por contrário a melhor solução para os kernels CG e MG centra-se em 4 nós exigindo comunicação entre os mesmos.\par 
+Relativamente à utilização da memória disponível do sistema todos os kernels apresentam valores reduzidos, sendo novamente verificados os maiores valores para os kernels CG e MG em detrimento dos kernels IS e EP. \par 
+Em termos de utilização de disco nenhum dos kernels recorre intensivamente a leitura e escrita por grandes períodos centrando os mesmos ora no início ou término do mesmo. Podemos então verificar duplamente (Disk Stats e Memory Stats) que nenhum kernel esgotou completamente a memória principal, com recorrência ao disco para troca de dados temporários.
+
+
+
+\section{Conclusão}
+Relativamente aos kernels em estudo podemos concluir que tanto as otimizações via directivas openMP ( ambiente de memória partilhada ) e métodos openMPI ( ambiente de memória partilhada ) são eficientes na otimização de kernels por si só otimizados na sua versão sequencial.\par Podemos ainda inferir que kernels sem dependências de dados podem apresentar outras limitações que não o overhead das directivas e de comunicação, podendo por exemplo depender de características específicas de hardware (como o número de unidades de operações de vírgula flutuante). \par 
+O valor do benchmarking destes casos de estudo ultrapassa a comparação entre tipos de nós e prende-se com o desenvolvimento e prática de métodos de tratamento e análise de métricas de sistemas de computação de alta perfomance. 
+
+%The conclusion goes here.
+
+
+
+
 
 
 
@@ -735,16 +1073,16 @@ The conclusion goes here.
 
 
 % use section* for acknowledgment
-\ifCLASSOPTIONcompsoc
+%\ifCLASSOPTIONcompsoc
   % The Computer Society usually uses the plural form
-  \section*{Acknowledgments}
-\else
+ % \section*{Acknowledgments}
+%\else
   % regular IEEE prefers the singular form
-  \section*{Acknowledgment}
-\fi
+  %\section*{Acknowledgment}
+%\fi
 
 
-The authors would like to thank...
+%The authors would like to thank...
 
 
 
@@ -772,14 +1110,44 @@ The authors would like to thank...
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
+
+
 \begin{thebibliography}{1}
 
 \bibitem{nas}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+NAS Parallel Benchmarks, \url{http://www.nas.nasa.gov/publications/npb.html}
 
 \end{thebibliography}
 
+\appendix 
+
+ \begin{figure*}
+\centering
+\includegraphics[width=\textwidth]{EPS/DSTAT/CG_MPI_MX_GCC.eps}
+\caption{Monitorização de propriedades dos sistemas de computação para a melhores soluções do kernel CG -- Kernel em memória distribuída com comunicação via Myrinet 10Gbps (4 nós 32 Processos), compilador gcc 4.9.0 flag -O3}
+\label{dstat_cg}
+\end{figure*}
+
+ \begin{figure*}
+\centering
+\includegraphics[width=1\textwidth]{EPS/DSTAT/IS_OMP_24_GCC.eps}
+\caption{Monitorização de propriedades dos sistemas de computação para a melhores soluções do kernel IS -- Kernel em memória partilhada com nº de processos openMP igual ao número de threads disponível, compilador gcc 4.9.0 flag -O3}
+\label{dstat_is}
+\end{figure*}
+
+\begin{figure*}
+\centering
+\includegraphics[width=1\textwidth]{EPS/DSTAT/EP_OMP_24_GCC.eps}
+\caption{Monitorização de propriedades dos sistemas de computação para a melhores soluções do kernel IS -- Kernel em memória partilhada com nº de processos openMP igual ao número de threads disponível, compilador gcc 4.9.0 flag -O3}
+\label{dstat_ep}
+\end{figure*}
+
+\begin{figure*}
+\centering
+\includegraphics[width=\textwidth]{EPS/DSTAT/MG_MPI_MX_GCC.eps}
+\caption{Monitorização de propriedades dos sistemas de computação para a melhores soluções do kernel MG -- Kernel em memória distribuída com comunicação via Myrinet 10Gbps (4 nós 32 Processos), compilador gcc 4.9.0 flag -O3}
+\label{dstat_mg}
+\end{figure*}
 
 
 % that's all folks
