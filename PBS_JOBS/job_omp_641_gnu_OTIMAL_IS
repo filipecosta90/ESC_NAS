@@ -9,8 +9,8 @@
 #          PBS directives must come first; any directives
 #          after the first executable statement are ignored.
 
-#PBS -N esc_MPI_4.9.0_O3_431_MX_GNU_32x
-#PBS -l walltime=00:90:00
+#PBS -N ESC_641_OTIMAL_IS
+#PBS -l walltime=00:40:00
 #PBS -q mei
 
 #          PBS can send informative email messages to you about the
@@ -28,44 +28,43 @@
 #          Specify the number of nodes requested and the
 #          number of processors per node. 
 
-#PBS -l nodes=compute-431-1:ppn=24+compute-431-2:ppn=24+compute-431-3:ppn=24+compute-431-4:ppn=24
+#PBS -l nodes=1:r641:ppn=32
 
-cd ESC_NAS/NPB3.3.1/NPB3.3-MPI
+cd ESC_NAS/NPB3.3.1/NPB3.3-OMP
 
 module purge
 module load gnu/4.9.0
-module load gnu/openmpi_mx/1.8.2
-
-ompi_info --param mpi all >> "MPI_INFO.txt"
-
-echo $PBS_NODE_FILE
 
 read -r node_info<$PBS_NODEFILE
-
+echo $PBS_NODEFILE >> nodejobsOTIMAL_IS
 echo "Allocated computing node: $node_info"
 
-cd bin_gnu_4.9.0_O3_32x__MX
+cd bin_gnu_4.9.0_O3
 
 max_ppn=1
-sample_size=5
 
-for (( ppn = 1; ppn <= max_ppn; ++ppn )) 
+for sample_sequence in 1 8 32 
 do
-echo "Running $sample_size * ppn: $ppn nodes"
-for (( seq_num=1; seq_num <= $sample_size; ++seq_num ))
-do
-for execc in *.32
-do
-	echo "running $execc"
-        /home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$execc"_"$seq_num"_"$node_info"_MPI_ETH.csv >> /dev/null &
-	echo ".. going to run $execc (dstat $!)"
-mpirun -np 32 --hostfile hosts_file --report-bindings --mca mtl mx --mca pml cm  ./$execc  > MPI_"$execc"_"$seq_num"_"$node_info"_MYRI.txt
-	sleep 5
-	kill $!
-	echo "$! killed"
-done
-done
-done
+	echo "Running $sample_size * ppn: $ppn nodes"
+	for (( seq_num=1; seq_num <= $sample_sequence; ++seq_num ))
+	do
+		for execc in is.C.x
+		do
+			echo "running $execc"
+			for n_threads in 44 
+			do
+				/home/a57816/ESC_NAS/NPB3.3.1/dstat -tvfnml --output "$OTIMAL"_"$node_info"_NTHREADS_"$n_threads".csv >> /dev/null &
+				echo ".. going to run $execc (dstat $!)"
+				export OMP_NUM_THREADS=$n_threads
+				echo "$OMP_NUM_THREADS $n_threads"
+				./$execc > DSTAT_SETENV_"OTIMAL_$execc"_"SAMPLE_SEQUENCE_$sample_sequence"_"$node_info"_THREADS_"$n_threads".txt
 
+kill $!
+echo "$! killed"
+			done
+		done
+	done
+sleep $10
+done
 echo "Done..."
 
