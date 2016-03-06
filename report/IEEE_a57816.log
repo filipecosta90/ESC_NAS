@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.16)  2 MAR 2016 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.16)  4 MAR 2016 21:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1439,7 +1439,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on IEEE_a57816.pdf (18 pages, 488488 bytes).
+Output written on IEEE_a57816.pdf (18 pages, 488486 bytes).
 PDF statistics:
  607 PDF objects out of 1000 (max. 8388607)
  428 compressed objects within 5 object streams

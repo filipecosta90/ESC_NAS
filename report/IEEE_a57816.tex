@@ -1051,8 +1051,7 @@ Obtidos os melhores kernels relativamente ao tempo de solução resta-nos analis
 
 Pela análise das 4 figuras relativamente ao cpu usage podemos concluir que todos os kernels consomem quase a totalidade do tempo de computação da máquina, e que em adição nenhum dos kernels apresenta uma espera relevante em termos de percentagem de cpu wait. Ora, como podemos constatar pela análise dos gráficos System Stats, kernels sem dependência de dados (EP e IS) apresenta um maior número de interrupções do sistema e context swap. Tal deve-se ao facto de existirem um maior número de processos em "luta" por CPU time. Já os kernels CG e MG apresentam um número de bytes transferidos de grandeza 10 vezes superior ao apresentado pelos kernels EP e IS. Tal é expectável dado que a  melhor solução para os kernels EP e IS centra-se num nó não exigindo comunicação exterior e por contrário a melhor solução para os kernels CG e MG centra-se em 4 nós exigindo comunicação entre os mesmos.\par 
 Relativamente à utilização da memória disponível do sistema todos os kernels apresentam valores reduzidos, sendo novamente verificados os maiores valores para os kernels CG e MG em detrimento dos kernels IS e EP. \par 
-Em termos de utilização de disco nenhum dos kernels recorre intensivamente a leitura e escrita por grandes períodos centrando os mesmos ora no início ou término do mesmo. Podemos então verificar duplamente (Disk Stats e Memory Stats) que nenhum kernel esgotou completamente a memória principal, com recorrência ao disco para troca de dados temporários.
-
+Em termos de utilização de disco nenhum dos kernels recorre intensivamente a leitura e escrita por grandes períodos, centrando os mesmos ora no início ou término do mesmo. Podemos então verificar duplamente (Disk Stats e Memory Stats) que nenhum kernel esgotou completamente a memória principal, com recorrência ao disco para troca de dados temporários.
 
 
 \section{Conclusão}
