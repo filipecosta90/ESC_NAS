@@ -1039,6 +1039,9 @@ Assim, como base tanto nos resultados temporais como a nível de ganho versus a 
 
 \section{Monitorização de propriedades dos sistemas de computação para as melhores soluções do conjunto de testes}
 
+\subsection{Análise de propriedades para monitorização de execução única}
+\label{subsec:monitor}	
+
 Obtidos os melhores kernels relativamente ao tempo de solução resta-nos analisar essas mesmas soluções relativamente à utilização dos recursos de computação e comunicação dos sistemas. Assim, e recorrendo às métricas disponibilizadas pela ferramenta \textbf{dstat} apresenta-se em anexo (dado o tamanho dos gráficos) a influência dos kernels relativamente à ocupação da memória (Memory Stats), CPU (CPU Stats), transferência de dados em rede (Net Stats), utilização dos sistemas pelos diferentes processos (System Stats), e operações de escrita/leitura de disco (Disk Stats). Atente nos 4 agrupamentos de gráficos respectivos aos 4 kernels em teste:
 
 \begin{itemize}
@@ -1053,10 +1056,26 @@ Pela análise das 4 figuras relativamente ao cpu usage podemos concluir que todo
 Relativamente à utilização da memória disponível do sistema todos os kernels apresentam valores reduzidos, sendo novamente verificados os maiores valores para os kernels CG e MG em detrimento dos kernels IS e EP. \par 
 Em termos de utilização de disco nenhum dos kernels recorre intensivamente a leitura e escrita por grandes períodos, centrando os mesmos ora no início ou término do mesmo. Podemos então verificar duplamente (Disk Stats e Memory Stats) que nenhum kernel esgotou completamente a memória principal, com recorrência ao disco para troca de dados temporários.
 
+\subsection{Análise de propriedades para monitorização de execução "n-vezes" da melhor solução}
+
+Como se pôde constatar anteriormente, foi nos kernels IS e EP que se verificaram o maior número de interrupções do sistema e context swap quando comparados com os kernels MG e CG, mesmo tendo o segundo conjunto de kernels apresentado um maior tempo total de execução. Ora, analisemos na Figura \ref{dstat_nvezes}
+ o comportamento agora para a execução "n-vezes" do kernel EP para 1, 8 e 32 execuções consecutivas na mesma máquina. Denote que foi escolhido o kernel EP em detrimento do IS dado o tempo de computação do kernel EP ser maior, permitindo assim um análise mais alargada da influência da execução dos kernels para o sistema de computação.\par 
+ Como espectável, os resultados do teste de performance mantêm-se inalterados independentemente da sequência de "n-testes" realizados, contudo, durante o maior teste podemos observar uma maior percentagem de tempo \textbf{\%CPU IDLE} em alguns dos testes  \textbf{\%CPU WAIT} -- como se pode confirmar observando a Figura  \ref{dstat_nvezes} --
+ tal é devido a períodos de espera por escrita no disco. Denote que durante esse mesmo período de tempo observamos também  um decaimento abrupto do número de CPU context swap e interrupções (não realizando trabalho não existe a possibilidade de interrupção).\par 
+ Seria interessante alcançar comportamentos de "ramping" nos sistemas de computação por forma a verdadeiramente forçar os sistemas de computação em teste ao peak perfomance dos vários micro-benchmarks e respectiva "saturação" do sistema.
+
+
 
 \section{Conclusão}
 Relativamente aos kernels em estudo podemos concluir que tanto as otimizações via directivas openMP ( ambiente de memória partilhada ) e métodos openMPI ( ambiente de memória partilhada ) são eficientes na otimização de kernels por si só otimizados na sua versão sequencial.\par Podemos ainda inferir que kernels sem dependências de dados podem apresentar outras limitações que não o overhead das directivas e de comunicação, podendo por exemplo depender de características específicas de hardware (como o número de unidades de operações de vírgula flutuante). \par 
-O valor do benchmarking destes casos de estudo ultrapassa a comparação entre tipos de nós e prende-se com o desenvolvimento e prática de métodos de tratamento e análise de métricas de sistemas de computação de alta perfomance. 
+O valor do benchmarking destes casos de estudo ultrapassa a comparação entre tipos de nós e prende-se com o desenvolvimento e prática de métodos de tratamento e análise de métricas de sistemas de computação de alta perfomance.  Inicialmente o caso de estudo era alargado por forma a podermos rapidamente seleccionar as características de compilação e nós de maior interesse, sendo que depois de uma primeira fase foi dado maior ênfase a componentes do teste que apresentavam uma maior disparidade de resultados. \par 
+A componente prática laboratorial deste caso de estudo realça ainda mais a diferença entre valores conseguidos por experimentação e valores medidos nos nossos próprios clusters. Podemos resumir este trabalho em três fases, todas elas de extrema importância: 
+\begin{itemize}
+\item \textbf{Seleção e Fundamentação} - das ferramentas de bechmarking, das métricas a recolher e das configurações a testar;
+\item \textbf{Execução} - das benchmarks no nosso ambiente de clustering e recolha de grandes quantidades dados;
+\item \textbf{Filtragem e Interpretação} - dos dados estatísticos e produção de uma apreciação (neste caso do relatório);
+\end{itemize}
+Todos os alunos foram sujeitos a tempo limitado para correr os benchmarks e analisar os resultados, assim como recursos de computação em ambiente de clustering limitados. Podemos considerar este caso de estudo como um misto de prioritização de objectivos, fundamentação de resultados via aplicação de conceitos teóricos e como uma forma de maior ambientação no ambiente de clustering presente no Search6.
 
 %The conclusion goes here.
 
@@ -1123,30 +1142,38 @@ NAS Parallel Benchmarks, \url{http://www.nas.nasa.gov/publications/npb.html}
  \begin{figure*}
 \centering
 \includegraphics[width=\textwidth]{EPS/DSTAT/CG_MPI_MX_GCC.eps}
-\caption{Monitorização de propriedades dos sistemas de computação para a melhores soluções do kernel CG -- Kernel em memória distribuída com comunicação via Myrinet 10Gbps (4 nós 32 Processos), compilador gcc 4.9.0 flag -O3}
+\caption{Monitorização de propriedades dos sistemas de computação para a melhor solução do kernel CG -- Kernel em memória distribuída com comunicação via Myrinet 10Gbps (4 nós 32 Processos), compilador gcc 4.9.0 flag -O3, nó compute-641}
 \label{dstat_cg}
 \end{figure*}
 
  \begin{figure*}
 \centering
 \includegraphics[width=1\textwidth]{EPS/DSTAT/IS_OMP_24_GCC.eps}
-\caption{Monitorização de propriedades dos sistemas de computação para a melhores soluções do kernel IS -- Kernel em memória partilhada com nº de processos openMP igual ao número de threads disponível, compilador gcc 4.9.0 flag -O3}
+\caption{Monitorização de propriedades dos sistemas de computação para a melhor solução do kernel IS -- Kernel em memória partilhada com nº de processos openMP igual ao número de threads disponível, compilador gcc 4.9.0 flag -O3, nó compute-641}
 \label{dstat_is}
 \end{figure*}
 
 \begin{figure*}
 \centering
 \includegraphics[width=1\textwidth]{EPS/DSTAT/EP_OMP_24_GCC.eps}
-\caption{Monitorização de propriedades dos sistemas de computação para a melhores soluções do kernel IS -- Kernel em memória partilhada com nº de processos openMP igual ao número de threads disponível, compilador gcc 4.9.0 flag -O3}
+\caption{Monitorização de propriedades dos sistemas de computação para a melhor solução do kernel EP -- Kernel em memória partilhada com nº de processos openMP igual ao número de threads disponível, compilador gcc 4.9.0 flag -O3, nó compute-641}
 \label{dstat_ep}
 \end{figure*}
 
 \begin{figure*}
 \centering
 \includegraphics[width=\textwidth]{EPS/DSTAT/MG_MPI_MX_GCC.eps}
-\caption{Monitorização de propriedades dos sistemas de computação para a melhores soluções do kernel MG -- Kernel em memória distribuída com comunicação via Myrinet 10Gbps (4 nós 32 Processos), compilador gcc 4.9.0 flag -O3}
+\caption{Monitorização de propriedades dos sistemas de computação para a melhor solução do kernel MG -- Kernel em memória distribuída com comunicação via Myrinet 10Gbps (4 nós 32 Processos), compilador gcc 4.9.0 flag -O3, nó compute-641}
 \label{dstat_mg}
 \end{figure*}
+
+ \begin{figure*}
+\centering
+\includegraphics[height=\textheight]{EPS/DSTAT/EP_32x.eps}
+\caption{Monitorização de propriedades dos sistemas de computação para a melhor solução do kernel EP executada 1x,8x e 32x -- Kernel em memória partilhada com nº de processos openMP igual ao número de threads disponível, compilador gcc 4.9.0 flag -O3, nó compute-641}
+\label{dstat_nvezes}
+\end{figure*}
+
 
 
 % that's all folks

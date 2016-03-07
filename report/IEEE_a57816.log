@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.16)  4 MAR 2016 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.16)  7 MAR 2016 02:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1322,6 +1322,11 @@ bu[]^^Pda com
 
 [13 <./EPS/MPI/431/ganho_mpi_omp_vs_seq_431-eps-converted-to.pdf> <./EPS/MPI/64
 1/ganho_mpi_omp_vs_seq_641-eps-converted-to.pdf>]
+Underfull \hbox (badness 3068) in paragraph at lines 1074--1075
+[]\OT1/ptm/b/n/10.03749 Sele[][]ao e Fundamenta[][]ao \OT1/ptm/m/n/10.03749 - d
+as fer-ra-men-tas
+ []
+
 Package epstopdf Info: Source file: <EPS/DSTAT/CG_MPI_MX_GCC.eps>
 (epstopdf)                    date: 2016-02-29 23:25:07
 (epstopdf)                    size: 276009 bytes
@@ -1331,15 +1336,14 @@ df>
 (epstopdf)                    size: 16091 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/DSTAT/CG_MPI_MX_GCC-ep
 s-converted-to.pdf EPS/DSTAT/CG_MPI_MX_GCC.eps>
-(epstopdf)             \includegraphics on input line 1126.
+(epstopdf)             \includegraphics on input line 1144.
 Package epstopdf Info: Output file is already uptodate.
-
 <EPS/DSTAT/CG_MPI_MX_GCC-eps-converted-to.pdf, id=529, 963.6pt x 963.6pt>
 File: EPS/DSTAT/CG_MPI_MX_GCC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/DSTAT/CG_MPI_MX_GCC-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/DSTAT/CG_MPI_MX_GCC-eps-converted-to.pdf used on i
-nput line 1126.
+nput line 1144.
 (pdftex.def)             Requested size: 505.89pt x 505.88287pt.
 Package epstopdf Info: Source file: <EPS/DSTAT/IS_OMP_24_GCC.eps>
 (epstopdf)                    date: 2016-02-29 23:44:23
@@ -1350,7 +1354,7 @@ df>
 (epstopdf)                    size: 14286 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/DSTAT/IS_OMP_24_GCC-ep
 s-converted-to.pdf EPS/DSTAT/IS_OMP_24_GCC.eps>
-(epstopdf)             \includegraphics on input line 1133.
+(epstopdf)             \includegraphics on input line 1151.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/DSTAT/IS_OMP_24_GCC-eps-converted-to.pdf, id=530, 963.6pt x 963.6pt>
@@ -1358,7 +1362,7 @@ File: EPS/DSTAT/IS_OMP_24_GCC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/DSTAT/IS_OMP_24_GCC-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/DSTAT/IS_OMP_24_GCC-eps-converted-to.pdf used on i
-nput line 1133.
+nput line 1151.
 (pdftex.def)             Requested size: 505.89pt x 505.88287pt.
 Package epstopdf Info: Source file: <EPS/DSTAT/EP_OMP_24_GCC.eps>
 (epstopdf)                    date: 2016-02-29 23:47:32
@@ -1369,7 +1373,7 @@ df>
 (epstopdf)                    size: 16754 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/DSTAT/EP_OMP_24_GCC-ep
 s-converted-to.pdf EPS/DSTAT/EP_OMP_24_GCC.eps>
-(epstopdf)             \includegraphics on input line 1140.
+(epstopdf)             \includegraphics on input line 1158.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/DSTAT/EP_OMP_24_GCC-eps-converted-to.pdf, id=531, 963.6pt x 963.6pt>
@@ -1377,7 +1381,7 @@ File: EPS/DSTAT/EP_OMP_24_GCC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/DSTAT/EP_OMP_24_GCC-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/DSTAT/EP_OMP_24_GCC-eps-converted-to.pdf used on i
-nput line 1140.
+nput line 1158.
 (pdftex.def)             Requested size: 505.89pt x 505.88287pt.
 Package epstopdf Info: Source file: <EPS/DSTAT/MG_MPI_MX_GCC.eps>
 (epstopdf)                    date: 2016-02-29 23:27:57
@@ -1388,7 +1392,7 @@ df>
 (epstopdf)                    size: 14528 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/DSTAT/MG_MPI_MX_GCC-ep
 s-converted-to.pdf EPS/DSTAT/MG_MPI_MX_GCC.eps>
-(epstopdf)             \includegraphics on input line 1147.
+(epstopdf)             \includegraphics on input line 1165.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/DSTAT/MG_MPI_MX_GCC-eps-converted-to.pdf, id=532, 963.6pt x 963.6pt>
@@ -1396,8 +1400,29 @@ File: EPS/DSTAT/MG_MPI_MX_GCC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/DSTAT/MG_MPI_MX_GCC-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/DSTAT/MG_MPI_MX_GCC-eps-converted-to.pdf used on i
-nput line 1147.
+nput line 1165.
 (pdftex.def)             Requested size: 505.89pt x 505.88287pt.
+Package epstopdf Info: Source file: <EPS/DSTAT/EP_32x.eps>
+(epstopdf)                    date: 2016-03-07 01:25:01
+(epstopdf)                    size: 547103 bytes
+(epstopdf)             Output file: <EPS/DSTAT/EP_32x-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-07 01:25:35
+(epstopdf)                    size: 69741 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/DSTAT/EP_32x-eps-conve
+rted-to.pdf EPS/DSTAT/EP_32x.eps>
+(epstopdf)             \includegraphics on input line 1172.
+Package epstopdf Info: Output file is already uptodate.
+
+<EPS/DSTAT/EP_32x-eps-converted-to.pdf, id=533, 852.18375pt x 1445.4pt>
+File: EPS/DSTAT/EP_32x-eps-converted-to.pdf Graphic file (type pdf)
+
+<use EPS/DSTAT/EP_32x-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/DSTAT/EP_32x-eps-converted-to.pdf used on input li
+ne 1172.
+(pdftex.def)             Requested size: 384.42838pt x 652.03537pt.
+
+
+LaTeX Warning: Float too large for page by 31.00777pt on input line 1175.
 
 
 ** Conference Paper **
@@ -1410,12 +1435,10 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[14
-
-] [15 <./EPS/DSTAT/CG_MPI_MX_GCC-eps-converted-to.pdf>] [16 <./EPS/DSTAT/IS_OMP
-_24_GCC-eps-converted-to.pdf>] [17 <./EPS/DSTAT/EP_OMP_24_GCC-eps-converted-to.
-pdf>] [18 <./EPS/DSTAT/MG_MPI_MX_GCC-eps-converted-to.pdf>]
-(./IEEE_a57816.aux)
+[14] [15 <./EPS/DSTAT/CG_MPI_MX_GCC-eps-converted-to.pdf>] [16 <./EPS/DSTAT/IS_
+OMP_24_GCC-eps-converted-to.pdf>] [17 <./EPS/DSTAT/EP_OMP_24_GCC-eps-converted-
+to.pdf>] [18 <./EPS/DSTAT/MG_MPI_MX_GCC-eps-converted-to.pdf>] [19 <./EPS/DSTAT
+/EP_32x-eps-converted-to.pdf, page is rotated 270 degrees>] (./IEEE_a57816.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.18951pt have occurred.
@@ -1425,10 +1448,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3819 strings out of 493089
- 65099 string characters out of 6134842
- 139563 words of memory out of 5000000
- 7209 multiletter control sequences out of 15000+600000
+ 3827 strings out of 493089
+ 65314 string characters out of 6134842
+ 141001 words of memory out of 5000000
+ 7216 multiletter control sequences out of 15000+600000
  43442 words of font info for 79 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  42i,16n,29p,965b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1439,10 +1462,10 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on IEEE_a57816.pdf (18 pages, 488486 bytes).
+Output written on IEEE_a57816.pdf (19 pages, 560567 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 428 compressed objects within 5 object streams
+ 632 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 

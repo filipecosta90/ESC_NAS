@@ -28,8 +28,8 @@ memory_used = table2array( memory_csv ( :, [3]));
 memory_free = table2array( memory_csv ( :, [4])); 
 
 memory_total = memory_used + memory_free;
-memory_used = memory_used / memory_total * 100;
-memory_free = memory_free / memory_total * 100;
+memory_used1 = memory_used ./ memory_total * 100;
+memory_free1 = memory_free ./ memory_total * 100;
 
 
 %%%%%% NET STATS %%%%%
