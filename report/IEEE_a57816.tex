@@ -461,7 +461,7 @@ As "NAS Parallel Benchmarks"\cite{nas} englobam 5 kernels (EP, MG, CG, FT, IS) e
 Escolhidas as benchmarks, resta-me especificar os ambientes de teste nos quais pretendo realizar as benchmarks. Através da análise do hardware disponível no Search6 \footnote{Services and Advanced Research Computing with HTC/HPC clusters}, a nossa plataforma de teste, deparamo-nos com duas 
 realidades distintas presentes no mesmo cluster. Se por um lado temos uma grande porção dos nós de computação com configurações de hardware relativamente homogéneas (28 dos 54 nós disponíveis apresentam todos as mesmas características de comunicação, armazenamento local, memória RAM disponível e mesma família de processadores - Ivy Bridge), por outro lado temos os restantes 26 nós com características relativamente distintas entre nós (diferentes famílias de processadores, diferentes características de comunicação entre nós disponíveis, memória RAM disponível em diferente número). \par 
 Considerando a abrangência do número de nós o ponto essencial para a escolha do tipo de nós a teste, decidi incluir no mesmo os nós do tipo 662, 652, 641, e 431(apenas os nós com 48GB de memória RAM disponíveis), que passarei de seguida a caracterizar. \par 
-Denote que ao realizarmos os testes de performance nos nós acima enumerados estamos a abrangir 33 dos 54 nós disponíveis, preservando características entre eles fundamentais para a possibilidade de comparação como por exemplo o suporte da rede Myrinet 10Gbps, e englobando como requerido mais do que uma classe de arquitectura existe no Search6.\par 
+Denote que ao realizarmos os testes de performance nos nós acima enumerados estamos a abranger 33 dos 54 nós disponíveis, preservando características entre eles fundamentais para a possibilidade de comparação como por exemplo o suporte da rede Myrinet 10Gbps, e englobando como requerido mais do que uma classe de arquitectura existente no Search6.\par 
 
 
 \begin{table}[H]
@@ -620,7 +620,6 @@ Teremos portanto as seguintes combinações de software distintas no nosso caso 
 \item versão 1.8.2 via comunicação Gigabit Ethernet para compilador da Intel
 \item versão 1.8.2 via comunicação Myrinet 10Gbps para compilador da GNU
 \item versão 1.8.2 via comunicação Myrinet 10Gbps para compilador da Intel
-
 \end{itemize}
 \end{itemize}
 
@@ -1063,6 +1062,10 @@ Como se pôde constatar anteriormente, foi nos kernels IS e EP que se verificara
  Como espectável, os resultados do teste de performance mantêm-se inalterados independentemente da sequência de "n-testes" realizados, contudo, durante o maior teste podemos observar uma maior percentagem de tempo \textbf{\%CPU IDLE} em alguns dos testes  \textbf{\%CPU WAIT} -- como se pode confirmar observando a Figura  \ref{dstat_nvezes} --
  tal é devido a períodos de espera por escrita no disco. Denote que durante esse mesmo período de tempo observamos também  um decaimento abrupto do número de CPU context swap e interrupções (não realizando trabalho não existe a possibilidade de interrupção).\par 
  Seria interessante alcançar comportamentos de "ramping" nos sistemas de computação por forma a verdadeiramente forçar os sistemas de computação em teste ao peak perfomance dos vários micro-benchmarks e respectiva "saturação" do sistema.
+
+\subsection{Análise de propriedades para monitorização de execução do mesmo kernel para diferentes implementações SEQ, OMP e MPI}
+Analisado o comportamento das melhores soluções para os diferentes kernels, centremos agora a nossa atenção na influência do mesmo kernel no sistema de computação para as diferentes melhores soluções -- sequencial, em ambiente de memória partilhada e em ambiente de memória distribuída. \par
+Uma vez que utilizamos até ao momento o kernel EP para base de comparação, mantenhamos essa mesma premissa, focando especial atenção nas interrupções do sistema e context swap, assim como nos CPU Stats.
 
 
 

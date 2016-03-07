@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.16)  7 MAR 2016 02:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.16)  7 MAR 2016 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -432,17 +432,17 @@ Package epstopdf Info: Source file: <EPS/SEQ/MOPS_seq_cg_C.eps>
 (epstopdf)                    size: 12450 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/MOPS_seq_cg_C-eps-
 converted-to.pdf EPS/SEQ/MOPS_seq_cg_C.eps>
-(epstopdf)             \includegraphics on input line 730.
+(epstopdf)             \includegraphics on input line 729.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/SEQ/MOPS_seq_cg_C-eps-converted-to.pdf, id=14, 642.4pt x 481.8pt>
 File: EPS/SEQ/MOPS_seq_cg_C-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/SEQ/MOPS_seq_cg_C-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/SEQ/MOPS_seq_cg_C-eps-converted-to.pdf used on inp
-ut line 730.
+ut line 729.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 730--731
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 729--730
  [][] 
  []
 
@@ -455,17 +455,17 @@ Package epstopdf Info: Source file: <EPS/SEQ/MOPS_seq_is_C.eps>
 (epstopdf)                    size: 12576 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/MOPS_seq_is_C-eps-
 converted-to.pdf EPS/SEQ/MOPS_seq_is_C.eps>
-(epstopdf)             \includegraphics on input line 737.
+(epstopdf)             \includegraphics on input line 736.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/SEQ/MOPS_seq_is_C-eps-converted-to.pdf, id=15, 642.4pt x 642.4pt>
 File: EPS/SEQ/MOPS_seq_is_C-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/SEQ/MOPS_seq_is_C-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/SEQ/MOPS_seq_is_C-eps-converted-to.pdf used on inp
-ut line 737.
+ut line 736.
 (pdftex.def)             Requested size: 268.30386pt x 268.30643pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 737--738
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 736--737
  [][] 
  []
 
@@ -482,7 +482,7 @@ Package epstopdf Info: Source file: <EPS/SEQ/MOPS_seq_ep_C.eps>
 (epstopdf)                    size: 12484 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/MOPS_seq_ep_C-eps-
 converted-to.pdf EPS/SEQ/MOPS_seq_ep_C.eps>
-(epstopdf)             \includegraphics on input line 744.
+(epstopdf)             \includegraphics on input line 743.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/SEQ/MOPS_seq_ep_C-eps-converted-to.pdf, id=32, 642.4pt x 642.4pt>
@@ -490,10 +490,10 @@ File: EPS/SEQ/MOPS_seq_ep_C-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/SEQ/MOPS_seq_ep_C-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/SEQ/MOPS_seq_ep_C-eps-converted-to.pdf used on inp
-ut line 744.
+ut line 743.
 (pdftex.def)             Requested size: 268.30386pt x 268.30643pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 744--745
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 743--744
  [][] 
  []
 
@@ -506,17 +506,17 @@ Package epstopdf Info: Source file: <EPS/SEQ/MOPS_seq_mg_C.eps>
 (epstopdf)                    size: 12433 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/MOPS_seq_mg_C-eps-
 converted-to.pdf EPS/SEQ/MOPS_seq_mg_C.eps>
-(epstopdf)             \includegraphics on input line 751.
+(epstopdf)             \includegraphics on input line 750.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/SEQ/MOPS_seq_mg_C-eps-converted-to.pdf, id=33, 642.4pt x 642.4pt>
 File: EPS/SEQ/MOPS_seq_mg_C-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/SEQ/MOPS_seq_mg_C-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/SEQ/MOPS_seq_mg_C-eps-converted-to.pdf used on inp
-ut line 751.
+ut line 750.
 (pdftex.def)             Requested size: 268.30386pt x 268.30643pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 751--752
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 750--751
  [][] 
  []
 
@@ -532,7 +532,7 @@ Package epstopdf Info: Source file: <EPS/SEQ/TEMPO_seq-cg.eps>
 (epstopdf)                    size: 12930 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/TEMPO_seq-cg-eps-c
 onverted-to.pdf EPS/SEQ/TEMPO_seq-cg.eps>
-(epstopdf)             \includegraphics on input line 762.
+(epstopdf)             \includegraphics on input line 761.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/SEQ/TEMPO_seq-cg-eps-converted-to.pdf, id=34, 642.4pt x 481.8pt>
@@ -540,10 +540,10 @@ File: EPS/SEQ/TEMPO_seq-cg-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/SEQ/TEMPO_seq-cg-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/SEQ/TEMPO_seq-cg-eps-converted-to.pdf used on inpu
-t line 762.
+t line 761.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 762--763
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 761--762
  [][] 
  []
 
@@ -558,7 +558,7 @@ Package epstopdf Info: Source file: <EPS/SEQ/TEMPO_seq-is.eps>
 (epstopdf)                    size: 12924 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/TEMPO_seq-is-eps-c
 onverted-to.pdf EPS/SEQ/TEMPO_seq-is.eps>
-(epstopdf)             \includegraphics on input line 769.
+(epstopdf)             \includegraphics on input line 768.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/SEQ/TEMPO_seq-is-eps-converted-to.pdf, id=77, 642.4pt x 481.8pt>
@@ -566,10 +566,10 @@ File: EPS/SEQ/TEMPO_seq-is-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/SEQ/TEMPO_seq-is-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/SEQ/TEMPO_seq-is-eps-converted-to.pdf used on inpu
-t line 769.
+t line 768.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 769--770
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 768--769
  [][] 
  []
 
@@ -582,17 +582,17 @@ Package epstopdf Info: Source file: <EPS/SEQ/TEMPO_seq-ep.eps>
 (epstopdf)                    size: 12742 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/TEMPO_seq-ep-eps-c
 onverted-to.pdf EPS/SEQ/TEMPO_seq-ep.eps>
-(epstopdf)             \includegraphics on input line 776.
+(epstopdf)             \includegraphics on input line 775.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/SEQ/TEMPO_seq-ep-eps-converted-to.pdf, id=78, 642.4pt x 481.8pt>
 File: EPS/SEQ/TEMPO_seq-ep-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/SEQ/TEMPO_seq-ep-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/SEQ/TEMPO_seq-ep-eps-converted-to.pdf used on inpu
-t line 776.
+t line 775.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 776--777
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 775--776
  [][] 
  []
 
@@ -608,7 +608,7 @@ Package epstopdf Info: Source file: <EPS/SEQ/TEMPO_seq-mg.eps>
 (epstopdf)                    size: 13216 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/TEMPO_seq-mg-eps-c
 onverted-to.pdf EPS/SEQ/TEMPO_seq-mg.eps>
-(epstopdf)             \includegraphics on input line 783.
+(epstopdf)             \includegraphics on input line 782.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/SEQ/TEMPO_seq-mg-eps-converted-to.pdf, id=79, 642.4pt x 481.8pt>
@@ -616,10 +616,10 @@ File: EPS/SEQ/TEMPO_seq-mg-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/SEQ/TEMPO_seq-mg-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/SEQ/TEMPO_seq-mg-eps-converted-to.pdf used on inpu
-t line 783.
+t line 782.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 783--784
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 782--783
  [][] 
  []
 
@@ -632,17 +632,17 @@ to.pdf>
 (epstopdf)                    size: 12781 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/TEMPO_seq_gcc_C_al
 l-eps-converted-to.pdf EPS/SEQ/TEMPO_seq_gcc_C_all.eps>
-(epstopdf)             \includegraphics on input line 793.
+(epstopdf)             \includegraphics on input line 792.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/SEQ/TEMPO_seq_gcc_C_all-eps-converted-to.pdf, id=80, 642.4pt x 481.8pt>
 File: EPS/SEQ/TEMPO_seq_gcc_C_all-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/SEQ/TEMPO_seq_gcc_C_all-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/SEQ/TEMPO_seq_gcc_C_all-eps-converted-to.pdf used 
-on input line 793.
+on input line 792.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 793--794
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 792--793
  [][] 
  []
 
@@ -658,7 +658,7 @@ df>
 (epstopdf)                    size: 14755 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/TEMPO_omp_cg_o3-ep
 s-converted-to.pdf EPS/OMP/TEMPO_omp_cg_o3.eps>
-(epstopdf)             \includegraphics on input line 807.
+(epstopdf)             \includegraphics on input line 806.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/OMP/TEMPO_omp_cg_o3-eps-converted-to.pdf, id=136, 642.4pt x 481.8pt>
@@ -666,10 +666,10 @@ File: EPS/OMP/TEMPO_omp_cg_o3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/OMP/TEMPO_omp_cg_o3-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/TEMPO_omp_cg_o3-eps-converted-to.pdf used on i
-nput line 807.
+nput line 806.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 807--808
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 806--807
  [][] 
  []
 
@@ -685,7 +685,7 @@ df>
 (epstopdf)                    size: 15095 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/TEMPO_omp_is_o3-ep
 s-converted-to.pdf EPS/OMP/TEMPO_omp_is_o3.eps>
-(epstopdf)             \includegraphics on input line 814.
+(epstopdf)             \includegraphics on input line 813.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/OMP/TEMPO_omp_is_o3-eps-converted-to.pdf, id=137, 642.4pt x 481.8pt>
@@ -693,10 +693,10 @@ File: EPS/OMP/TEMPO_omp_is_o3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/OMP/TEMPO_omp_is_o3-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/TEMPO_omp_is_o3-eps-converted-to.pdf used on i
-nput line 814.
+nput line 813.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 814--815
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 813--814
  [][] 
  []
 
@@ -709,17 +709,17 @@ df>
 (epstopdf)                    size: 14752 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/TEMPO_omp_ep_o3-ep
 s-converted-to.pdf EPS/OMP/TEMPO_omp_ep_o3.eps>
-(epstopdf)             \includegraphics on input line 821.
+(epstopdf)             \includegraphics on input line 820.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/OMP/TEMPO_omp_ep_o3-eps-converted-to.pdf, id=138, 642.4pt x 481.8pt>
 File: EPS/OMP/TEMPO_omp_ep_o3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/OMP/TEMPO_omp_ep_o3-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/TEMPO_omp_ep_o3-eps-converted-to.pdf used on i
-nput line 821.
+nput line 820.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 821--822
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 820--821
  [][] 
  []
 
@@ -737,7 +737,7 @@ df>
 (epstopdf)                    size: 14885 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/TEMPO_omp_mg_o3-ep
 s-converted-to.pdf EPS/OMP/TEMPO_omp_mg_o3.eps>
-(epstopdf)             \includegraphics on input line 828.
+(epstopdf)             \includegraphics on input line 827.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/OMP/TEMPO_omp_mg_o3-eps-converted-to.pdf, id=182, 642.4pt x 481.8pt>
@@ -745,10 +745,10 @@ File: EPS/OMP/TEMPO_omp_mg_o3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/OMP/TEMPO_omp_mg_o3-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/TEMPO_omp_mg_o3-eps-converted-to.pdf used on i
-nput line 828.
+nput line 827.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 828--829
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 827--828
  [][] 
  []
 
@@ -760,17 +760,17 @@ Package epstopdf Info: Source file: <EPS/OMP/ganho_cg_03.eps>
 (epstopdf)                    size: 13923 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/ganho_cg_03-eps-co
 nverted-to.pdf EPS/OMP/ganho_cg_03.eps>
-(epstopdf)             \includegraphics on input line 842.
+(epstopdf)             \includegraphics on input line 841.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/OMP/ganho_cg_03-eps-converted-to.pdf, id=183, 642.4pt x 481.8pt>
 File: EPS/OMP/ganho_cg_03-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/OMP/ganho_cg_03-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/ganho_cg_03-eps-converted-to.pdf used on input
- line 842.
+ line 841.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 842--843
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 841--842
  [][] 
  []
 
@@ -782,17 +782,17 @@ Package epstopdf Info: Source file: <EPS/OMP/ganho_is_03.eps>
 (epstopdf)                    size: 14175 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/ganho_is_03-eps-co
 nverted-to.pdf EPS/OMP/ganho_is_03.eps>
-(epstopdf)             \includegraphics on input line 849.
+(epstopdf)             \includegraphics on input line 848.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/OMP/ganho_is_03-eps-converted-to.pdf, id=184, 562.1pt x 421.575pt>
 File: EPS/OMP/ganho_is_03-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/OMP/ganho_is_03-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/ganho_is_03-eps-converted-to.pdf used on input
- line 849.
+ line 848.
 (pdftex.def)             Requested size: 268.30386pt x 201.22797pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 849--850
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 848--849
  [][] 
  []
 
@@ -804,17 +804,17 @@ Package epstopdf Info: Source file: <EPS/OMP/ganho_ep_03.eps>
 (epstopdf)                    size: 14035 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/ganho_ep_03-eps-co
 nverted-to.pdf EPS/OMP/ganho_ep_03.eps>
-(epstopdf)             \includegraphics on input line 856.
+(epstopdf)             \includegraphics on input line 855.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/OMP/ganho_ep_03-eps-converted-to.pdf, id=185, 562.1pt x 421.575pt>
 File: EPS/OMP/ganho_ep_03-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/OMP/ganho_ep_03-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/ganho_ep_03-eps-converted-to.pdf used on input
- line 856.
+ line 855.
 (pdftex.def)             Requested size: 268.30386pt x 201.22797pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 856--857
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 855--856
  [][] 
  []
 
@@ -829,7 +829,7 @@ Package epstopdf Info: Source file: <EPS/OMP/ganho_mg_03.eps>
 (epstopdf)                    size: 13908 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/ganho_mg_03-eps-co
 nverted-to.pdf EPS/OMP/ganho_mg_03.eps>
-(epstopdf)             \includegraphics on input line 863.
+(epstopdf)             \includegraphics on input line 862.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/OMP/ganho_mg_03-eps-converted-to.pdf, id=242, 562.1pt x 421.575pt>
@@ -837,10 +837,10 @@ File: EPS/OMP/ganho_mg_03-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/OMP/ganho_mg_03-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/ganho_mg_03-eps-converted-to.pdf used on input
- line 863.
+ line 862.
 (pdftex.def)             Requested size: 268.30386pt x 201.22797pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 863--864
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 862--863
  [][] 
  []
 
@@ -853,7 +853,7 @@ d-to.pdf>
 (epstopdf)                    size: 14397 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/ganho_compiladores
 _cg-eps-converted-to.pdf EPS/OMP/ganho_compiladores_cg.eps>
-(epstopdf)             \includegraphics on input line 874.
+(epstopdf)             \includegraphics on input line 873.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/OMP/ganho_compiladores_cg-eps-converted-to.pdf, id=243, 562.1pt x 421.575p
@@ -862,10 +862,10 @@ File: EPS/OMP/ganho_compiladores_cg-eps-converted-to.pdf Graphic file (type pdf
 )
  <use EPS/OMP/ganho_compiladores_cg-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/ganho_compiladores_cg-eps-converted-to.pdf use
-d on input line 874.
+d on input line 873.
 (pdftex.def)             Requested size: 268.30386pt x 201.22797pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 874--875
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 873--874
  [][] 
  []
 
@@ -878,7 +878,7 @@ d-to.pdf>
 (epstopdf)                    size: 14649 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/ganho_compiladores
 _is-eps-converted-to.pdf EPS/OMP/ganho_compiladores_is.eps>
-(epstopdf)             \includegraphics on input line 881.
+(epstopdf)             \includegraphics on input line 880.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/OMP/ganho_compiladores_is-eps-converted-to.pdf, id=244, 562.1pt x 421.575p
@@ -887,10 +887,10 @@ File: EPS/OMP/ganho_compiladores_is-eps-converted-to.pdf Graphic file (type pdf
 )
  <use EPS/OMP/ganho_compiladores_is-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/ganho_compiladores_is-eps-converted-to.pdf use
-d on input line 881.
+d on input line 880.
 (pdftex.def)             Requested size: 268.30386pt x 201.22797pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 881--882
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 880--881
  [][] 
  []
 
@@ -903,7 +903,7 @@ d-to.pdf>
 (epstopdf)                    size: 14504 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/ganho_compiladores
 _ep-eps-converted-to.pdf EPS/OMP/ganho_compiladores_ep.eps>
-(epstopdf)             \includegraphics on input line 888.
+(epstopdf)             \includegraphics on input line 887.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/OMP/ganho_compiladores_ep-eps-converted-to.pdf, id=245, 562.1pt x 421.575p
@@ -912,10 +912,10 @@ File: EPS/OMP/ganho_compiladores_ep-eps-converted-to.pdf Graphic file (type pdf
 )
  <use EPS/OMP/ganho_compiladores_ep-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/ganho_compiladores_ep-eps-converted-to.pdf use
-d on input line 888.
+d on input line 887.
 (pdftex.def)             Requested size: 268.30386pt x 201.22797pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 888--889
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 887--888
  [][] 
  []
 
@@ -934,7 +934,7 @@ d-to.pdf>
 (epstopdf)                    size: 14405 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/OMP/ganho_compiladores
 _mg-eps-converted-to.pdf EPS/OMP/ganho_compiladores_mg.eps>
-(epstopdf)             \includegraphics on input line 895.
+(epstopdf)             \includegraphics on input line 894.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/OMP/ganho_compiladores_mg-eps-converted-to.pdf, id=302, 562.1pt x 421.575p
@@ -943,10 +943,10 @@ File: EPS/OMP/ganho_compiladores_mg-eps-converted-to.pdf Graphic file (type pdf
 )
  <use EPS/OMP/ganho_compiladores_mg-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/OMP/ganho_compiladores_mg-eps-converted-to.pdf use
-d on input line 895.
+d on input line 894.
 (pdftex.def)             Requested size: 268.30386pt x 201.22797pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 895--896
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 894--895
  [][] 
  []
 
@@ -959,17 +959,17 @@ f>
 (epstopdf)                    size: 14446 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/431/mpi_431_cg-eps
 -converted-to.pdf EPS/MPI/431/mpi_431_cg.eps>
-(epstopdf)             \includegraphics on input line 915.
+(epstopdf)             \includegraphics on input line 914.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/MPI/431/mpi_431_cg-eps-converted-to.pdf, id=303, 642.4pt x 481.8pt>
 File: EPS/MPI/431/mpi_431_cg-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/MPI/431/mpi_431_cg-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/431/mpi_431_cg-eps-converted-to.pdf used on in
-put line 915.
+put line 914.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 915--916
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 914--915
  [][] 
  []
 
@@ -982,17 +982,17 @@ f>
 (epstopdf)                    size: 14786 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/431/mpi_431_is-eps
 -converted-to.pdf EPS/MPI/431/mpi_431_is.eps>
-(epstopdf)             \includegraphics on input line 922.
+(epstopdf)             \includegraphics on input line 921.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/MPI/431/mpi_431_is-eps-converted-to.pdf, id=304, 642.4pt x 481.8pt>
 File: EPS/MPI/431/mpi_431_is-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/MPI/431/mpi_431_is-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/431/mpi_431_is-eps-converted-to.pdf used on in
-put line 922.
+put line 921.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 922--923
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 921--922
  [][] 
  []
 
@@ -1011,7 +1011,7 @@ f>
 (epstopdf)                    size: 14519 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/431/mpi_431_ep-eps
 -converted-to.pdf EPS/MPI/431/mpi_431_ep.eps>
-(epstopdf)             \includegraphics on input line 929.
+(epstopdf)             \includegraphics on input line 928.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/MPI/431/mpi_431_ep-eps-converted-to.pdf, id=347, 642.4pt x 481.8pt>
@@ -1019,10 +1019,10 @@ File: EPS/MPI/431/mpi_431_ep-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/MPI/431/mpi_431_ep-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/431/mpi_431_ep-eps-converted-to.pdf used on in
-put line 929.
+put line 928.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 929--930
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 928--929
  [][] 
  []
 
@@ -1035,17 +1035,17 @@ f>
 (epstopdf)                    size: 14581 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/431/mpi_431_mg-eps
 -converted-to.pdf EPS/MPI/431/mpi_431_mg.eps>
-(epstopdf)             \includegraphics on input line 937.
+(epstopdf)             \includegraphics on input line 936.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/MPI/431/mpi_431_mg-eps-converted-to.pdf, id=348, 642.4pt x 481.8pt>
 File: EPS/MPI/431/mpi_431_mg-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/MPI/431/mpi_431_mg-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/431/mpi_431_mg-eps-converted-to.pdf used on in
-put line 937.
+put line 936.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 937--938
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 936--937
  [][] 
  []
 
@@ -1061,7 +1061,7 @@ f>
 (epstopdf)                    size: 14507 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/641/mpi_641_cg-eps
 -converted-to.pdf EPS/MPI/641/mpi_641_cg.eps>
-(epstopdf)             \includegraphics on input line 950.
+(epstopdf)             \includegraphics on input line 949.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/MPI/641/mpi_641_cg-eps-converted-to.pdf, id=349, 642.4pt x 481.8pt>
@@ -1069,10 +1069,10 @@ File: EPS/MPI/641/mpi_641_cg-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/MPI/641/mpi_641_cg-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/641/mpi_641_cg-eps-converted-to.pdf used on in
-put line 950.
+put line 949.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 950--951
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 949--950
  [][] 
  []
 
@@ -1085,17 +1085,17 @@ f>
 (epstopdf)                    size: 14831 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/641/mpi_641_is-eps
 -converted-to.pdf EPS/MPI/641/mpi_641_is.eps>
-(epstopdf)             \includegraphics on input line 957.
+(epstopdf)             \includegraphics on input line 956.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/MPI/641/mpi_641_is-eps-converted-to.pdf, id=350, 642.4pt x 481.8pt>
 File: EPS/MPI/641/mpi_641_is-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/MPI/641/mpi_641_is-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/641/mpi_641_is-eps-converted-to.pdf used on in
-put line 957.
+put line 956.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 957--958
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 956--957
  [][] 
  []
 
@@ -1114,7 +1114,7 @@ f>
 (epstopdf)                    size: 14547 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/641/mpi_641_ep-eps
 -converted-to.pdf EPS/MPI/641/mpi_641_ep.eps>
-(epstopdf)             \includegraphics on input line 964.
+(epstopdf)             \includegraphics on input line 963.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/MPI/641/mpi_641_ep-eps-converted-to.pdf, id=406, 642.4pt x 481.8pt>
@@ -1122,10 +1122,10 @@ File: EPS/MPI/641/mpi_641_ep-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/MPI/641/mpi_641_ep-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/641/mpi_641_ep-eps-converted-to.pdf used on in
-put line 964.
+put line 963.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 964--965
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 963--964
  [][] 
  []
 
@@ -1138,17 +1138,17 @@ f>
 (epstopdf)                    size: 14649 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/641/mpi_641_mg-eps
 -converted-to.pdf EPS/MPI/641/mpi_641_mg.eps>
-(epstopdf)             \includegraphics on input line 972.
+(epstopdf)             \includegraphics on input line 971.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/MPI/641/mpi_641_mg-eps-converted-to.pdf, id=407, 642.4pt x 481.8pt>
 File: EPS/MPI/641/mpi_641_mg-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/MPI/641/mpi_641_mg-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/641/mpi_641_mg-eps-converted-to.pdf used on in
-put line 972.
+put line 971.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 972--973
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 971--972
  [][] 
  []
 
@@ -1166,7 +1166,7 @@ _431-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/431/TIME_seq_vs_mp
 i_omp-gcc_vs_icc_431-eps-converted-to.pdf EPS/MPI/431/TIME_seq_vs_mpi_omp-gcc_v
 s_icc_431.eps>
-(epstopdf)             \includegraphics on input line 984.
+(epstopdf)             \includegraphics on input line 983.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/MPI/431/TIME_seq_vs_mpi_omp-gcc_vs_icc_431-eps-converted-to.pdf, id=408, 6
@@ -1176,10 +1176,10 @@ ic file (type pdf)
 
 <use EPS/MPI/431/TIME_seq_vs_mpi_omp-gcc_vs_icc_431-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/431/TIME_seq_vs_mpi_omp-gcc_vs_icc_431-eps-con
-verted-to.pdf used on input line 984.
+verted-to.pdf used on input line 983.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 984--985
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 983--984
  [][] 
  []
 
@@ -1199,7 +1199,7 @@ _641-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/641/TIME_seq_vs_mp
 i_omp-gcc_vs_icc_641-eps-converted-to.pdf EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_v
 s_icc_641.eps>
-(epstopdf)             \includegraphics on input line 992.
+(epstopdf)             \includegraphics on input line 991.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_vs_icc_641-eps-converted-to.pdf, id=452, 6
@@ -1209,10 +1209,10 @@ ic file (type pdf)
 
 <use EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_vs_icc_641-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_vs_icc_641-eps-con
-verted-to.pdf used on input line 992.
+verted-to.pdf used on input line 991.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 992--993
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 991--992
  [][] 
  []
 
@@ -1225,7 +1225,7 @@ ed-to.pdf>
 (epstopdf)                    size: 15444 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/myri_vs_eth_431_vs
 _641-eps-converted-to.pdf EPS/MPI/myri_vs_eth_431_vs_641.eps>
-(epstopdf)             \includegraphics on input line 1002.
+(epstopdf)             \includegraphics on input line 1001.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/MPI/myri_vs_eth_431_vs_641-eps-converted-to.pdf, id=453, 642.4pt x 481.8pt
@@ -1234,21 +1234,21 @@ File: EPS/MPI/myri_vs_eth_431_vs_641-eps-converted-to.pdf Graphic file (type pd
 f)
  <use EPS/MPI/myri_vs_eth_431_vs_641-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/myri_vs_eth_431_vs_641-eps-converted-to.pdf us
-ed on input line 1002.
+ed on input line 1001.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 1002--1003
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 1001--1002
  [][] 
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 1007--1008
+Underfull \hbox (badness 1661) in paragraph at lines 1006--1007
 []\OT1/ptm/m/n/10.03749 Ora, ape-sar dos re-sul-ta-dos serem sat-is-fat[]orios 
 n[]ao
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 1011--1012
+Underfull \hbox (badness 1975) in paragraph at lines 1010--1011
 \OT1/ptm/m/n/10.03749 ex-primir o ganho obtido para to-das as solu[][]oes em
  []
 
@@ -1261,7 +1261,7 @@ onverted-to.pdf>
 (epstopdf)                    size: 14120 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/431/ganho_mpi_omp_
 vs_seq_431-eps-converted-to.pdf EPS/MPI/431/ganho_mpi_omp_vs_seq_431.eps>
-(epstopdf)             \includegraphics on input line 1015.
+(epstopdf)             \includegraphics on input line 1014.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/MPI/431/ganho_mpi_omp_vs_seq_431-eps-converted-to.pdf, id=454, 642.4pt x 4
@@ -1270,10 +1270,10 @@ File: EPS/MPI/431/ganho_mpi_omp_vs_seq_431-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use EPS/MPI/431/ganho_mpi_omp_vs_seq_431-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/431/ganho_mpi_omp_vs_seq_431-eps-converted-to.
-pdf used on input line 1015.
+pdf used on input line 1014.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 1015--1016
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 1014--1015
  [][] 
  []
 
@@ -1292,7 +1292,7 @@ onverted-to.pdf>
 (epstopdf)                    size: 14167 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/MPI/641/ganho_mpi_omp_
 vs_seq_641-eps-converted-to.pdf EPS/MPI/641/ganho_mpi_omp_vs_seq_641.eps>
-(epstopdf)             \includegraphics on input line 1023.
+(epstopdf)             \includegraphics on input line 1022.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/MPI/641/ganho_mpi_omp_vs_seq_641-eps-converted-to.pdf, id=498, 642.4pt x 4
@@ -1301,28 +1301,28 @@ File: EPS/MPI/641/ganho_mpi_omp_vs_seq_641-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use EPS/MPI/641/ganho_mpi_omp_vs_seq_641-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/MPI/641/ganho_mpi_omp_vs_seq_641-eps-converted-to.
-pdf used on input line 1023.
+pdf used on input line 1022.
 (pdftex.def)             Requested size: 268.30386pt x 201.22981pt.
 
-Overfull \hbox (24.39261pt too wide) in paragraph at lines 1023--1024
+Overfull \hbox (24.39261pt too wide) in paragraph at lines 1022--1023
  [][] 
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 1033--1034
+Underfull \hbox (badness 7558) in paragraph at lines 1032--1033
 []\OT1/ptm/b/n/10.03749 CG \OT1/ptm/m/n/10.03749 - Ker-nel em mem[]oria dis-tri
 bu[]^^Pda com
  []
 
 
-Underfull \hbox (badness 6300) in paragraph at lines 1036--1037
+Underfull \hbox (badness 6300) in paragraph at lines 1035--1036
 []\OT1/ptm/b/n/10.03749 MG \OT1/ptm/m/n/10.03749 - Ker-nel em mem[]oria dis-tri
 bu[]^^Pda com
  []
 
 [13 <./EPS/MPI/431/ganho_mpi_omp_vs_seq_431-eps-converted-to.pdf> <./EPS/MPI/64
 1/ganho_mpi_omp_vs_seq_641-eps-converted-to.pdf>]
-Underfull \hbox (badness 3068) in paragraph at lines 1074--1075
+Underfull \hbox (badness 3068) in paragraph at lines 1075--1076
 []\OT1/ptm/b/n/10.03749 Sele[][]ao e Fundamenta[][]ao \OT1/ptm/m/n/10.03749 - d
 as fer-ra-men-tas
  []
@@ -1336,14 +1336,14 @@ df>
 (epstopdf)                    size: 16091 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/DSTAT/CG_MPI_MX_GCC-ep
 s-converted-to.pdf EPS/DSTAT/CG_MPI_MX_GCC.eps>
-(epstopdf)             \includegraphics on input line 1144.
+(epstopdf)             \includegraphics on input line 1145.
 Package epstopdf Info: Output file is already uptodate.
 <EPS/DSTAT/CG_MPI_MX_GCC-eps-converted-to.pdf, id=529, 963.6pt x 963.6pt>
 File: EPS/DSTAT/CG_MPI_MX_GCC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/DSTAT/CG_MPI_MX_GCC-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/DSTAT/CG_MPI_MX_GCC-eps-converted-to.pdf used on i
-nput line 1144.
+nput line 1145.
 (pdftex.def)             Requested size: 505.89pt x 505.88287pt.
 Package epstopdf Info: Source file: <EPS/DSTAT/IS_OMP_24_GCC.eps>
 (epstopdf)                    date: 2016-02-29 23:44:23
@@ -1354,7 +1354,7 @@ df>
 (epstopdf)                    size: 14286 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/DSTAT/IS_OMP_24_GCC-ep
 s-converted-to.pdf EPS/DSTAT/IS_OMP_24_GCC.eps>
-(epstopdf)             \includegraphics on input line 1151.
+(epstopdf)             \includegraphics on input line 1152.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/DSTAT/IS_OMP_24_GCC-eps-converted-to.pdf, id=530, 963.6pt x 963.6pt>
@@ -1362,7 +1362,7 @@ File: EPS/DSTAT/IS_OMP_24_GCC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/DSTAT/IS_OMP_24_GCC-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/DSTAT/IS_OMP_24_GCC-eps-converted-to.pdf used on i
-nput line 1151.
+nput line 1152.
 (pdftex.def)             Requested size: 505.89pt x 505.88287pt.
 Package epstopdf Info: Source file: <EPS/DSTAT/EP_OMP_24_GCC.eps>
 (epstopdf)                    date: 2016-02-29 23:47:32
@@ -1373,7 +1373,7 @@ df>
 (epstopdf)                    size: 16754 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/DSTAT/EP_OMP_24_GCC-ep
 s-converted-to.pdf EPS/DSTAT/EP_OMP_24_GCC.eps>
-(epstopdf)             \includegraphics on input line 1158.
+(epstopdf)             \includegraphics on input line 1159.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/DSTAT/EP_OMP_24_GCC-eps-converted-to.pdf, id=531, 963.6pt x 963.6pt>
@@ -1381,7 +1381,7 @@ File: EPS/DSTAT/EP_OMP_24_GCC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/DSTAT/EP_OMP_24_GCC-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/DSTAT/EP_OMP_24_GCC-eps-converted-to.pdf used on i
-nput line 1158.
+nput line 1159.
 (pdftex.def)             Requested size: 505.89pt x 505.88287pt.
 Package epstopdf Info: Source file: <EPS/DSTAT/MG_MPI_MX_GCC.eps>
 (epstopdf)                    date: 2016-02-29 23:27:57
@@ -1392,7 +1392,7 @@ df>
 (epstopdf)                    size: 14528 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/DSTAT/MG_MPI_MX_GCC-ep
 s-converted-to.pdf EPS/DSTAT/MG_MPI_MX_GCC.eps>
-(epstopdf)             \includegraphics on input line 1165.
+(epstopdf)             \includegraphics on input line 1166.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/DSTAT/MG_MPI_MX_GCC-eps-converted-to.pdf, id=532, 963.6pt x 963.6pt>
@@ -1400,7 +1400,7 @@ File: EPS/DSTAT/MG_MPI_MX_GCC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/DSTAT/MG_MPI_MX_GCC-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/DSTAT/MG_MPI_MX_GCC-eps-converted-to.pdf used on i
-nput line 1165.
+nput line 1166.
 (pdftex.def)             Requested size: 505.89pt x 505.88287pt.
 Package epstopdf Info: Source file: <EPS/DSTAT/EP_32x.eps>
 (epstopdf)                    date: 2016-03-07 01:25:01
@@ -1410,7 +1410,7 @@ Package epstopdf Info: Source file: <EPS/DSTAT/EP_32x.eps>
 (epstopdf)                    size: 69741 bytes
 (epstopdf)             Command: <repstopdf --outfile=EPS/DSTAT/EP_32x-eps-conve
 rted-to.pdf EPS/DSTAT/EP_32x.eps>
-(epstopdf)             \includegraphics on input line 1172.
+(epstopdf)             \includegraphics on input line 1173.
 Package epstopdf Info: Output file is already uptodate.
 
 <EPS/DSTAT/EP_32x-eps-converted-to.pdf, id=533, 852.18375pt x 1445.4pt>
@@ -1418,11 +1418,11 @@ File: EPS/DSTAT/EP_32x-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EPS/DSTAT/EP_32x-eps-converted-to.pdf>
 Package pdftex.def Info: EPS/DSTAT/EP_32x-eps-converted-to.pdf used on input li
-ne 1172.
+ne 1173.
 (pdftex.def)             Requested size: 384.42838pt x 652.03537pt.
 
 
-LaTeX Warning: Float too large for page by 31.00777pt on input line 1175.
+LaTeX Warning: Float too large for page by 31.00777pt on input line 1176.
 
 
 ** Conference Paper **
@@ -1450,7 +1450,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3827 strings out of 493089
  65314 string characters out of 6134842
- 141001 words of memory out of 5000000
+ 141306 words of memory out of 5000000
  7216 multiletter control sequences out of 15000+600000
  43442 words of font info for 79 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1462,7 +1462,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on IEEE_a57816.pdf (19 pages, 560567 bytes).
+Output written on IEEE_a57816.pdf (19 pages, 560687 bytes).
 PDF statistics:
  632 PDF objects out of 1000 (max. 8388607)
  447 compressed objects within 5 object streams
