@@ -1065,10 +1065,53 @@ Como se pôde constatar anteriormente, foi nos kernels IS e EP que se verificara
 
 \subsection{Análise de propriedades para monitorização de execução do mesmo kernel para diferentes implementações SEQ, OMP e MPI}
 Analisado o comportamento das melhores soluções para os diferentes kernels, centremos agora a nossa atenção na influência do mesmo kernel no sistema de computação para as diferentes melhores soluções -- sequencial, em ambiente de memória partilhada e em ambiente de memória distribuída. \par
-Uma vez que utilizamos até ao momento o kernel EP para base de comparação, mantenhamos essa mesma premissa, focando especial atenção nas interrupções do sistema e context swap, assim como nos CPU Stats.
+Uma vez que utilizamos até ao momento o kernel EP para base de comparação, mantenhamos essa mesma premissa, focando especial atenção nas interrupções do sistema e context swap, assim como nos dados estatísticos relativos ao uso do CPU e memória -- como poderemos constatar pelas figuras  \ref{dstat_ep_SOM_disk} e \ref{dstat_ep_SOM_net}, as métricas relativas ao uso da rede e de escrita/leitura em disco não apresentam relevância neste kernel específico (dado ser embaraçosamente paralelo).
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/dstat_EP_seq_vs_omp_vs_mpi/cpu.eps}
+\caption{Relação de \% de tempo de CPU para os kernels SEQ/OMP/MPI - EP, nós 641, classe de dados C para compilador gcc 4.9.0 com flag de compilação  -O3, para comunicação Myrinet 10Gbps (memória distribuída)}
+\label{dstat_ep_SOM_cpu}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/dstat_EP_seq_vs_omp_vs_mpi/system.eps}
+\caption{Relação de número de interrupções de processo e número de "context swap" para os kernels SEQ/OMP/MPI - EP, nós 641, classe de dados C para compilador gcc 4.9.0 com flag de compilação  -O3, para comunicação Myrinet 10Gbps (memória distribuída)}
+\label{dstat_ep_SOM_system}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/dstat_EP_seq_vs_omp_vs_mpi/memory.eps}
+\caption{Relação de Memória Utilizada pelos kernels SEQ/OMP/MPI - EP, nós 641, classe de dados C para compilador gcc 4.9.0 com flag de compilação  -O3, para comunicação Myrinet 10Gbps (memória distribuída)}
+\label{dstat_ep_SOM_mem}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/dstat_EP_seq_vs_omp_vs_mpi/net.eps}
+\caption{Relação de de dados (em MB) recebidos/enviados através da rede pelos kernels SEQ/OMP/MPI - EP, nós 641, classe de dados C para compilador gcc 4.9.0 com flag de compilação  -O3, para comunicação Myrinet 10Gbps (memória distribuída)}
+\label{dstat_ep_SOM_net}
+\end{figure}
 
 
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\columnwidth]{EPS/dstat_EP_seq_vs_omp_vs_mpi/disk.eps}
+\caption{Relação de dados (em MB) escritos/lidos do disco pelos kernels SEQ/OMP/MPI - EP, nós 641, classe de dados C para compilador gcc 4.9.0 com flag de compilação  -O3, para comunicação Myrinet 10Gbps (memória distribuída)}
+\label{dstat_ep_SOM_disk}
+\end{figure}
+
+
+
+As figuras \ref{dstat_ep_SOM_cpu} a \ref{dstat_ep_SOM_disk} para além de confirmarem o descrito anteriormente para a melhor solução alcançada em termos de tempo total para a solução neste kernel (OMP),  confirmam ainda a não existência de comunicação entre processos MPI durante a execução do kernel em memória distribuída -- levando uma vez mais à conclusão que este é implicitamente paralelo. Contudo, o facto de não existir dependência de dados entre processos não permite que o kernel alcance o máximo de utilização do CPU em ambiente de memória distribuída muito pelo bottleneck verificado na figura \ref{ dstat_ep_SOM_mem} -- repara que é para o kernel versão MPI que alcançamos a maior utilização de memória, e que é durante esse mesmo período de maior utilização da memória que se verifica um número elevado de "context swap" desse mesmo kernel -- dada a espera pelos dados presentes em memória.\par 
+Tanto os kernels SEQ e MPI não alcançam o máximo de proveito das capacidades de computação do CPU, sendo estas apenas alcançadas pelo kernel OMP. Em nenhuma das versões SEQ/OMP/MPI as métricas relativas ao uso do disco e rede têm especial importância. Analisemos portanto se essa mesma afirmação se mantém para um kernel que implique uma elevada comunicação para a resolução do algoritmo -- kernel 
 \section{Conclusão}
 Relativamente aos kernels em estudo podemos concluir que tanto as otimizações via directivas openMP ( ambiente de memória partilhada ) e métodos openMPI ( ambiente de memória partilhada ) são eficientes na otimização de kernels por si só otimizados na sua versão sequencial.\par Podemos ainda inferir que kernels sem dependências de dados podem apresentar outras limitações que não o overhead das directivas e de comunicação, podendo por exemplo depender de características específicas de hardware (como o número de unidades de operações de vírgula flutuante). \par 
 O valor do benchmarking destes casos de estudo ultrapassa a comparação entre tipos de nós e prende-se com o desenvolvimento e prática de métodos de tratamento e análise de métricas de sistemas de computação de alta perfomance.  Inicialmente o caso de estudo era alargado por forma a podermos rapidamente seleccionar as características de compilação e nós de maior interesse, sendo que depois de uma primeira fase foi dado maior ênfase a componentes do teste que apresentavam uma maior disparidade de resultados. \par 
