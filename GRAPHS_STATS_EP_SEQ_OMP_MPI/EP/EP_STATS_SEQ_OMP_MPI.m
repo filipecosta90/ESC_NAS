@@ -1,8 +1,8 @@
-cpu_csv1 = readtable('__cpu_usage/1.csv','ReadVariableNames',false);
-disk_csv1 = readtable('__disk_usage/1.csv','ReadVariableNames',false);
-memory_csv1 = readtable('__memory_usage/1.csv','ReadVariableNames',false);
-net_csv1 = readtable('__net_usage/1.csv','ReadVariableNames',false);
-system_csv1 = readtable('__system_usage/1.csv','ReadVariableNames',false);
+cpu_csv1 = readtable('__cpu_usage/seq.csv','ReadVariableNames',false);
+disk_csv1 = readtable('__disk_usage/seq.csv','ReadVariableNames',false);
+memory_csv1 = readtable('__memory_usage/seq.csv','ReadVariableNames',false);
+net_csv1 = readtable('__net_usage/seq.csv','ReadVariableNames',false);
+system_csv1 = readtable('__system_usage/seq.csv','ReadVariableNames',false);
 
 %%%%%% CPU STATS %%%%%
 cpu_usr1 = table2array( cpu_csv1 ( :, [3])); 
@@ -32,11 +32,11 @@ net_send1 = table2array( net_csv1 ( :, [4]) );
 system_int1 = table2array( system_csv1 ( :, [3])); 
 system_csw1 = table2array( system_csv1 ( :, [4])) ; 
 
-cpu_csv8 = readtable('__cpu_usage/8.csv','ReadVariableNames',false);
-disk_csv8 = readtable('__disk_usage/8.csv','ReadVariableNames',false);
-memory_csv8 = readtable('__memory_usage/8.csv','ReadVariableNames',false);
-net_csv8 = readtable('__net_usage/8.csv','ReadVariableNames',false);
-system_csv8 = readtable('__system_usage/8.csv','ReadVariableNames',false);
+cpu_csv8 = readtable('__cpu_usage/omp.csv','ReadVariableNames',false);
+disk_csv8 = readtable('__disk_usage/omp.csv','ReadVariableNames',false);
+memory_csv8 = readtable('__memory_usage/omp.csv','ReadVariableNames',false);
+net_csv8 = readtable('__net_usage/omp.csv','ReadVariableNames',false);
+system_csv8 = readtable('__system_usage/omp.csv','ReadVariableNames',false);
 
 %%%%%% CPU STATS %%%%%
 cpu_usr8 = table2array( cpu_csv8 ( :, [3])); 
@@ -66,11 +66,11 @@ net_send8 = table2array( net_csv8 ( :, [4]) );
 system_int8 = table2array( system_csv8 ( :, [3])); 
 system_csw8 = table2array( system_csv8 ( :, [4])) ; 
 
-cpu_csv32 = readtable('__cpu_usage/32.csv','ReadVariableNames',false);
-disk_csv32 = readtable('__disk_usage/32.csv','ReadVariableNames',false);
-memory_csv32 = readtable('__memory_usage/32.csv','ReadVariableNames',false);
-net_csv32 = readtable('__net_usage/32.csv','ReadVariableNames',false);
-system_csv32 = readtable('__system_usage/32.csv','ReadVariableNames',false);
+cpu_csv32 = readtable('__cpu_usage/mpi.csv','ReadVariableNames',false);
+disk_csv32 = readtable('__disk_usage/mpi.csv','ReadVariableNames',false);
+memory_csv32 = readtable('__memory_usage/mpi.csv','ReadVariableNames',false);
+net_csv32 = readtable('__net_usage/mpi.csv','ReadVariableNames',false);
+system_csv32 = readtable('__system_usage/mpi.csv','ReadVariableNames',false);
 
 %%%%%% CPU STATS %%%%%
 cpu_usr32 = table2array( cpu_csv32 ( :, [3])); 
