@@ -1,5 +1,12 @@
 \beamer@slide {table:dimensaoproblema}{3}
-\beamer@slide {mops_seq_cg_c}{5}
-\beamer@slide {mops_seq_is_c}{5}
-\beamer@slide {mops_seq_ep_c}{5}
-\beamer@slide {mops_seq_mg_c}{5}
+\beamer@slide {mops_seq}{6}
+\beamer@slide {time_seq}{7}
+\beamer@slide {ganho_omp}{9}
+\beamer@slide {ganho_omp}{10}
+\beamer@slide {tempos_641}{12}
+\beamer@slide {ganho_omp}{14}
+\beamer@slide {ganhos_todos_641}{15}
+\beamer@slide {dstat_ep_SOM_cpu}{18}
+\beamer@slide {dstat_ep_SOM_system}{18}
+\beamer@slide {dstat_cg_SOM_cpu}{19}
+\beamer@slide {dstat_cg_SOM_system}{19}

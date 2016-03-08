@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.16)  7 MAR 2016 12:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.16)  8 MAR 2016 00:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1128,35 +1128,42 @@ Variant \prop_get:NVNTF already defined; not changing it on line 382
 \g__file_internal_ior=\read2
 )
 
-./presentation_a57816.tex:39: LaTeX Error: Option clash for package inputenc.
+./presentation_a57816.tex:44: LaTeX Error: Option clash for package inputenc.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 
+l.44 
      
 ? 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-(./presentation_a57816.aux)
+(./presentation_a57816.aux
+
+LaTeX Warning: Label `ganho_omp' multiply defined.
+
+
+LaTeX Warning: Label `ganho_omp' multiply defined.
+
+)
 \openout1 = `presentation_a57816.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1207,7 +1214,7 @@ LaTeX Font Info:    ... okay on input line 59.
 \everyMPtoPDFconversion=\toks52
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box104
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 64.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1217,66 +1224,66 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count215
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
 
 (./presentation_a57816.out) (./presentation_a57816.out)
 \@outlinefile=\write5
 \openout5 = `presentation_a57816.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 59.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 64.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 59.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 64.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 59.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 59.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 59.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 64.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 59.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 59.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 64.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 59.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 59.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 64.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 59.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 59.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 64.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 59.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 64.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 59.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 59.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 59.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 59.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 59.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 59.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 59.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 64.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 64.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 5
-9.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 6
+4.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-59.
+64.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 59.
+ut line 64.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1302,7 +1309,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 59.
+LaTeX Info: Redefining \includegraphics on input line 64.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -1310,22 +1317,22 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 (/usr/local/texlive/2015/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 ) (./presentation_a57816.nav)
-Overfull \hbox (2.4507pt too wide) in paragraph at lines 59--59
+Overfull \hbox (2.4507pt too wide) in paragraph at lines 64--64
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 \c__siunitx_mathsf_int=\count216
-LaTeX Font Info:    Try loading font information for U+msa on input line 59.
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 59.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 59.
+line 64.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1335,7 +1342,7 @@ thkerncmss.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 63.
+(Font)              size <5> substituted on input line 68.
 
 
 Overfull \hbox (2.4507pt too wide) has occurred while \output is active
@@ -1366,100 +1373,35 @@ Overfull \hbox (2.4507pt too wide) has occurred while \output is active
 [4
 
 ]
-Package epstopdf Info: Source file: <EPS/SEQ/MOPS_seq_cg_C.eps>
-(epstopdf)                    date: 2016-02-27 20:57:01
-(epstopdf)                    size: 111148 bytes
-(epstopdf)             Output file: <EPS/SEQ/MOPS_seq_cg_C-eps-converted-to.pdf
->
-(epstopdf)                    date: 2016-03-01 00:19:15
-(epstopdf)                    size: 12450 bytes
-(epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/MOPS_seq_cg_C-eps-
-converted-to.pdf EPS/SEQ/MOPS_seq_cg_C.eps>
-(epstopdf)             \includegraphics on input line 184.
-Package epstopdf Info: Output file is already uptodate.
- <EPS/SEQ/MOPS_seq_cg_C-eps-converted-to.pdf, id=137, 642.4pt x 481.8pt>
-File: EPS/SEQ/MOPS_seq_cg_C-eps-converted-to.pdf Graphic file (type pdf)
-
-<use EPS/SEQ/MOPS_seq_cg_C-eps-converted-to.pdf>
-Package pdftex.def Info: EPS/SEQ/MOPS_seq_cg_C-eps-converted-to.pdf used on inp
-ut line 184.
-(pdftex.def)             Requested size: 376.52692pt x 282.39955pt.
-
-Overfull \hbox (34.23161pt too wide) in paragraph at lines 184--184
- [] 
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-Package epstopdf Info: Source file: <EPS/SEQ/MOPS_seq_is_C.eps>
-(epstopdf)                    date: 2016-03-02 11:15:30
-(epstopdf)                    size: 112364 bytes
-(epstopdf)             Output file: <EPS/SEQ/MOPS_seq_is_C-eps-converted-to.pdf
->
-(epstopdf)                    date: 2016-03-02 11:15:31
-(epstopdf)                    size: 12576 bytes
-(epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/MOPS_seq_is_C-eps-
-converted-to.pdf EPS/SEQ/MOPS_seq_is_C.eps>
-(epstopdf)             \includegraphics on input line 184.
+[5
+
+]
+Package epstopdf Info: Source file: <EPS/PRESENTATION_SPECIAL/mops_seq.eps>
+(epstopdf)                    date: 2016-03-07 20:51:23
+(epstopdf)                    size: 109010 bytes
+(epstopdf)             Output file: <EPS/PRESENTATION_SPECIAL/mops_seq-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2016-03-07 20:56:35
+(epstopdf)                    size: 12755 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/PRESENTATION_SPECIAL/m
+ops_seq-eps-converted-to.pdf EPS/PRESENTATION_SPECIAL/mops_seq.eps>
+(epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
-<EPS/SEQ/MOPS_seq_is_C-eps-converted-to.pdf, id=138, 642.4pt x 642.4pt>
-File: EPS/SEQ/MOPS_seq_is_C-eps-converted-to.pdf Graphic file (type pdf)
 
-<use EPS/SEQ/MOPS_seq_is_C-eps-converted-to.pdf>
-Package pdftex.def Info: EPS/SEQ/MOPS_seq_is_C-eps-converted-to.pdf used on inp
-ut line 184.
-(pdftex.def)             Requested size: 376.52692pt x 376.53276pt.
+<EPS/PRESENTATION_SPECIAL/mops_seq-eps-converted-to.pdf, id=168, 642.4pt x 481.
+8pt>
+File: EPS/PRESENTATION_SPECIAL/mops_seq-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use EPS/PRESENTATION_SPECIAL/mops_seq-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/PRESENTATION_SPECIAL/mops_seq-eps-converted-to.pdf
+ used on input line 178.
+(pdftex.def)             Requested size: 256.72147pt x 192.54749pt.
 
-Overfull \hbox (34.23161pt too wide) in paragraph at lines 184--184
- [] 
- []
-
-Package epstopdf Info: Source file: <EPS/SEQ/MOPS_seq_ep_C.eps>
-(epstopdf)                    date: 2016-03-01 00:39:21
-(epstopdf)                    size: 112250 bytes
-(epstopdf)             Output file: <EPS/SEQ/MOPS_seq_ep_C-eps-converted-to.pdf
->
-(epstopdf)                    date: 2016-03-01 00:39:25
-(epstopdf)                    size: 12484 bytes
-(epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/MOPS_seq_ep_C-eps-
-converted-to.pdf EPS/SEQ/MOPS_seq_ep_C.eps>
-(epstopdf)             \includegraphics on input line 184.
-Package epstopdf Info: Output file is already uptodate.
-<EPS/SEQ/MOPS_seq_ep_C-eps-converted-to.pdf, id=139, 642.4pt x 642.4pt>
-File: EPS/SEQ/MOPS_seq_ep_C-eps-converted-to.pdf Graphic file (type pdf)
-
-<use EPS/SEQ/MOPS_seq_ep_C-eps-converted-to.pdf>
-Package pdftex.def Info: EPS/SEQ/MOPS_seq_ep_C-eps-converted-to.pdf used on inp
-ut line 184.
-(pdftex.def)             Requested size: 376.52692pt x 376.53276pt.
-
-Overfull \hbox (34.23161pt too wide) in paragraph at lines 184--184
- [] 
- []
-
-Package epstopdf Info: Source file: <EPS/SEQ/MOPS_seq_mg_C.eps>
-(epstopdf)                    date: 2016-03-01 00:37:28
-(epstopdf)                    size: 111742 bytes
-(epstopdf)             Output file: <EPS/SEQ/MOPS_seq_mg_C-eps-converted-to.pdf
->
-(epstopdf)                    date: 2016-03-01 00:37:33
-(epstopdf)                    size: 12433 bytes
-(epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/MOPS_seq_mg_C-eps-
-converted-to.pdf EPS/SEQ/MOPS_seq_mg_C.eps>
-(epstopdf)             \includegraphics on input line 184.
-Package epstopdf Info: Output file is already uptodate.
-<EPS/SEQ/MOPS_seq_mg_C-eps-converted-to.pdf, id=140, 642.4pt x 642.4pt>
-File: EPS/SEQ/MOPS_seq_mg_C-eps-converted-to.pdf Graphic file (type pdf)
-
-<use EPS/SEQ/MOPS_seq_mg_C-eps-converted-to.pdf>
-Package pdftex.def Info: EPS/SEQ/MOPS_seq_mg_C-eps-converted-to.pdf used on inp
-ut line 184.
-(pdftex.def)             Requested size: 376.52692pt x 376.53276pt.
-
-Overfull \hbox (34.23161pt too wide) in paragraph at lines 184--184
- [] 
- []
-
-
-Overfull \vbox (1448.10504pt too high) detected at line 184
+Overfull \vbox (4.64355pt too high) detected at line 178
  []
 
 
@@ -1467,11 +1409,350 @@ Overfull \hbox (2.4507pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[5
+[6
 
- <./EPS/SEQ/MOPS_seq_cg_C-eps-converted-to.pdf> <./EPS/SEQ/MOPS_seq_is_C-eps-co
-nverted-to.pdf> <./EPS/SEQ/MOPS_seq_ep_C-eps-converted-to.pdf> <./EPS/SEQ/MOPS_
-seq_mg_C-eps-converted-to.pdf>]
+ <./EPS/PRESENTATION_SPECIAL/mops_seq-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <EPS/SEQ/TEMPO_seq_gcc_C_all.eps>
+(epstopdf)                    date: 2016-02-27 21:58:39
+(epstopdf)                    size: 110748 bytes
+(epstopdf)             Output file: <EPS/SEQ/TEMPO_seq_gcc_C_all-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-03-01 00:57:52
+(epstopdf)                    size: 12781 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/SEQ/TEMPO_seq_gcc_C_al
+l-eps-converted-to.pdf EPS/SEQ/TEMPO_seq_gcc_C_all.eps>
+(epstopdf)             \includegraphics on input line 190.
+Package epstopdf Info: Output file is already uptodate.
+
+<EPS/SEQ/TEMPO_seq_gcc_C_all-eps-converted-to.pdf, id=208, 642.4pt x 481.8pt>
+File: EPS/SEQ/TEMPO_seq_gcc_C_all-eps-converted-to.pdf Graphic file (type pdf)
+
+<use EPS/SEQ/TEMPO_seq_gcc_C_all-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/SEQ/TEMPO_seq_gcc_C_all-eps-converted-to.pdf used 
+on input line 190.
+(pdftex.def)             Requested size: 256.72147pt x 192.54749pt.
+
+Overfull \vbox (4.64355pt too high) detected at line 190
+ []
+
+
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[7
+
+ <./EPS/SEQ/TEMPO_seq_gcc_C_all-eps-converted-to.pdf>]
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[8
+
+]
+Package epstopdf Info: Source file: <EPS/OMP/ganho_ep_03.eps>
+(epstopdf)                    date: 2016-02-28 20:22:31
+(epstopdf)                    size: 114825 bytes
+(epstopdf)             Output file: <EPS/OMP/ganho_ep_03-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-01 01:41:05
+(epstopdf)                    size: 14035 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/OMP/ganho_ep_03-eps-co
+nverted-to.pdf EPS/OMP/ganho_ep_03.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+ <EPS/OMP/ganho_ep_03-eps-converted-to.pdf, id=276, 562.1pt x 421.575pt>
+File: EPS/OMP/ganho_ep_03-eps-converted-to.pdf Graphic file (type pdf)
+
+<use EPS/OMP/ganho_ep_03-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/OMP/ganho_ep_03-eps-converted-to.pdf used on input
+ line 219.
+(pdftex.def)             Requested size: 256.72147pt x 192.53738pt.
+
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[9
+
+ <./EPS/OMP/ganho_ep_03-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <EPS/OMP/ganho_mg_03.eps>
+(epstopdf)                    date: 2016-02-28 20:23:23
+(epstopdf)                    size: 114829 bytes
+(epstopdf)             Output file: <EPS/OMP/ganho_mg_03-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-01 01:41:05
+(epstopdf)                    size: 13908 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/OMP/ganho_mg_03-eps-co
+nverted-to.pdf EPS/OMP/ganho_mg_03.eps>
+(epstopdf)             \includegraphics on input line 231.
+Package epstopdf Info: Output file is already uptodate.
+
+<EPS/OMP/ganho_mg_03-eps-converted-to.pdf, id=317, 562.1pt x 421.575pt>
+File: EPS/OMP/ganho_mg_03-eps-converted-to.pdf Graphic file (type pdf)
+
+<use EPS/OMP/ganho_mg_03-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/OMP/ganho_mg_03-eps-converted-to.pdf used on input
+ line 231.
+(pdftex.def)             Requested size: 256.72147pt x 192.53738pt.
+pdfTeX warning (ext4): destination with the same identifier (name{ganho_omp}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.231   \end{frame}
+                   
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[10
+
+ <./EPS/OMP/ganho_mg_03-eps-converted-to.pdf>]
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[11
+
+]
+Package epstopdf Info: Source file: <EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_vs_icc
+_641.eps>
+(epstopdf)                    date: 2016-02-29 12:41:43
+(epstopdf)                    size: 124873 bytes
+(epstopdf)             Output file: <EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_vs_icc
+_641-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-01 02:24:31
+(epstopdf)                    size: 15022 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/MPI/641/TIME_seq_vs_mp
+i_omp-gcc_vs_icc_641-eps-converted-to.pdf EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_v
+s_icc_641.eps>
+(epstopdf)             \includegraphics on input line 256.
+Package epstopdf Info: Output file is already uptodate.
+
+<EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_vs_icc_641-eps-converted-to.pdf, id=384, 6
+42.4pt x 481.8pt>
+File: EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_vs_icc_641-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_vs_icc_641-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_vs_icc_641-eps-con
+verted-to.pdf used on input line 256.
+(pdftex.def)             Requested size: 256.72147pt x 192.54749pt.
+
+Overfull \vbox (11.64355pt too high) detected at line 256
+ []
+
+
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[12
+
+ <./EPS/MPI/641/TIME_seq_vs_mpi_omp-gcc_vs_icc_641-eps-converted-to.pdf>]
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[13
+
+]
+Package epstopdf Info: Source file: <EPS/MPI/myri_vs_eth_431_vs_641.eps>
+(epstopdf)                    date: 2016-02-29 17:56:01
+(epstopdf)                    size: 120303 bytes
+(epstopdf)             Output file: <EPS/MPI/myri_vs_eth_431_vs_641-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-03-01 02:33:52
+(epstopdf)                    size: 15444 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/MPI/myri_vs_eth_431_vs
+_641-eps-converted-to.pdf EPS/MPI/myri_vs_eth_431_vs_641.eps>
+(epstopdf)             \includegraphics on input line 278.
+Package epstopdf Info: Output file is already uptodate.
+
+<EPS/MPI/myri_vs_eth_431_vs_641-eps-converted-to.pdf, id=454, 642.4pt x 481.8pt
+>
+File: EPS/MPI/myri_vs_eth_431_vs_641-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use EPS/MPI/myri_vs_eth_431_vs_641-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/MPI/myri_vs_eth_431_vs_641-eps-converted-to.pdf us
+ed on input line 278.
+(pdftex.def)             Requested size: 256.72147pt x 192.54749pt.
+pdfTeX warning (ext4): destination with the same identifier (name{ganho_omp}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.278 \end{frame}
+                 
+Overfull \vbox (4.64355pt too high) detected at line 278
+ []
+
+
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[14
+
+ <./EPS/MPI/myri_vs_eth_431_vs_641-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <EPS/MPI/641/ganho_mpi_omp_vs_seq_641.eps>
+(epstopdf)                    date: 2016-02-29 16:46:39
+(epstopdf)                    size: 118210 bytes
+(epstopdf)             Output file: <EPS/MPI/641/ganho_mpi_omp_vs_seq_641-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-03-01 02:44:46
+(epstopdf)                    size: 14167 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/MPI/641/ganho_mpi_omp_
+vs_seq_641-eps-converted-to.pdf EPS/MPI/641/ganho_mpi_omp_vs_seq_641.eps>
+(epstopdf)             \includegraphics on input line 290.
+Package epstopdf Info: Output file is already uptodate.
+
+<EPS/MPI/641/ganho_mpi_omp_vs_seq_641-eps-converted-to.pdf, id=495, 642.4pt x 4
+81.8pt>
+File: EPS/MPI/641/ganho_mpi_omp_vs_seq_641-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use EPS/MPI/641/ganho_mpi_omp_vs_seq_641-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/MPI/641/ganho_mpi_omp_vs_seq_641-eps-converted-to.
+pdf used on input line 290.
+(pdftex.def)             Requested size: 256.72147pt x 192.54749pt.
+
+Overfull \vbox (4.9769pt too high) detected at line 290
+ []
+
+
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[15
+
+ <./EPS/MPI/641/ganho_mpi_omp_vs_seq_641-eps-converted-to.pdf>]
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[16
+
+]
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[17
+
+]
+Package epstopdf Info: Source file: <EPS/dstat_EP_seq_vs_omp_vs_mpi/cpu.eps>
+(epstopdf)                    date: 2016-03-07 17:22:52
+(epstopdf)                    size: 117233 bytes
+(epstopdf)             Output file: <EPS/dstat_EP_seq_vs_omp_vs_mpi/cpu-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2016-03-07 18:07:41
+(epstopdf)                    size: 11736 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/dstat_EP_seq_vs_omp_vs
+_mpi/cpu-eps-converted-to.pdf EPS/dstat_EP_seq_vs_omp_vs_mpi/cpu.eps>
+(epstopdf)             \includegraphics on input line 353.
+Package epstopdf Info: Output file is already uptodate.
+
+<EPS/dstat_EP_seq_vs_omp_vs_mpi/cpu-eps-converted-to.pdf, id=589, 963.6pt x 963
+.6pt>
+File: EPS/dstat_EP_seq_vs_omp_vs_mpi/cpu-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use EPS/dstat_EP_seq_vs_omp_vs_mpi/cpu-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/dstat_EP_seq_vs_omp_vs_mpi/cpu-eps-converted-to.pd
+f used on input line 353.
+(pdftex.def)             Requested size: 154.03183pt x 154.03212pt.
+Package epstopdf Info: Source file: <EPS/dstat_EP_seq_vs_omp_vs_mpi/system.eps>
+
+(epstopdf)                    date: 2016-03-07 17:55:24
+(epstopdf)                    size: 129901 bytes
+(epstopdf)             Output file: <EPS/dstat_EP_seq_vs_omp_vs_mpi/system-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2016-03-07 18:12:45
+(epstopdf)                    size: 16059 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/dstat_EP_seq_vs_omp_vs
+_mpi/system-eps-converted-to.pdf EPS/dstat_EP_seq_vs_omp_vs_mpi/system.eps>
+(epstopdf)             \includegraphics on input line 353.
+Package epstopdf Info: Output file is already uptodate.
+
+<EPS/dstat_EP_seq_vs_omp_vs_mpi/system-eps-converted-to.pdf, id=590, 963.6pt x 
+963.6pt>
+File: EPS/dstat_EP_seq_vs_omp_vs_mpi/system-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use EPS/dstat_EP_seq_vs_omp_vs_mpi/system-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/dstat_EP_seq_vs_omp_vs_mpi/system-eps-converted-to
+.pdf used on input line 353.
+(pdftex.def)             Requested size: 154.03183pt x 154.03212pt.
+
+Overfull \vbox (1.06154pt too high) detected at line 353
+ []
+
+
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[18
+
+ <./EPS/dstat_EP_seq_vs_omp_vs_mpi/cpu-eps-converted-to.pdf> <./EPS/dstat_EP_se
+q_vs_omp_vs_mpi/system-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <EPS/dstat_CG_seq_vs_omp_vs_mpi/cpu.eps>
+(epstopdf)                    date: 2016-03-07 19:08:17
+(epstopdf)                    size: 118952 bytes
+(epstopdf)             Output file: <EPS/dstat_CG_seq_vs_omp_vs_mpi/cpu-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2016-03-07 19:13:13
+(epstopdf)                    size: 12109 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/dstat_CG_seq_vs_omp_vs
+_mpi/cpu-eps-converted-to.pdf EPS/dstat_CG_seq_vs_omp_vs_mpi/cpu.eps>
+(epstopdf)             \includegraphics on input line 378.
+Package epstopdf Info: Output file is already uptodate.
+
+<EPS/dstat_CG_seq_vs_omp_vs_mpi/cpu-eps-converted-to.pdf, id=636, 963.6pt x 963
+.6pt>
+File: EPS/dstat_CG_seq_vs_omp_vs_mpi/cpu-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use EPS/dstat_CG_seq_vs_omp_vs_mpi/cpu-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/dstat_CG_seq_vs_omp_vs_mpi/cpu-eps-converted-to.pd
+f used on input line 378.
+(pdftex.def)             Requested size: 154.03183pt x 154.03212pt.
+Package epstopdf Info: Source file: <EPS/dstat_CG_seq_vs_omp_vs_mpi/system.eps>
+
+(epstopdf)                    date: 2016-03-07 19:09:14
+(epstopdf)                    size: 133547 bytes
+(epstopdf)             Output file: <EPS/dstat_CG_seq_vs_omp_vs_mpi/system-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2016-03-07 19:13:14
+(epstopdf)                    size: 16782 bytes
+(epstopdf)             Command: <repstopdf --outfile=EPS/dstat_CG_seq_vs_omp_vs
+_mpi/system-eps-converted-to.pdf EPS/dstat_CG_seq_vs_omp_vs_mpi/system.eps>
+(epstopdf)             \includegraphics on input line 378.
+Package epstopdf Info: Output file is already uptodate.
+
+<EPS/dstat_CG_seq_vs_omp_vs_mpi/system-eps-converted-to.pdf, id=637, 963.6pt x 
+963.6pt>
+File: EPS/dstat_CG_seq_vs_omp_vs_mpi/system-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use EPS/dstat_CG_seq_vs_omp_vs_mpi/system-eps-converted-to.pdf>
+Package pdftex.def Info: EPS/dstat_CG_seq_vs_omp_vs_mpi/system-eps-converted-to
+.pdf used on input line 378.
+(pdftex.def)             Requested size: 154.03183pt x 154.03212pt.
+
+Overfull \vbox (1.06154pt too high) detected at line 378
+ []
+
+
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[19
+
+ <./EPS/dstat_CG_seq_vs_omp_vs_mpi/cpu-eps-converted-to.pdf> <./EPS/dstat_CG_se
+q_vs_omp_vs_mpi/system-eps-converted-to.pdf>]
+Overfull \hbox (2.4507pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[20
+
+]
 \tf@nav=\write6
 \openout6 = `presentation_a57816.nav'.
 
@@ -1481,11 +1762,11 @@ seq_mg_C-eps-converted-to.pdf>]
 \tf@snm=\write8
 \openout8 = `presentation_a57816.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 386.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 386.
  (./presentation_a57816.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 386.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 386.
 Package rerunfilecheck Info: File `presentation_a57816.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1494,27 +1775,28 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 386.
  ) 
 Here is how much of TeX's memory you used:
- 26090 strings out of 493089
- 535380 string characters out of 6134842
- 564910 words of memory out of 5000000
- 29085 multiletter control sequences out of 15000+600000
- 15115 words of font info for 57 fonts, out of 8000000 for 9000
+ 26210 strings out of 493089
+ 538237 string characters out of 6134842
+ 565163 words of memory out of 5000000
+ 29160 multiletter control sequences out of 15000+600000
+ 17600 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,57p,10406b,711s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on presentation_a57816.pdf (5 pages, 112234 bytes).
+ 56i,16n,57p,10406b,781s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on presentation_a57816.pdf (20 pages, 236176 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 16 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 743 PDF objects out of 1000 (max. 8388607)
+ 656 compressed objects within 7 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

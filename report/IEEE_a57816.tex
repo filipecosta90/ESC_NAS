@@ -867,7 +867,6 @@ Analisados os tempos totais de solução, centremos a nossa atenção nos ganhos
 Como podemos constatar pelas figuras \ref{ganho_omp_cg_c} a \ref{ganho_omp_mg_c} foi para os nós compute-662 que obtivemos a maior relação de ganho. Ora isto pode ser explicado pelo anteriormente descrito e pelo facto de este mesmo nó apresentar para a versão sequencial um tempo aquém do esperado. Ora, assim em adição aos bons resultados para este tipo de nós em ambiente paralelo de memória partilhado estão os mais resultados para os testes sequenciais, elevando assim ainda mais o valor do ganho. \par 
 Por questões pedagógicas e de validação analisemos o comportamento de outra versão do compilador (gcc 4.4.6) e outra flag de compilação (-O2), restringindo-nos nesta análise aos nós com melhor resultado em kernels paralelos em memória partilhada -- os nós compute-662.
 
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=1.1\columnwidth]{EPS/OMP/ganho_compiladores_cg.eps}

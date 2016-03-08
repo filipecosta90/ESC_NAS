@@ -1,5 +1,4 @@
-  FigHandle = figure;
-  set(FigHandle, 'Position', [0, 0, 640, 480]);
+  
 
 name = {'compute 431';'compute 641';'compute 652';'compute 662'};
 x = [1:4]; 
@@ -41,7 +40,15 @@ bpcombined = [mops_cg_c(:), mops_is_c(:), mops_ep_c(:) , mops_mg_c(:) ];
 hb = bar(x, bpcombined, 'grouped')
 bg = [1 1 1; 0 0 0]
 cores = distinguishable_colors(8,bg)
-figure(1)
+
+
+hFig = figure(1);
+set(gcf,'PaperPositionMode','auto')
+set(hFig, 'Position', [0 0 640 480])
+%set(gca,'Unit','normalized','Position',[0 0 1 1]);
+
+
+
 set(hb(1), 'FaceColor',cores(5,:))
 set(hb(2), 'FaceColor',cores(6,:))
 set(hb(3), 'FaceColor',cores(7,:))
@@ -52,11 +59,11 @@ l = legend('cg - C','is - C','ep - C', 'mg - C' );
 set(l,'FontSize',12);
 %set(l,'location','southeastoutside');
 
-ylabel('Tempo(s)');
+ylabel('MOP/s');
 
 xlabel('Nodo');
 
-t = title({'Rela\c{c}\~ao entre Tempo Total em segundos para os kernels SEQ - CG, IS, EP, MG','Classe de dados C para compilador gcc 4.9.0 com flags de compila\c{c}\~ao -O3'},'interpreter','latex')
+t = title({'Rela\c{c}\~ao entre MOP/s para os kernels SEQ - CG, IS, EP, MG','Classe de dados C para compilador gcc 4.9.0 com flags de compila\c{c}\~ao -O3'},'interpreter','latex')
 set(t,'FontSize',24);
 set(gca,'fontsize',12);
 
